@@ -1,6 +1,6 @@
 # Software-Engineering-Group-Project
 
-For the Gantt chart we have used throughout this project you can use the link below.
+For the Gantt chart and other organisational tools we have used throughout this project you can use the links below.
 
 https://view.monday.com/1081783607-f25a993879882057b2b5f2a6620414a2?r=use1
 
