@@ -1,6 +1,8 @@
 # Software-Engineering-Group-Project
 
-![alt text](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Images/Gantt.png)
+For the Gantt chart we have used throughout this project you can use the link below.
+
+https://share.clickup.com/b/h/4ee0u-155/e4374deaa5790e3
 
 HouseHomies
 
