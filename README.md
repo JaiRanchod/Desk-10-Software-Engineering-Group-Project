@@ -3,6 +3,7 @@
 For the Gantt chart and other organisational tools we have used throughout this project you can use the links below.
 
 https://view.monday.com/1081783607-f25a993879882057b2b5f2a6620414a2?r=use1
+https://view.monday.com/1081783607-e1ba340aebe2e2388c3bdbbd31f15855?r=use1
 
 HouseHomies
 
