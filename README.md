@@ -2,7 +2,7 @@
 
 For the Gantt chart we have used throughout this project you can use the link below.
 
-https://share.clickup.com/b/h/4ee0u-155/e4374deaa5790e3
+https://view.monday.com/1081783607-f25a993879882057b2b5f2a6620414a2?r=use1
 
 HouseHomies
 
