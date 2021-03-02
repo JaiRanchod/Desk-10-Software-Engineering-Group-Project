@@ -14,7 +14,7 @@ To engage the users, we have opted into using the mechanics of dating apps where
 
 - What are you going to make?
 
-The scope of the project is to develop a prototype that allows groups and individuals to connect in an easy and efficient manner. The core features of our application is that users will be able to create an account, meaning they can go on and off the application as they wish without the need to constantly re-enter data. A page to see their matches, a page where the indivisual swipes profiles and their own profile page where they can alter their details if need be. When they are creating their profile, they will be able to select several preferences (as suggested below): 
+The scope of the project is to develop a prototype that allows groups and individuals to connect in an easy and efficient manner. The core features of our application is that users will be able to create an account, meaning they can go on and off the application as they wish without the need to constantly re-enter data. A page to see their matches, a page where the individual swipes profiles and their own profile page where they can alter their details if need be. When they are creating their profile, they will be able to select several preferences (as suggested below): 
 
 Location, Budget, No. of Housemates, Preference of Gender, Religion, Amenties, Alcohol-free House, Smoke-free House, Drug-free House, Age etc.
 
