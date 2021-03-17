@@ -1,0 +1,45 @@
+WireFrame Prototype
+
+To construct a wireframe prototype for our web app we used a software called Figma, which allowed us to simultaneously work on the same project and proved an easy design tool to help us envision what our web app will look like.
+
+Here is the link for our wireframe prototype:
+
+https://www.figma.com/file/81lSBYvFPxFcbHZ9xPXTJh/House-Homies?node-id=1%3A5647
+
+Login Page:
+
+This is the first page that will greet a user when running our web app. There are two options for the user to interact with this page. They can either input their username and their password to then log in which will take them to the web app Home Page or they can either click the ‘Sign Up’ button if they have not got an account with us and this will take the user to the Register Page.
+
+Register Page:
+
+The user will only visit this page if they have clicked on the ‘Sign Up’ button on the Login Page. This page will allow the user to input their email address, unique username, password and to confirm their inputted password. The user will then click the ‘Sign Up’ button to save their data and will be taken to the Profile Setup Page. If the user has accidentally clicked onto the Register Page, as they already have an account, then there is a ‘Sign In’ button to allow them to go back to the Login Page.
+
+Profile Setup Page:
+
+The user has been directed to this page as they have partially signed up a new account. This page allows the user to fill in their name, city, gender, rent budget, upload photos, create a bio, choose preferences etc. While the exact categories that we will include on this page are yet to be finalised, we have chosen a wide selection of things that we believe (and others via surveys) to be important factors when deciding whether another user would be compatible in being housemates. We will use constrained options in the categories that will be used to match one user’s preferences to another users data. Once the user has completed the Profile Setup Page, they will click the ‘Done’ button and be taken to the Home Page.
+
+Home Page:
+
+This is the page where the user will see other user’s profiles and will incorporate the ‘like’ and ‘dislike’ buttons to either indicate whether you would like to potentially match with that user if they ‘like’ you back or to ‘dislike’ the user so there is no chance of matching with that user. Once a user has liked another user this choice will be stored, to then match the two users together if the other user matches with them in the future.
+
+The profile of other users will display: A main picture, and three smaller pictures to allow a fair representation of what the user looks like, a map of where the user wants to live, the ‘like’ and ‘dislike’ buttons, their name, bio, preferences and some of their information. Information such as their contact details will not be shared at this point to ensure no user’s contact information falls into the wrong hands.
+
+The page also features a navigation bar at the top of the webpage that includes access to the Home Page, Matches Page, Profile Page and an option to log out.
+
+The user can the click onto the Matches Page or the Profile Page.
+
+Matches Page:
+
+This page will display the user profiles of other users they have matched with i.e. Those they have ‘liked’ and who have ‘liked’ them back. Each ‘match’ will display the user’s main picture, name and a ‘contact’ button to allow communication between the user’s so they can sort out housing between themselves.
+
+Profile Page:
+
+This page allows the user to change their profile information such as their photos, personal information and their preferences. It is similar to the Profile Setup Page; however, the navigation bar is accessible on this page. To save changes to the user profile click the ‘Done’ button.
+
+Logout Button:
+
+This is on the navigation bar and allows the user to logout and will take the user to the login page. All previous changes the user has made will be stored in our database, so that when the user next logs back on they are where they had left off from.
+
+Notes:
+
+This is our first wireframe prototype we have constructed and we have agreed that this prototype is prone to changes and tweaks as we work through our project as we will get a clearer idea of the scope of our project, and what the web app will contain.
