@@ -6,7 +6,7 @@ Our first ideation process consisted of using a Matrix which consisted of specif
 
  
 
-![Graphical user interface, application, table, Excel  Description automatically generated](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png) 
+![https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.png) 
 
  Out of all the themes and their playful variations, as a group, we showed a particular interest in the following areas:
 
