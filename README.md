@@ -2,6 +2,15 @@
 
 HouseHomies - Finding you the right homies for your home
 
+1. [Data Model](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Data%20Model.md)
+2. [Initial Ideas](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.md)
+3. [Meeting Notes](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Meeting%20Notes.md)
+4. [Scope of Project](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Scope%20of%20Project.md)
+5. [Selection of Final Idea](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Selection%20of%20final%20idea.md)
+6. [Wireframe Prototype](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/WireFrame%20Prototype)
+7. [Wireframe Testing](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Wireframe%20Testing.md)
+8. 
+
 - What is the serious problem being addressed?
 
 For our project, we established the problem of looking for housing with a suitable group of friends. Sometimes, this can occur due to people dropping out and needing another person to fill in. Other times it may be that there are people unhappy with their current living situation and looking to move to a happier and more enjoyable situation. Additionally, it may be that people have considered doing a postgraduate degree or are on an intercalation year, where they are unsure on where they would like to live but want to be comfortable to ensure that they enjoy their year. The project was of particular interest to us, since we were in the situation at one point or knew of someone else that were in a similar situation but could find no options to get them out. We hope that the use of this application allows these groups of people and individuals find a person/people that are well-suited to each other and leads to a happier living situation for both. 
