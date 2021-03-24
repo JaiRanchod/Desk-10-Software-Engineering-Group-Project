@@ -6,7 +6,7 @@ Our first ideation process consisted of using a Matrix which consisted of specif
 
  
 
-![https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.png) 
+![img](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.png) 
 
  Out of all the themes and their playful variations, as a group, we showed a particular interest in the following areas:
 
