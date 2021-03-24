@@ -10,7 +10,7 @@ So far, a total of 18 users completed this short questionnaire regarding our web
 
 **Question 1**
 
-**![Chart, bar chart, histogram  Description automatically generated](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)**
+**![Chart, bar chart, histogram  Description automatically generated](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/Jai/Documentation%20Notes/Survey1.png)**
 
 ·    When asked which platform people would currently use if in need of finding housemates, 100% of users selected social media. This strongly indicates that there is currently a gap in the market for a functional or popular house share finding application. 
 
@@ -22,7 +22,7 @@ So far, a total of 18 users completed this short questionnaire regarding our web
 
 **Question 2**
 
-**![Chart, bar chart  Description automatically generated](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)**
+**![Chart, bar chart  Description automatically generated](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/Jai/Documentation%20Notes/Survey2.png)**
 
 ·    This question was interpreted incorrectly by 4 users, as it was only supposed to be answered by users who selected Website/Application.
 
@@ -34,7 +34,7 @@ So far, a total of 18 users completed this short questionnaire regarding our web
 
 **Question 3**
 
-![img](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![img](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/Jai/Documentation%20Notes/Survey3.png)
 
  
 
@@ -48,7 +48,7 @@ So far, a total of 18 users completed this short questionnaire regarding our web
 
  
 
-**![Chart, bar chart  Description automatically generated](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)** 
+**![Chart, bar chart  Description automatically generated](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/Jai/Documentation%20Notes/Survey4.png)** 
 
 ·    27.8% of users said that Gender was one of the most important factors to consider when finding a housemate. This figure is lower than the group expected and therefore we may decide to put less significance on the matching of genders on our platform.
 
@@ -90,13 +90,13 @@ The feedback on matching criteria has definitely provided useful information for
 
 **Question 5**
 
-![Text  Description automatically generated with low confidence](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
+![Text  Description automatically generated with low confidence](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/Jai/Documentation%20Notes/Survey5.png)
 
 ·    This question was not particularly helpful. It only received two responses, both of which were already listed in the previous question. However, it does suggest that we have already considered most of the important criteria for finding a housemate in the previous question
 
 **Question 6**
 
-![Chart, pie chart  Description automatically generated](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
+![Chart, pie chart  Description automatically generated](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/Jai/Documentation%20Notes/Survey6.png)
 
  
 
@@ -110,7 +110,7 @@ The feedback on matching criteria has definitely provided useful information for
 
  
 
-**![Chart, pie chart  Description automatically generated](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png)**
+**![Chart, pie chart  Description automatically generated](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/Jai/Documentation%20Notes/Survey7.png)**
 
 ·    When asked if users would recommend a Tinder like housemate finding application to a friend in need of a housemate in the future, the results were very promising.
 
