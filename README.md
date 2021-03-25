@@ -11,4 +11,4 @@ HouseHomies - Finding you the right homies for your home
 7. [Wireframe Testing](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Wireframe%20Testing.md)
 8. [Project Brief](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Project%20Brief.md)
 9. [Survey Analysis](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Survey_Feedback_Analysis.md)
-
+10. [Ethical Discussion](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Ethical%20Discussion.md)
