@@ -2,7 +2,7 @@
 
 Our data model (below) was made using diagrams.net. This allowed us to work collaboratively on the data model ensuring all perspectives were heard and accounted for. We have tried to cover every base of an initial project, and we think there is scope for the project to be expanded with more data collected. 
 
-![img](file:///C:/Users/JAIRAN~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![img](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Data%20Model.png)
 
 We have stored everything using the UserID, since this is always unique and means we should be able to select information from different tables as required. 
 
