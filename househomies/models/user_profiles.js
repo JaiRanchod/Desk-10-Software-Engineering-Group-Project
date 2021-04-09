@@ -14,6 +14,11 @@ var userProfiles = new mongoose.Schema({
     religion: { type: String, enum: ["Christian", "Hindu", "Muslim", "Buddhist", "Jew"], required: true},
     //Need to check this one - Not sure if country code stores the '+' 
     phoneNumber: { type: Number, required: true},
+    uniCourse: { type: String, required: true},
+    bio: { type: String, required: true},
+    image: { data: Buffer, contentType: String, required: true},
+    question1: { type: String, enum: ["Extrovert", "Introvert"]},
+    question2: { type: String, enum: ["Extrovert", "Introvert"]}
 });
 
 //Creating a model from schema we've just made, and exporting it to be used elsewhere
