@@ -6,7 +6,12 @@
 /out-tsc
 
 # dependencies
-
+node_modules/
+docker-compose.yml
+server.js
+server/
+Dockerfile
+wait-for.sh
 
 
 # IDEs and editors
@@ -34,6 +39,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+.env
 
 # System Files
 .DS_Store

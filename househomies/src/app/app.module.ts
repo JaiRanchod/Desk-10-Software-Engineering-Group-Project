@@ -16,6 +16,9 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 
+import * as typeformEmbed from '@typeform/embed'
+
+
 @NgModule({
   declarations: [
     AppComponent,

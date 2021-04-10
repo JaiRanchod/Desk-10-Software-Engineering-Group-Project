@@ -1,14 +1,16 @@
 <main>
-  <section class="section section-shaped section-lg">
-    <div class="shape shape-style-1 bg-gradient-default">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+  <section class="section section-lg section-hero section-shaped">
+    <div class="shape shape-style-1 shape-default">
+      <span class="span-150"></span>
+      <span class="span-50"></span>
+      <span class="span-50"></span>
+      <span class="span-75"></span>
+      <span class="span-100"></span>
+      <span class="span-75"></span>
+      <span class="span-50"></span>
+      <span class="span-100"></span>
+      <span class="span-50"></span>
+      <span class="span-100"></span>
     </div>
     <div class="container pt-lg-md">
       <div class="row justify-content-center">
@@ -40,7 +42,7 @@
 
             <div class="card-body px-lg-5 py-lg-5">
               <div class="text-center text-muted mb-4">
-                <small>Sign in with credentials</small>
+                <large>Sign in with credentials</large>
               </div>
               <form role="form">
                 <div class="form-group mb-3" [ngClass]="{'focused':focus===true}">
@@ -78,7 +80,7 @@
               </a>
             </div>
             <div class="col-6 text-right">
-              <a href="javascript:void(0)" class="text-light">
+              <a [routerLink]="['/register']" class="text-light">
                 <small>Create new account</small>
               </a>
             </div>
