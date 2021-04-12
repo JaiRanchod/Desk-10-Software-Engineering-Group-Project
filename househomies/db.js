@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+/*const mongoose = require('mongoose');
 
 const {
   MONGO_USERNAME,
@@ -21,5 +21,15 @@ mongoose.connect(url, options).then(function () {
   console.log('MongoDB is connected');
 })
   .catch(function (err) {
+    console.log(err);
+  });*/
+
+  var mongoose = require('mongoose');
+  var mongoDB = 'mongodb+srv://Jai:Jai@househomies.wmpji.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+
+  mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true}).then(function(){
+    console.log('MongoDB is connected in new way');
+  })
+  .catch(function(err){
     console.log(err);
   });
