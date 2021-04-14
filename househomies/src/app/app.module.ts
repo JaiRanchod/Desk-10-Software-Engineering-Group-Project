@@ -7,16 +7,17 @@ import { AppRoutingModule } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
+import { LandingComponent } from './matches/matches.component';
 import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './welcomepage/welcomepage.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { HomeModule } from './home/home.module';
+import { HomeModule } from './welcomepage/welcomepage.module';
 import { LoginComponent } from './login/login.component';
 
-import * as typeformEmbed from '@typeform/embed'
+import * as typeformEmbed from '@typeform/embed';
+import { HomepageComponent } from './homepage/homepage.component'
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import * as typeformEmbed from '@typeform/embed'
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

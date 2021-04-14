@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home.component';
+import { HomeComponent } from './welcomepage.component';
 
 import { SectionsModule } from '../sections/sections.module';
 
