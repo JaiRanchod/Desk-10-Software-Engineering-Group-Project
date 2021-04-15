@@ -3,19 +3,25 @@ import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './welcomepage/welcomepage.component';
+import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './matches/matches.component';
+import { MatchingComponent } from './matches/matches.component';
 import { LoginComponent } from './login/login.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { SettingsComponent } from './settings/settings.component';
 
 const routes: Routes =[
-    { path: 'home',             component: HomeComponent },
+    { path: 'welcomepage',             component: WelcomepageComponent },
+    { path: 'homepage',           component: HomepageComponent },
     { path: 'user-profile',     component: ProfileComponent },
     { path: 'register',           component: SignupComponent },
-    { path: 'landing',          component: LandingComponent },
+    { path: 'matches',          component: MatchingComponent },
     { path: 'login',          component: LoginComponent },
-    { path: '', redirectTo: 'home', pathMatch: 'full' }
+    { path: 'about',           component: AboutusComponent },
+    { path: 'settings',         component: SettingsComponent },
+    { path: '', redirectTo: 'welcomepage', pathMatch: 'full' }
 ];
 
 @NgModule({

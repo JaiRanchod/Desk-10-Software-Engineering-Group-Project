@@ -7,9 +7,9 @@ import { AppRoutingModule } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './matches/matches.component';
+import { MatchingComponent } from './matches/matches.component';
 import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './welcomepage/welcomepage.component';
+import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
@@ -17,19 +17,23 @@ import { HomeModule } from './welcomepage/welcomepage.module';
 import { LoginComponent } from './login/login.component';
 
 import * as typeformEmbed from '@typeform/embed';
-import { HomepageComponent } from './homepage/homepage.component'
+import { HomepageComponent } from './homepage/homepage.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { SettingsComponent } from './settings/settings.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
-    LandingComponent,
+    MatchingComponent,
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
     LoginComponent,
-    HomepageComponent
+    HomepageComponent,
+    AboutusComponent,
+    SettingsComponent,
   ],
   imports: [
     BrowserModule,

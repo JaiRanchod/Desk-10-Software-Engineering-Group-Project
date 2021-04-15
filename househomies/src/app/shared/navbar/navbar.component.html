@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./navbar.component.css" rel="stylesheet" type="text.css">
+  </head>
+</html>
+
 <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
     <a class="navbar-brand mr-lg-5" [routerLink]="['/home']">
@@ -25,32 +33,62 @@
         </div>
       </div>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <li class="nav-item dropdown" style="padding: 56px">
-          <a [routerLink]="['/home']" class="nav-link no-caret" data-toggle="dropdown" role="button">
+        <li class="nav-item dropdown" style="padding: 35px">
+          <a [routerLink]="['/homepage']" class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Home</span>
           </a>
         </li>
-        <li class="nav-item dropdown" style="padding: 56px">
-          <a [routerLink]="['/landing']" class="nav-link no-caret" data-toggle="dropdown" role="button">
+        <li class="nav-item dropdown" style="padding: 35px">
+          <a [routerLink]="['/matches']" class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Matches</span>
           </a>
         </li>
-        <li class="nav-item dropdown" style="padding: 55px">
+        <li class="nav-item dropdown" style="padding: 35px">
           <a [routerLink]="['/user-profile']" class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">Profile</span>
           </a>
         </li>
-        <li class="nav-item dropdown" style="padding: 55px">
+        <li class="nav-item dropdown" style="padding: 35px">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text">Log out</span>
+            <span class="nav-link-inner--text">Settings</span>
           </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/about']" class="dropdown-item">About Us</a>
+            <a [routerLink]="['/welcomepage']" class="dropdown-item">Sign Out</a>
+          </div>
         </li>
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+      </ul>
+      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://www.facebook.com/" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
+            <i class="fa fa-facebook-square"></i>
+            <span class="nav-link-inner--text d-lg-none">Facebook</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://www.instagram.com/" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+            <i class="fa fa-instagram"></i>
+            <span class="nav-link-inner--text d-lg-none">Instagram</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://twitter.com/" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+            <i class="fa fa-twitter-square"></i>
+            <span class="nav-link-inner--text d-lg-none">Twitter</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://github.com/" target="_blank" data-toggle="tooltip" title="Star us on Github">
+            <i class="fa fa-github"></i>
+            <span class="nav-link-inner--text d-lg-none">Github</span>
+          </a>
+        </li>
       </ul>
     </div>
   </div>

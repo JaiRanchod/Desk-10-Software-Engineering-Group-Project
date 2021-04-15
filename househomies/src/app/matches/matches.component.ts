@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-landing',
+    selector: 'app-matching',
     templateUrl: './matches.component.html',
-    styleUrls: ['./matches.component.scss']
+    styleUrls: ['./matches.component.css']
 })
 
-export class LandingComponent implements OnInit {
+export class MatchingComponent implements OnInit {
   focus: any;
   focus1: any;
 
