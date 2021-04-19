@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-home',
-    templateUrl: './home.component.html',
-    styleUrls: ['./home.component.scss']
+    templateUrl: './welcomepage.component.html',
+    styleUrls: ['./welcomepage.component.css']
 })
 
-export class HomeComponent implements OnInit {
+export class WelcomepageComponent implements OnInit {
     model = {
         left: true,
         middle: false,

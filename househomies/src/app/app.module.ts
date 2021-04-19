@@ -5,29 +5,40 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 
+
+
+
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
+import { MatchingComponent } from './matches/matches.component';
 import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './home/home.component';
+import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { HomeModule } from './home/home.module';
+import { HomeModule } from './welcomepage/welcomepage.module';
 import { LoginComponent } from './login/login.component';
 
-import * as typeformEmbed from '@typeform/embed'
+import * as typeformEmbed from '@typeform/embed';
+import { HomepageComponent } from './homepage/homepage.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { SettingsComponent } from './settings/settings.component';
+import { ProfileEditComponent } from './profile-edit/profile-edit.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
-    LandingComponent,
+    MatchingComponent,
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    HomepageComponent,
+    AboutusComponent,
+    SettingsComponent,
+    ProfileEditComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +46,7 @@ import * as typeformEmbed from '@typeform/embed'
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
