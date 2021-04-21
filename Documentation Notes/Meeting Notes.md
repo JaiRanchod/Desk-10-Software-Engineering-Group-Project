@@ -55,3 +55,75 @@ After discussing how we were going to match users, we decided that it would be q
 We found out that we could also develop this for a mobile application rather than a web application and we do think that the project might be more suited to a mobile application, however this would now take a lot of time to change so we have decided to stick with the web page. If there is time, we would like to explore the possibility of also providing a mobile application, however none of us are sure the complexity surrounding this now. 
 
 Try and finalise all documentation so we are up to date. 
+
+**March 23rd, 2021**
+
+In this meeting we discussed the project in general to get everyone on a similar page in where we want the project to go. Andreas had mentioned he has used Typeform before, and suggested we could potentially use it in onboarding users. So Andreas will be looking into that.
+
+**March 25th, 2021**
+
+General meeting in the SEGP hours, to catch up with everyone. Stuart joined us to give us feedback on our github and we mentioned we were still having issues with Docker, so he was going to get back to use with help/advice on the Docker process, which he did so we had to restart the Docker process as some changes were made to the setup process.
+
+**March 31st, 2021**
+
+This meeting was with Alison and Marceli, we went through the prototype of our design and went through how we were planning on implementing it. We ran through what was feasible and they ran through our github with us to see if we are all up to date.
+
+Because most of the group had an extension on the Java assignment we have agreed that we will priortise the forthcoming week on working on Java and then picking it back up the day after the deadline.
+
+**April 8th, 2021**
+
+After our week break from SEGP doing Java, we discussed in this meeting our next steps in going about creating our web app. We decided as a team to use a template and the components provided by Creative Tim at https://www.creative-tim.com/product/argon-design-system-angular. We choose this template as we liked the athestic of it and found the layout of the template easy to use, so it would be advantageous in improving the user experience.
+
+We also decided on roles for the forthcoming week:
+
+Jai and Josh - Backend (making a schema) and researching how to implement the backend.
+
+Lucas, Andreas and Charles - Frontend (getting used to the template, HTML and CSS/SCSS) and creating the layout of how the website will look.
+
+**April 9th, 2021**
+
+In this meeting, we halped each other in getting familiar with github and devised a plan of how we are going to push and commit to our repo.
+
+**April 10th, 2021**
+
+We have the basic layout of our web app running, so had a look at it and we all agreed we liked the style of it. We then set about detailing what we were going to be doing today individually.
+
+Lucas and Charles - carry on working on the layout of the website.
+
+Jai and Josh - working on the API and database.
+
+Andreas - implementing the Typeform (registration process) into our project.
+
+**April 12th, 2021**
+
+We have intergated the different parts we were working on into one project, so everyone has the latest and up to date version. Everyone ran through theire respective part of the project they had been working on, so other members of the team could understand what they had been doing and to keep everyone on the same page in the projects development process.
+
+**April 13th, 2021**
+
+Quick catch-up meeting, Andreas was able to connect the typeform to our database which he was able to show us.
+
+Jai, Josh and Charles then had a long meeting later in the day to go through the repo and clean it up.
+
+**April 14th, 2021**
+
+Jai, Josh and Andreas had a meeting to go through some Backend stuff and discuss potential changes that could be made.
+
+**April 15th, 2021**
+
+This was one of our longer meetings where we discussed where we were all at, as some members of the group were confused on what the next step in the development process they would be doing. So we discussed as a group what the next step is for each individual.
+
+The Frontend team discussed the layout of the web app as there was some misalignment in what the alyout of the web app would look like, and then we agreed as a team what layout we wanted.
+
+**April 16th, 2021**
+
+In this meeting Josh, Jai and Andreas discuused how we were going to query and display dynamic data on our profile cards.
+
+**April 19th, 2021**
+
+This was just a quick catch-ip meeting to see where everyone was at and to see what people were going to focus on next.
+
+**April 20th, 2021**
+
+This meeting invloved Marceli where we discussed adding an authentication feature to our project, as currently anyone can access any page without permission. By adding this feature we are replicating how a normal website that requires a login and register page operates, so that a user can access their profile.
+
+We also asked Marceli about solving our issue with having dynamic data within our matching and matches page, as we currently have hard-coded cards and profile information, which is no use to us as we want a fully working web app that can get profiles from our database and display their information correctly. So Marceli suggested a few ideas on how to get around this, so we are looking into those now.
