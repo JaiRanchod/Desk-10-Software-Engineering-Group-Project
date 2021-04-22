@@ -140,6 +140,8 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 
 2) We would like both a mobile app and web page in a perfect world 
 
-3) Tried to include more details within the profile, however visiting often can be difficult to add. 
+3) Tried to include more details within the profile, however visiting often can be difficult to add.
+
+
 
  
