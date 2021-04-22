@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 
 var userProfileSchema = new mongoose.Schema({
+    email: {type: String, required:true},
     age: { type: Number, required: true},
     bio: { type: String, required: true},
     //image: { type: Buffer, required: true},

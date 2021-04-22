@@ -2,3 +2,7 @@
 body {
     background-color: aqua; 
 }
+
+.top {
+  z-index: 1;
+}
