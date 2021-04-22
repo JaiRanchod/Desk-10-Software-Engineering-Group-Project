@@ -9,7 +9,7 @@
 <p align="center"> Welcome to Desk 10's GitHub repo we hope you enjoy going through our project as much as we did making it! </p>
 <br>
 
-<p align="center"> **Team Members** </p>
+<p align="center"> <b>Team Members</b> </p>
 
 <p align="center"> Andreas Phillipou, Charles Hilton, Jai Ranchod, Josh Pears and Lucas MacKenzie </p>
 
