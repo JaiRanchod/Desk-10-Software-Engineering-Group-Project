@@ -2,6 +2,12 @@
 
 <p align="center"> HouseHomies - Finding you the right homies for your home </p>
 
+<p align="center">
+
+  <[img](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/househomies.png)>
+
+</p>
+
 
 
 1. [Data Model](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Data%20Model.md)
