@@ -1,4 +1,6 @@
  <h1 align="center"> Software-Engineering-Group-Project </h>
+ 
+ <br>
 
 <p align="center"> HouseHomies - Finding you the right homies for your home </p>
 
