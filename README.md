@@ -1,6 +1,8 @@
-# Software-Engineering-Group-Project
+ <h1 align="center"> Software-Engineering-Group-Project </h>
 
-HouseHomies - Finding you the right homies for your home
+<p align="center"> HouseHomies - Finding you the right homies for your home </p>
+
+
 
 1. [Data Model](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Data%20Model.md)
 2. [Initial Ideas](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.md)
