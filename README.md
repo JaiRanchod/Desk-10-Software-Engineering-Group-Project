@@ -15,4 +15,4 @@ HouseHomies - Finding you the right homies for your home
 11. [Wireframe](https://www.figma.com/proto/81lSBYvFPxFcbHZ9xPXTJh/House-Homies?node-id=103%3A4338&scaling=min-zoom&page-id=1%3A5647)
 12. [Group Working Methods](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Group%20Working%20Methods.md)
 13. [Team Roles](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Roles.md)
-14. [Team Use of GitHub](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/develop/Documentation%20Notes)
+14. [Team Use of GitHub](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Use%20of%20GitHub.md)
