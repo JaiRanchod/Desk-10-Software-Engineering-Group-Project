@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
+import { HttpClientModule } from '@angular/common/http';
 
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
@@ -24,6 +24,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { SettingsComponent } from './settings/settings.component';
 import { ProfileEditComponent } from './profile-edit/profile-edit.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { ProfileEditComponent } from './profile-edit/profile-edit.component';
     AboutusComponent,
     SettingsComponent,
     ProfileEditComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +49,8 @@ import { ProfileEditComponent } from './profile-edit/profile-edit.component';
     RouterModule,
     AppRoutingModule,
     HomeModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

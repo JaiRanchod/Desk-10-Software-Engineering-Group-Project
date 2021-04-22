@@ -1,0 +1,19 @@
+/* move check to right side of the box */
+.yes {
+  right: 50px;
+  cursor: pointer;
+}
+
+/* move "X" to left side of the box */
+.no {
+  left: 50px;
+  cursor: pointer;
+}
+
+.yes:hover {
+  opacity: 0.5;
+}
+
+.no:hover {
+  opacity: 0.5;
+}

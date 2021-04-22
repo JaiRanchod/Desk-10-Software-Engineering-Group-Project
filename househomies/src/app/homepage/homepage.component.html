@@ -1,18 +1,54 @@
-<main>
-  <div class="position-relative">
-    <!-- shape Hero -->
-    <section class="section section-lg section-shaped pb-250">
-      <div class="shape shape-style-1 shape-default">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </section>
-  </div>
+<!-- hi brenden, so this is the matching page, where we'd like to have a matching page card similar to the profile
+card, but with a like and dislike button. When the user likes or dislikes, we need this to be sent to the 
+database to be logged as a like or dislike from that user. Once the like or dislike has been made a new profile 
+from the database will appear from a new profile taken from the database (might need to create some profiles
+in the database for this too work). We planned to use an array to store likes and dislikes as users email addresses 
+which we are planning to use as a primary key, although if it is easier mongo generates ids that can be used instead.
+we are hoping that if the user doing the swiping has already liked or disliked then the candidate card will not be shown
+But don't worry too much about backend, it is more front end that we need the help with
+
+we probably need a template for the matching card which can display any profile which will be populated from the database
+-->
+
+
+<main class="profile-page">
+  <link href="/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+
+  <section class="section section-lg section-hero section-shaped">
+    <!-- Circles background -->
+    <div class="shape shape-style-1 shape-default">
+      <span class="span-150"></span>
+      <span class="span-50"></span>
+      <span class="span-50"></span>
+      <span class="span-75"></span>
+      <span class="span-100"></span>
+      <span class="span-75"></span>
+      <span class="span-50"></span>
+      <span class="span-100"></span>
+      <span class="span-50"></span>
+      <span class="span-100"></span>
+    </div>
+
+    <!-- SVG separator -->
+    <div class="separator separator-bottom separator-skew">
+      <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+
+  </section>
+	<div class="d-flex justify-content-center">
+
+		<!-- initalize child component here -->
+		<!-- [@viewInOut]="matched ? 'yes' : 'no'" => this is for animations. It takes the variable matched and sets [@viewInOut] to be yes or no if matched is true or false respectively.
+		Setting viewInOut to yes or no corresponds to the states in animations-->
+		<!-- *ngIf=cur_card => a directive that shows the app-card component only if the variable cur_card exists in the homepage.component.ts file-->
+		<!-- [profile]="cur_card" => profile is the input for the card child component and cur_card is the input-->
+		<!-- (results)="on_results($event) => results is the event emitter output from the child component and on_results is the function that is called in the homoepage component when an event is emitted -->
+		<app-card [@viewInOut]="matched ? 'yes' : 'no'"  *ngIf=cur_card [profile]="cur_card" (results)="on_results($event)"
+			 class="position-absolute top">
+		</app-card>
+	</div>
+
 </main>
+

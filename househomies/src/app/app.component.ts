@@ -8,7 +8,7 @@ import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = 0;
+var navbarHeight = 20;
 
 @Component({
     selector: 'app-root',
@@ -23,6 +23,7 @@ export class AppComponent implements OnInit {
     hasScrolled() {
 
         var st = window.pageYOffset;
+        console.log(st);
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
             return;
@@ -41,7 +42,7 @@ export class AppComponent implements OnInit {
         } else {
             // Scroll Up
             //  $(window).height()
-            if(st + window.innerHeight < document.body.scrollHeight) {
+            if(st < lastScrollTop) {
                 // $('.navbar.headroom--unpinned').removeClass('headroom--unpinned').addClass('headroom--pinned');
                 if (navbar.classList.contains('headroom--unpinned')) {
                     navbar.classList.remove('headroom--unpinned');
