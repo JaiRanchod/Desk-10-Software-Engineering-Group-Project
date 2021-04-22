@@ -4,7 +4,7 @@
 
 <p align="center">
 
-  <img width="460" height="300" src="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/househomies.png">
+  <img src="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/househomies.png">
 
 </p>
 
