@@ -1,14 +1,3 @@
-<!-- hi brenden, so this is the matching page, where we'd like to have a matching page card similar to the profile
-card, but with a like and dislike button. When the user likes or dislikes, we need this to be sent to the 
-database to be logged as a like or dislike from that user. Once the like or dislike has been made a new profile 
-from the database will appear from a new profile taken from the database (might need to create some profiles
-in the database for this too work). We planned to use an array to store likes and dislikes as users email addresses 
-which we are planning to use as a primary key, although if it is easier mongo generates ids that can be used instead.
-we are hoping that if the user doing the swiping has already liked or disliked then the candidate card will not be shown
-But don't worry too much about backend, it is more front end that we need the help with
-
-we probably need a template for the matching card which can display any profile which will be populated from the database
--->
 
 
 <main class="profile-page">
@@ -51,4 +40,6 @@ we probably need a template for the matching card which can display any profile 
 	</div>
 
 </main>
+<app-match-popup *ngIf="matched_profile" [matched_profile]="matched_profile" (exit)="exit_popup()">
+</app-match-popup>
 

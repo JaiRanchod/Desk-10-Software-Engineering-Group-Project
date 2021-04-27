@@ -16,7 +16,6 @@ export class NavbarComponent implements OnInit {
     }
 
     ngOnInit() {
-      console.log('hello');
       this.router.events.subscribe((event) => {
         this.isCollapsed = true;
         if (event instanceof NavigationStart) {

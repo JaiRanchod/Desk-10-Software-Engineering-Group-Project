@@ -23,7 +23,6 @@ export class AppComponent implements OnInit {
     hasScrolled() {
 
         var st = window.pageYOffset;
-        console.log(st);
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
             return;

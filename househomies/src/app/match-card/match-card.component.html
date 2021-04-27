@@ -1,0 +1,30 @@
+<div class="card card-lift--hover shadow border-0">
+  <div class="card-body py-5">
+    <div class="card-profile-image text-center">
+      <img src="./assets/img/theme/team-4-800x800.jpg" class="rounded-circle" style="height: 150px;" >
+    </div>
+      <h6 class="text-primary text-uppercase text-center" style="text-align: center;">{{card_profile['Preferred Name']}} {{card_profile.Surname}}</h6>
+      <h5>              
+        <i class="ni ni-user-run"></i>
+        Age<span class="font-weight-light">: {{ card_profile.Age }}</span>
+      </h5>
+      <!-- Gender -->
+      <h5>
+        <i class="ni ni-circle-08"></i>
+        Gender<span class="font-weight-light">: {{ card_profile.Gender }}</span>
+      </h5>
+      <h5> 
+        <i class="ni ni-air-baloon"></i>
+        Location<span class="font-weight-light">: {{card_profile.Location}}</span> 
+      </h5>
+      <div class="center" ngbDropdown>
+        <button type="button" class="btn btn-primary mt-4" placement="bottom"
+                                                           ngbPopover="{{card_profile['Phone Number']}}">
+          Contact     
+        </button>
+        <div class="" aria-labelledby="dropdownMenuButton" ngbDropdownMenu>
+          <a class="dropdown-item"></a>
+        </div>
+      </div>
+  </div>
+</div>

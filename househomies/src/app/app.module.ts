@@ -19,12 +19,13 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './welcomepage/welcomepage.module';
 import { LoginComponent } from './login/login.component';
 
-import * as typeformEmbed from '@typeform/embed';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { SettingsComponent } from './settings/settings.component';
 import { ProfileEditComponent } from './profile-edit/profile-edit.component';
 import { CardComponent } from './card/card.component';
+import { MatchCardComponent } from './match-card/match-card.component';
+import { MatchPopupComponent } from './match-popup/match-popup.component';
 
 
 @NgModule({
@@ -41,6 +42,8 @@ import { CardComponent } from './card/card.component';
     SettingsComponent,
     ProfileEditComponent,
     CardComponent,
+    MatchCardComponent,
+    MatchPopupComponent,
   ],
   imports: [
     BrowserModule,

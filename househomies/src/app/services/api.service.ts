@@ -15,4 +15,13 @@ export class ApiService {
     return this.http.get('/api/UserProfiles');
   }
 
+  //method call to call userprofile like api
+  post_like(match_id: string, cur_id: string){
+    return this.http.post('/api/UserProfilesLike', {"_id": match_id}, {params: {_id: cur_id}}) 
+  }
+  //method call to call userprofile dislike api
+  post_dislike(match_id: string, cur_id: string){
+    return this.http.post('/api/UserProfilesDislike', {"_id": match_id}, {params: {_id: cur_id}}) 
+  }
+
 }

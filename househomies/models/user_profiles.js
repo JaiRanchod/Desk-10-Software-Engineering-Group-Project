@@ -1,20 +1,20 @@
 var mongoose = require('mongoose');
 
 var userProfileSchema = new mongoose.Schema({
-    email: {type: String, required:true},
-    age: { type: Number, required: true},
-    bio: { type: String, required: true},
-    //image: { type: Buffer, required: true},
-    gender: { type: String, required: true},
-    lastName: { type: String, required: true },
-    location: { type: String,  required: true},
-    religion: { type: String, required: true},
-    firstName: { type: String, required: true},
-    phoneNumber: { type: String, required: true},
-    preferredName: { type: String, required: true},
-    uniCourse: { type: String, required: true}
-    //likes: [],
-    //dislikes: []
+  "Age": {type: Number, required: true},
+  "Bio": {type: String, required: true},
+  "First Name": {type: String, required: true},
+  "Gender": {type: String, required: true},
+  "Location": {type: String, required: true},
+  "Phone Number": {type: String, required: true},
+  "Preferred Name": {type: String, required: true},
+  "Religion": {type: String, required: true},
+  "Surname": {type: String, required: true},
+  "University Course": {type: String, required: true},
+  "like": {type: [mongoose.Schema.Types.ObjectId], require: true},
+  "dislike": {type: [mongoose.Schema.Types.ObjectId], require: true},
+  "budget": {type: String, required: true},
+
 });
 
 //Creating a model from schema we've just made, and exporting it to be used elsewhere

@@ -1,16 +1,16 @@
 export interface Profile{
-    age:  number,
-    bio:  string,
-    //image: { type: Buffer, required: true},
-    gender:  string,
-    lastName:  string,
-    location:  string,
-    religion:  string,
-    firstName:  string,
-    phoneNumber:  string,
-    preferredName:  string,
-    uniCourse:  string,
-    //likes: [],
-    //dislikes: []
-}
+  _id: string;
+  "Age": number,
+  "Bio": string,
+  "First Name": string,
+  "Gender": string,
+  "Location": string,
+  "Phone Number": string,
+  "Preferred Name": string,
+  "Religion": string,
+  "Surname": string,
+  "University Course": string,
+  "like": string[],
+  "dislike": string[],
 
+}
