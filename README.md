@@ -2,6 +2,21 @@
 
 <p align="center"> HouseHomies - Finding you the right homies for your home </p>
 
+<p align="center">
+  <img src="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/househomies.png">
+</p>
+
+<p align="center"> Welcome to Desk 10's GitHub repo we hope you enjoy going through our project as much as we did making it! </p>
+<br>
+
+<p align="center"> <b>Team Members</b> </p>
+
+<p align="center"> Andreas Phillipou, Charles Hilton, Jai Ranchod, Josh Pears and Lucas MacKenzie </p>
+
+
+
+
+
 
 
 1. [Data Model](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Data%20Model.md)
