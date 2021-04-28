@@ -469,6 +469,67 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "EnSQ":
+/*!******************************************!*\
+  !*** ./src/app/services/data.service.ts ***!
+  \******************************************/
+/*! exports provided: DataService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataService", function() { return DataService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var DataService = /** @class */ (function () {
+    function DataService(httpClient) {
+        this.httpClient = httpClient;
+        this.REST_API_SERVER = 'http://localhost:3000/api/UserProfiles';
+        this.REST_API_SERVER2 = 'http://localhost:3000/api/UserLogins';
+        this.slash = '/';
+        this.email = '';
+    }
+    DataService.prototype.getAll = function () {
+        console.log("UNDEFINED HERE. IS THIS WORKING? " + this.REST_API_SERVER);
+        return this.httpClient.get(this.REST_API_SERVER + this.slash + this.email);
+    };
+    DataService.prototype.getAll2 = function (userEmail) {
+        var tmp = this.REST_API_SERVER2;
+        tmp = tmp + "/" + userEmail;
+        console.log("GETTING " + tmp);
+        return this.httpClient.get(tmp);
+    };
+    DataService.prototype.changeURL = function (userEmail) {
+        this.REST_API_SERVER = this.REST_API_SERVER + "/" + userEmail;
+        this.REST_API_SERVER2 = this.REST_API_SERVER2 + "/" + userEmail;
+    };
+    DataService.ctorParameters = function () { return [
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }
+    ]; };
+    DataService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], DataService);
+    return DataService;
+}());
+
+
+
+/***/ }),
+
 /***/ "EtQq":
 /*!***************************************************!*\
   !*** ./src/app/shared/navbar/navbar.component.ts ***!
@@ -1423,6 +1484,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _raw_loader_profile_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! raw-loader!./profile.component.html */ "xwfu");
 /* harmony import */ var _profile_component_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./profile.component.scss */ "bygX");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/data.service */ "EnSQ");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1435,18 +1497,47 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var ProfileComponent = /** @class */ (function () {
-    function ProfileComponent() {
+    function ProfileComponent(dataService) {
+        this.dataService = dataService;
+        this.stats = [];
     }
-    ProfileComponent.prototype.ngOnInit = function () { };
-    ProfileComponent.ctorParameters = function () { return []; };
+    ProfileComponent.prototype.ngOnInit = function () {
+        this.retrieveData();
+    };
+    ProfileComponent.prototype.retrieveData = function () {
+        var _this = this;
+        this.dataService.getAll().subscribe(function (data) {
+            console.log(data);
+            _this.stats = data;
+            // now let's update the fields
+            _this.firstName = _this.stats[0]["First Name"];
+            console.log("Hi " + _this.firstName);
+            _this.lastName = _this.stats[0].Surname;
+            _this.location = _this.stats[0].Location;
+            _this.fullName = _this.firstName + " " + _this.lastName;
+            _this.preferredName = _this.stats[0]["Preferred Name"];
+            _this.gender = _this.stats[0].Gender;
+            _this.religion = _this.stats[0].Religion;
+            _this.age = _this.stats[0].Age;
+            _this.phoneNumber = "+" + _this.stats[0]["Phone Number"];
+            _this.uniCourse = _this.stats[0]["University Course"];
+            _this.bio = _this.stats[0].Bio;
+        }, function (error) {
+            console.log(error);
+        });
+    };
+    ProfileComponent.ctorParameters = function () { return [
+        { type: _services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"] }
+    ]; };
     ProfileComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
             selector: 'app-profile',
             template: _raw_loader_profile_component_html__WEBPACK_IMPORTED_MODULE_0__["default"],
             styles: [_profile_component_scss__WEBPACK_IMPORTED_MODULE_1__["default"]]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"]])
     ], ProfileComponent);
     return ProfileComponent;
 }());
@@ -1697,22 +1788,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "tyNb");
 /* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.routing */ "beVS");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser/animations */ "R1ws");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _signup_signup_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./signup/signup.component */ "rd1V");
-/* harmony import */ var _matches_matches_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./matches/matches.component */ "W2BO");
-/* harmony import */ var _profile_profile_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./profile/profile.component */ "W6KJ");
-/* harmony import */ var _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./shared/navbar/navbar.component */ "EtQq");
-/* harmony import */ var _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./shared/footer/footer.component */ "jQpT");
-/* harmony import */ var _welcomepage_welcomepage_module__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./welcomepage/welcomepage.module */ "BaWn");
-/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./login/login.component */ "vtpD");
-/* harmony import */ var _homepage_homepage_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./homepage/homepage.component */ "Oh3b");
-/* harmony import */ var _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./aboutus/aboutus.component */ "pn0X");
-/* harmony import */ var _settings_settings_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./settings/settings.component */ "70H3");
-/* harmony import */ var _profile_edit_profile_edit_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./profile-edit/profile-edit.component */ "jUt1");
-/* harmony import */ var _card_card_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./card/card.component */ "mJ8H");
-/* harmony import */ var _match_card_match_card_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./match-card/match-card.component */ "Nkpd");
-/* harmony import */ var _match_popup_match_popup_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./match-popup/match-popup.component */ "q71D");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/http */ "qlzE");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser/animations */ "R1ws");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _signup_signup_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./signup/signup.component */ "rd1V");
+/* harmony import */ var _matches_matches_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./matches/matches.component */ "W2BO");
+/* harmony import */ var _profile_profile_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./profile/profile.component */ "W6KJ");
+/* harmony import */ var _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./shared/navbar/navbar.component */ "EtQq");
+/* harmony import */ var _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./shared/footer/footer.component */ "jQpT");
+/* harmony import */ var _welcomepage_welcomepage_module__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./welcomepage/welcomepage.module */ "BaWn");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./login/login.component */ "vtpD");
+/* harmony import */ var _homepage_homepage_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./homepage/homepage.component */ "Oh3b");
+/* harmony import */ var _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./aboutus/aboutus.component */ "pn0X");
+/* harmony import */ var _settings_settings_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./settings/settings.component */ "70H3");
+/* harmony import */ var _profile_edit_profile_edit_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./profile-edit/profile-edit.component */ "jUt1");
+/* harmony import */ var _card_card_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./card/card.component */ "mJ8H");
+/* harmony import */ var _match_card_match_card_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./match-card/match-card.component */ "Nkpd");
+/* harmony import */ var _match_popup_match_popup_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./match-popup/match-popup.component */ "q71D");
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./services/data.service */ "EnSQ");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1743,26 +1836,28 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
-                _signup_signup_component__WEBPACK_IMPORTED_MODULE_9__["SignupComponent"],
-                _matches_matches_component__WEBPACK_IMPORTED_MODULE_10__["MatchingComponent"],
-                _profile_profile_component__WEBPACK_IMPORTED_MODULE_11__["ProfileComponent"],
-                _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"],
-                _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
-                _login_login_component__WEBPACK_IMPORTED_MODULE_15__["LoginComponent"],
-                _homepage_homepage_component__WEBPACK_IMPORTED_MODULE_16__["HomepageComponent"],
-                _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_17__["AboutusComponent"],
-                _settings_settings_component__WEBPACK_IMPORTED_MODULE_18__["SettingsComponent"],
-                _profile_edit_profile_edit_component__WEBPACK_IMPORTED_MODULE_19__["ProfileEditComponent"],
-                _card_card_component__WEBPACK_IMPORTED_MODULE_20__["CardComponent"],
-                _match_card_match_card_component__WEBPACK_IMPORTED_MODULE_21__["MatchCardComponent"],
-                _match_popup_match_popup_component__WEBPACK_IMPORTED_MODULE_22__["MatchPopupComponent"],
+                _app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"],
+                _signup_signup_component__WEBPACK_IMPORTED_MODULE_10__["SignupComponent"],
+                _matches_matches_component__WEBPACK_IMPORTED_MODULE_11__["MatchingComponent"],
+                _profile_profile_component__WEBPACK_IMPORTED_MODULE_12__["ProfileComponent"],
+                _shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__["NavbarComponent"],
+                _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"],
+                _login_login_component__WEBPACK_IMPORTED_MODULE_16__["LoginComponent"],
+                _homepage_homepage_component__WEBPACK_IMPORTED_MODULE_17__["HomepageComponent"],
+                _aboutus_aboutus_component__WEBPACK_IMPORTED_MODULE_18__["AboutusComponent"],
+                _settings_settings_component__WEBPACK_IMPORTED_MODULE_19__["SettingsComponent"],
+                _profile_edit_profile_edit_component__WEBPACK_IMPORTED_MODULE_20__["ProfileEditComponent"],
+                _card_card_component__WEBPACK_IMPORTED_MODULE_21__["CardComponent"],
+                _match_card_match_card_component__WEBPACK_IMPORTED_MODULE_22__["MatchCardComponent"],
+                _match_popup_match_popup_component__WEBPACK_IMPORTED_MODULE_23__["MatchPopupComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -1770,13 +1865,14 @@ var AppModule = /** @class */ (function () {
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
                 _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
                 _app_routing__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
-                _welcomepage_welcomepage_module__WEBPACK_IMPORTED_MODULE_14__["HomeModule"],
+                _welcomepage_welcomepage_module__WEBPACK_IMPORTED_MODULE_15__["HomeModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"],
+                _angular_http__WEBPACK_IMPORTED_MODULE_7__["HttpModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
             ],
-            providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
+            providers: [_services_data_service__WEBPACK_IMPORTED_MODULE_24__["DataService"]],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -2262,7 +2358,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <section class=\"section section-lg section-hero section-shaped navbar-transparent\">\n    <div class=\"shape shape-style-1 shape-default\">\n      <span class=\"span-150\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n    </div>\n    <div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-5 text-center\">\n          <a [routerLink]=\"['/welcomepage']\">\n            <img src=\"./assets/img/brand/househomieslogo.png\" style=\"width: 200px;\" class=\"img-fluid\" >\n            </a>\n          <div class=\"card bg-secondary shadow border-0\">\n            \n\n\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <div class=\"text-center text-muted mb-4\">\n                <h3>Sign in with credentials</h3>\n              </div>\n              <form (submit)=\"onLogin(loginForm)\" #loginForm=\"ngForm\">\n                <!-- this is basically all styling except the input lines and button-->\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                    <input class=\"form-control\" name=\"email\" ngModel placeholder=\"Email\" type=\"email\" (focus)=\"focus=true\" (blur)=\"focus=false\" #emailInput=\"ngModel\" required email>                  </div>\n                    <!--<div *ngIf=\"emailInput.invalid\">Please enter a valid email</div>-->\n                  </div>\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <input class=\"form-control\" name=\"password\" ngModel placeholder=\"Password\" type=\"password\" (focus)=\"focus1=true\" (blur)=\"focus1=false\" #passwordInput=\"ngModel\" required>\n                    <!--<div *ngIf=\"passwordInput.invalid\">Please enter a valid password</div>-->\n                  </div>\n                </div>\n                <div class=\"text-center\">\n                  <button type=\"submit\" class=\"btn btn-primary my-4\">Sign in</button>\n                </div>\n              </form>\n\n            </div>\n          </div>\n          <div class=\"row mt-3\">\n            <div class=\"col-6\">\n              <a href=\"javascript:void(0)\" class=\"text-light\">\n                <small>Forgot password?</small>\n              </a>\n            </div>\n            <div class=\"col-6 text-right\">\n              <a [routerLink]=\"['/register']\" class=\"text-light\">\n                <small>Create new account</small>\n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<main>\n  <section class=\"section section-lg section-hero section-shaped navbar-transparent\">\n    <div class=\"shape shape-style-1 shape-default\">\n      <span class=\"span-150\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n    </div>\n    <div class=\"container pt-lg-md\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-5 text-center\">\n          <a [routerLink]=\"['/welcomepage']\">\n            <img src=\"./assets/img/brand/househomieslogo.png\" style=\"width: 200px;\" class=\"img-fluid\" >\n            </a>\n          <div class=\"card bg-secondary shadow border-0\">\n            \n\n\n            <div class=\"card-body px-lg-5 py-lg-5\">\n              <div class=\"text-center text-muted mb-4\">\n                <h3>Sign in with credentials</h3>\n              </div>\n              <form (submit)=\"onLogin(loginForm)\" #loginForm=\"ngForm\">\n                <!-- this is basically all styling except the input lines and button-->\n                <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n                    </div>\n                    <!--<input class=\"form-control\" name=\"email\" ngModel placeholder=\"Email\" type=\"email\" id=\"email\" (focus)=\"focus=true\" (blur)=\"focus=false\" #emailInput=\"ngModel\" required email>-->                 \n                    <input class=\"form-control\" placeholder=\"Email\" type=\"email\" id=\"email\" (focus)=\"focus=true\" (blur)=\"focus=false\">\n                    </div>\n                    <!--<div *ngIf=\"emailInput.invalid\">Please enter a valid email</div>-->\n                  </div>\n                <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n                  <div class=\"input-group input-group-alternative\">\n                    <div class=\"input-group-prepend\">\n                      <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n                    </div>\n                    <!--<input class=\"form-control\" name=\"password\" ngModel placeholder=\"Password\" type=\"password\" id=\"password\" (focus)=\"focus1=true\" (blur)=\"focus1=false\" #passwordInput=\"ngModel\" required>-->\n                    <input class=\"form-control\" placeholder=\"Password\" type=\"text\" id=\"password\" (focus)=\"focus1=true\" (blur)=\"focus1=false\">\n                    <!--<div *ngIf=\"passwordInput.invalid\">Please enter a valid password</div>-->\n                  </div>\n                </div>\n                <div class=\"text-center\">\n                  <!--<button type=\"submit\" class=\"btn btn-primary my-4\">Sign in</button>-->\n                  <button type=\"button\" class=\"btn btn-primary my-4\" (click)=\"handleClick()\">Sign in </button>\n                  <div><h4>{{successStatus}}</h4></div>\n                  <a *ngIf = \"isLoggedIn\" [routerLink]=\"['/user-profile']\"  class=\"btn btn-lg btn-white btn-icon mb-3 mb-sm-0\"><h4><b>Click here for home</b></h4></a>\n                </div>\n              </form>\n\n            </div>\n          </div>\n          <div class=\"row mt-3\">\n            <div class=\"col-6\">\n              <a href=\"javascript:void(0)\" class=\"text-light\">\n                <small>Forgot password?</small>\n              </a>\n            </div>\n            <div class=\"col-6 text-right\">\n              <a [routerLink]=\"['/register']\" class=\"text-light\">\n                <small>Create new account</small>\n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n");
 
 /***/ }),
 
@@ -2710,6 +2806,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "qCKp");
 /* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/api.service */ "H+bZ");
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/data.service */ "EnSQ");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2722,13 +2819,17 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var UserService = /** @class */ (function () {
-    function UserService(api) {
+    function UserService(api, dataService) {
         var _this = this;
         this.api = api;
+        this.dataService = dataService;
         this.$user_profile = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
-        this.user_id = '60892fffc145b4f92a975cdb';
-        this.user_profile = { "_id": "60892fffc145b4f92a975cdb", "Age": 18, "Bio": "test1", "First Name": "test1", "Gender": "male", "Location": "Clifton", "Phone Number": "447400123040", "Preferred Name": "test1", "Religion": "Christianity", "Surname": "test1", "University Course": "test1", "dislike": [], "like": [] };
+        this.dataService.getAll().subscribe(function (data) {
+            _this.user_id = data[0]._id;
+            _this.user_profile = { "_id": data[0]._id, "Age": data[0].Age, "Bio": data[0].Bio, "First Name": data[0]["First Name"], "Gender": data[0].Gender, "Location": data[0].Location, "Phone Number": data[0]["Phone Number"], "Preferred Name": data[0]["Preferred Name"], "Religion": data[0].Religion, "Surname": data[0].Surname, "University Course": data[0]["University Course"], "dislike": [], "like": [] };
+        });
         this.api.get_cards().subscribe(function (profiles) {
             _this.profiles = profiles;
             for (var i = 0; i < profiles.length; i++) {
@@ -2759,13 +2860,14 @@ var UserService = /** @class */ (function () {
         return this.profiles;
     };
     UserService.ctorParameters = function () { return [
-        { type: _services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"] }
+        { type: _services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"] },
+        { type: _services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"] }
     ]; };
     UserService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [_services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"]])
+        __metadata("design:paramtypes", [_services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"], _services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"]])
     ], UserService);
     return UserService;
 }());
@@ -2859,6 +2961,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _raw_loader_login_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! raw-loader!./login.component.html */ "in5m");
 /* harmony import */ var _login_component_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./login.component.css */ "n7sk");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/data.service */ "EnSQ");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2871,24 +2974,66 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var LoginComponent = /** @class */ (function () {
-    function LoginComponent() {
+    function LoginComponent(dataService) {
+        this.dataService = dataService;
         this.isLoading = false;
+        this.form = {};
+        this.isLoginFailed = false;
+        this.errorMessage = '';
+        this.roles = [];
     }
-    ;
     LoginComponent.prototype.onLogin = function (form) {
         console.log(form.value);
     };
     LoginComponent.prototype.ngOnInit = function () {
     };
-    LoginComponent.ctorParameters = function () { return []; };
+    LoginComponent.prototype.handleClick = function () {
+        var _this = this;
+        var userEmail = document.getElementById('email').value;
+        var userPassword = document.getElementById('password').value;
+        console.log(userEmail, userPassword);
+        this.dataService.getAll2(userEmail).subscribe(function (data) {
+            console.log(data);
+            console.log(data[0].Email + " " + data[0].Password);
+            if (userEmail == data[0].Email && userPassword == data[0].Password) {
+                _this.isLoggedIn = true;
+                _this.successStatus = "Successful Login...Redirecting";
+                //this.dataService.changeURL(userEmail);
+                _this.dataService.email = userEmail;
+            }
+            else {
+                _this.successStatus = "Incorrect Details Entered";
+            }
+        });
+        /*this.authService.login(this.form).subscribe(
+          data => {
+            this.tokenStorage.saveToken(data.accessToken);
+            this.tokenStorage.saveUser(data);
+            this.isLoggedIn = true;
+            this.isLoginFailed = false;
+            this.roles = this.tokenStorage.getUser().roles;
+            this.reloadPage();
+          },
+          err => {
+            this.errorMessage = err.errorMessage;
+            this.isLoginFailed = true;
+          });*/
+    };
+    LoginComponent.prototype.reloadPage = function () {
+        window.location.reload();
+    };
+    LoginComponent.ctorParameters = function () { return [
+        { type: _services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"] }
+    ]; };
     LoginComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
             selector: 'app-login',
             template: _raw_loader_login_component_html__WEBPACK_IMPORTED_MODULE_0__["default"],
             styles: [_login_component_css__WEBPACK_IMPORTED_MODULE_1__["default"]]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"]])
     ], LoginComponent);
     return LoginComponent;
 }());
@@ -2906,7 +3051,7 @@ var LoginComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<main class=\"profile-page\">\n  <link href=\"/assets/vendor/nucleo/css/nucleo.css\" rel=\"stylesheet\">\n\n  <section class=\"section section-lg section-hero section-shaped\">\n    <!-- Circles background -->\n    <div class=\"shape shape-style-1 shape-default\">\n      <span class=\"span-150\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n    </div>\n    <!-- SVG separator -->\n    <div class=\"separator separator-bottom separator-skew\">\n      <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n        <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n      </svg>\n    </div>\n  </section>\n  <section class=\"section\">\n    <div class=\"container\">\n      <div class=\"card card-profile shadow mt--300\">\n        <div class=\"px-4\">\n          <div class=\"row justify-content-center\">\n            <div class=\"col-lg-3 order-lg-2\">\n              <div class=\"card-profile-image\">\n                <a href=\"javascript:void(0)\">\n                  <img src=\"./assets/img/theme/team-4-800x800.jpg\" class=\"rounded-circle\">\n                </a>\n              </div>\n            </div>\n            <div class=\"col-lg-4 order-lg-3 text-lg-right align-self-lg-center\">\n              <div class=\"card-profile-actions py-4 mt-lg-0\">\n                <!--<a href=\"javascript:void(0)\" class=\"btn btn-sm btn-info mr-4\">Connect</a>-->\n                <a [routerLink]=\"['/user-profile-edit']\" class=\"btn btn-sm btn-default float-right\">Edit</a>\n              </div>\n            </div>\n            <div class=\"col-lg-4 order-lg-1\">\n              <div class=\"card-profile-stats d-flex justify-content-right\">\n                <div>\n                  <span class=\"heading\">Welcome to your profile</span>\n                  <span class=\"description\"></span>\n                </div>\n                <!--\n                  <div>\n                  <span class=\"heading\">10</span>\n                  <span class=\"description\">Photos</span>\n                </div>\n                <div>\n                  <span class=\"heading\">89</span>\n                  <span class=\"description\">Comments</span>\n                </div>\n                -->\n              </div>\n            </div>\n          </div>\n\n                    <!-- Middle Section-->\n\n          <div class=\"text-center mt-5\">\n            <!-- Full Name -->\n            <h4>Name<span class=\"font-weight-light\">: Jessica Jones </span> </h4>\n            \n            <h6>Preferred name<span class=\"font-weight-light\">: Jessy</span> </h6>\n            <div class=\"mt-3 py-4 border-top text-center\"> </div>\n\n            <!-- Location -->\n            <h5> \n              <i class=\"ni ni-air-baloon\"></i>\n              Location<span class=\"font-weight-light\">: City Centre</span> \n            </h5>\n            <!-- Gender -->\n            <h5>\n              <i class=\"ni ni-circle-08\"></i>\n              Gender<span class=\"font-weight-light\">: Female</span>\n            </h5>\n            <!-- Age -->\n            <h5>              \n              <i class=\"ni ni-user-run\"></i>\n              Age<span class=\"font-weight-light\">: 24</span>\n            </h5>\n            <!-- Religion -->\n            <h5>\n              <i class=\"ni ni-istanbul\"></i>\n              Religion<span class=\"font-weight-light\">: Christian</span>\n            </h5>\n            \n            <!-- Phone -->\n            <h5>              \n              <i class=\"ni ni-mobile-button\"></i>\n              Phone<span class=\"font-weight-light\">: 074856545489</span>\n            </h5>\n            <!-- Uni course -->\n            <h5>              \n              <i class=\"ni ni-hat-3\"></i>\n              Uni course<span class=\"font-weight-light\">: Computer Science</span>\n            </h5>\n\n\n            <!-- 3 Column Section -->\n            <div class=\"px-1\">\n              <div class=\"row justify-content-center\">\n                <div class=\"col-lg-7 order-lg-2\">\n                  <div class=\"text-center mt-4\">\n                    <div class=\"py-2 border-top text-center\"> </div>\n\n                    <div class=\"container\">\n                      <div class=\"row\">\n                        <div class=\"col-sm\">\n                          <!-- Budget -->\n              \n                          <h5>              \n                            <i class=\"ni ni-money-coins\"></i>\n                            <span class=\"font-weight-dark\">  Budget</span> \n                          </h5>\n                            <span>£</span>  \n                            <span>550</span>\n                        </div>\n                        <div class=\"col-sm\">\n                          <!-- Introvert / Extrovert -->\n                          <h5>                            \n                            <i class=\"ni ni-money-coins\"></i>\n                            <span class=\"font-weight-dark\">  Personality</span> \n                          </h5>\n                            <span>Introvert</span>\n                        </div>\n                        <div class=\"col-sm\">\n                           <!-- Num of Matches -->\n                           <h5>                            \n                             <i class=\"ni ni-favourite-28\"></i>\n                            <span class=\"font-weight-dark\">  Matches</span>\n                          </h5>\n                           <span>3</span>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!--\n            <div class=\"h6 font-weight-300\"><i class=\"ni location_pin mr-2\"></i>City Centre</div>\n\n            <div class=\"h6 mt-4\"><i class=\"ni business_briefcase-24 mr-2\"></i>Solution Manager - Creative Tim Officer</div>\n            <div><i class=\"ni education_hat mr-2\"></i>University of Computer Science</div>\n          -->\n          </div>\n          \n          <!-- BIO SECTION-->\n          <div class=\"mt-5 py-4 border-top text-center\">\n            <div class=\"row justify-content-center\">\n              <div class=\"col-lg-9\">\n                <h4><span class=\"font-weight-light\">BIO</span> </h4>\n\n                <p>An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.</p>\n                \n                <!--\n                <a href=\"javascript:void(0)\">Show more</a>\n                -->\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<main class=\"profile-page\">\n  <link href=\"/assets/vendor/nucleo/css/nucleo.css\" rel=\"stylesheet\">\n\n  <section class=\"section section-lg section-hero section-shaped\">\n    <!-- Circles background -->\n    <div class=\"shape shape-style-1 shape-default\">\n      <span class=\"span-150\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-75\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n      <span class=\"span-50\"></span>\n      <span class=\"span-100\"></span>\n    </div>\n    <!-- SVG separator -->\n    <div class=\"separator separator-bottom separator-skew\">\n      <svg x=\"0\" y=\"0\" viewBox=\"0 0 2560 100\" preserveAspectRatio=\"none\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n        <polygon class=\"fill-white\" points=\"2560 0 2560 100 0 100\"></polygon>\n      </svg>\n    </div>\n  </section>\n  <section class=\"section\">\n    <div class=\"container\">\n      <div class=\"card card-profile shadow mt--300\">\n        <div class=\"px-4\">\n          <div class=\"row justify-content-center\">\n            <div class=\"col-lg-3 order-lg-2\">\n              <div class=\"card-profile-image\">\n                <a href=\"javascript:void(0)\">\n                  <img src=\"./assets/img/theme/team-4-800x800.jpg\" class=\"rounded-circle\">\n                </a>\n              </div>\n            </div>\n            <div class=\"col-lg-4 order-lg-3 text-lg-right align-self-lg-center\">\n              <div class=\"card-profile-actions py-4 mt-lg-0\">\n                <!--<a href=\"javascript:void(0)\" class=\"btn btn-sm btn-info mr-4\">Connect</a>-->\n                <a [routerLink]=\"['/user-profile-edit']\" class=\"btn btn-sm btn-default float-right\">Edit</a>\n              </div>\n            </div>\n            <div class=\"col-lg-4 order-lg-1\">\n              <div class=\"card-profile-stats d-flex justify-content-right\">\n                <div>\n                  <span class=\"heading\">Welcome to your profile</span>\n                  <span class=\"description\"></span>\n                </div>\n                <!--\n                  <div>\n                  <span class=\"heading\">10</span>\n                  <span class=\"description\">Photos</span>\n                </div>\n                <div>\n                  <span class=\"heading\">89</span>\n                  <span class=\"description\">Comments</span>\n                </div>\n                -->\n              </div>\n            </div>\n          </div>\n\n                    <!-- Middle Section-->\n\n          <div class=\"text-center mt-5\">\n            <!-- Full Name -->\n            <h4>Name<span class=\"font-weight-light\">: {{ fullName }} </span> </h4>\n            \n            <h6>Preferred name<span class=\"font-weight-light\">: {{ preferredName }}</span> </h6>\n            <div class=\"mt-3 py-4 border-top text-center\"> </div>\n\n            <!-- Location -->\n            <h5> \n              <i class=\"ni ni-air-baloon\"></i>\n              Location<span class=\"font-weight-light\">: {{ location }}</span> \n            </h5>\n            <!-- Gender -->\n            <h5>\n              <i class=\"ni ni-circle-08\"></i>\n              Gender<span class=\"font-weight-light\">: {{ gender }}</span>\n            </h5>\n            <!-- Age -->\n            <h5>              \n              <i class=\"ni ni-user-run\"></i>\n              Age<span class=\"font-weight-light\">: {{ age }}</span>\n            </h5>\n            <!-- Religion -->\n            <h5>\n              <i class=\"ni ni-istanbul\"></i>\n              Religion<span class=\"font-weight-light\">: {{ religion }}</span>\n            </h5>\n            \n            <!-- Phone -->\n            <h5>              \n              <i class=\"ni ni-mobile-button\"></i>\n              Phone<span class=\"font-weight-light\">: {{ phoneNumber }}</span>\n            </h5>\n            <!-- Uni course -->\n            <h5>              \n              <i class=\"ni ni-hat-3\"></i>\n              Uni course<span class=\"font-weight-light\">: {{ uniCourse }} </span>\n            </h5>\n\n\n            <!-- 3 Column Section -->\n            <div class=\"px-1\">\n              <div class=\"row justify-content-center\">\n                <div class=\"col-lg-7 order-lg-2\">\n                  <div class=\"text-center mt-4\">\n                    <div class=\"py-2 border-top text-center\"> </div>\n\n                    <div class=\"container\">\n                      <div class=\"row\">\n                        <div class=\"col-sm\">\n                          <!-- Budget -->\n              \n                          <h5>              \n                            <i class=\"ni ni-money-coins\"></i>\n                            <span class=\"font-weight-dark\">  Budget</span> \n                          </h5>\n                            <span>£</span>  \n                            <span>550</span>\n                        </div>\n                        <div class=\"col-sm\">\n                          <!-- Introvert / Extrovert -->\n                          <!--<h5>                            \n                            <i class=\"ni ni-money-coins\"></i>\n                            <span class=\"font-weight-dark\">  Personality</span> \n                          </h5>\n                            <span>Introvert</span>-->\n                        </div>\n                        <div class=\"col-sm\">\n                           <!-- Num of Matches -->\n                           <!--<h5>                            \n                             <i class=\"ni ni-favourite-28\"></i>\n                            <span class=\"font-weight-dark\">  Matches</span>\n                          </h5>\n                           <span>3</span>-->\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!--\n            <div class=\"h6 font-weight-300\"><i class=\"ni location_pin mr-2\"></i>City Centre</div>\n\n            <div class=\"h6 mt-4\"><i class=\"ni business_briefcase-24 mr-2\"></i>Solution Manager - Creative Tim Officer</div>\n            <div><i class=\"ni education_hat mr-2\"></i>University of Computer Science</div>\n          -->\n          </div>\n          \n          <!-- BIO SECTION-->\n          <div class=\"mt-5 py-4 border-top text-center\">\n            <div class=\"row justify-content-center\">\n              <div class=\"col-lg-9\">\n                <h4><span class=\"font-weight-light\">BIO</span> </h4>\n\n                <p>An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.</p>\n                \n                <!--\n                <a href=\"javascript:void(0)\">Show more</a>\n                -->\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n\n");
 
 /***/ }),
 

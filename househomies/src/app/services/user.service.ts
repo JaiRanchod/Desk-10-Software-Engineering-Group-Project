@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 import { ApiService } from '../services/api.service';
 import { Profile } from '../interfaces/Profile';
+import { DataService } from '../services/data.service';
 
 @Injectable({
   providedIn: 'root'
@@ -14,10 +15,15 @@ export class UserService {
   profiles: Profile[];
   
 
-  constructor(private api: ApiService) { 
+  constructor(private api: ApiService, private dataService: DataService) { 
     this.$user_profile = new Subject<Profile>();
-    this.user_id = '60892fffc145b4f92a975cdb';
-    this.user_profile = {"_id":"60892fffc145b4f92a975cdb","Age":18,"Bio":"test1","First Name":"test1","Gender":"male","Location":"Clifton","Phone Number":"447400123040","Preferred Name":"test1","Religion":"Christianity","Surname":"test1","University Course":"test1","dislike":[],"like":[]}
+    this.dataService.getAll().subscribe(
+      data => {
+        this.user_id = data[0]._id;
+        this.user_profile = {"_id":data[0]._id,"Age":data[0].Age,"Bio":data[0].Bio,"First Name":data[0]["First Name"],"Gender":data[0].Gender,"Location":data[0].Location,"Phone Number":data[0]["Phone Number"],"Preferred Name":data[0]["Preferred Name"],"Religion":data[0].Religion,"Surname":data[0].Surname,"University Course":data[0]["University Course"],"dislike":[],"like":[]}
+      }
+    )
+
 
     this.api.get_cards().subscribe((profiles: Profile[]) => {
       this.profiles = profiles;

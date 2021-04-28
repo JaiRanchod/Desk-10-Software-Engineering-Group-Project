@@ -4,7 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -27,6 +28,7 @@ import { ProfileEditComponent } from './profile-edit/profile-edit.component';
 import { CardComponent } from './card/card.component';
 import { MatchCardComponent } from './match-card/match-card.component';
 import { MatchPopupComponent } from './match-popup/match-popup.component';
+import { DataService } from './services/data.service';
 
 
 @NgModule({
@@ -44,7 +46,7 @@ import { MatchPopupComponent } from './match-popup/match-popup.component';
     ProfileEditComponent,
     CardComponent,
     MatchCardComponent,
-    MatchPopupComponent,
+    MatchPopupComponent
   ],
   imports: [
     BrowserModule,
@@ -54,10 +56,11 @@ import { MatchPopupComponent } from './match-popup/match-popup.component';
     AppRoutingModule,
     HomeModule,
     HttpClientModule,
+    HttpModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
