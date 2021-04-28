@@ -1,12 +1,10 @@
 
 
 
-<h2 align="center"> <b> Factors to Consider as A result of Analysis of Feedback Survey </b> </h2>
+<h2 align="center"> <b> Factors to Consider as a result of Analysis of Feedback Survey </b> </h2>
  
 
 So far, a total of 18 users completed this short questionnaire regarding our web application idea. The results mostly conclude that the platform would be used by members of society and help to solve a real-world issue.
-
- 
 
  
 
