@@ -13,6 +13,12 @@
 
 <p align="center"> Andreas Phillipou, Charles Hilton, Jai Ranchod, Josh Pears and Lucas MacKenzie </p>
 
+<p align="center"> TEAM PHOTO HERE </p>
+
+<br>
+<br>
+<br>
+
 
 
 
