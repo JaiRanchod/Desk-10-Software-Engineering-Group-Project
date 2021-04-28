@@ -95,10 +95,10 @@
 
 <p align="center">
   <b> Sprints and Project Management links:</b><br>
-  <a href="#">Group Working Methods</a> |
-  <a href="#">Team Roles</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Group%20Working%20Methods.md">Group Working Methods</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Roles.md">Team Roles</a> |
   <a href="#">Sprint Documentation</a> |
- <a href="#">Team use of GitHub</a>
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Use%20of%20GitHub.md">Team use of GitHub</a>
   <br><br>
 </p>
 
