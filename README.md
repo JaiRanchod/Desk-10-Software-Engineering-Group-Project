@@ -78,7 +78,7 @@
 <p align="center">
   <b> UX Design links:</b><br>
   <a href="#">Design Process</a> |
-  <a href="#">Identification of interacting users and broader stakeholders</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Identification%20of%20interacting%20users%20and%20broader%20stakeholders.md">Identification of interacting users and broader stakeholders</a> |
   <a href="#">UX approach</a> |
  <a href="#">Understanding of user group</a> |
  <a href="#">Wireframes and interaction flow diagrams</a>
