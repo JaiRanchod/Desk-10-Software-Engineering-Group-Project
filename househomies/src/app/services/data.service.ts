@@ -12,7 +12,7 @@ export class DataService {
   private REST_API_SERVER = 'http://localhost:3000/api/UserProfiles';
   private REST_API_SERVER2 = 'http://localhost:3000/api/UserLogins';
   private slash = '/';
-  public email = '';
+  public email = "undefined";
 
   constructor(private httpClient: HttpClient) { }
 

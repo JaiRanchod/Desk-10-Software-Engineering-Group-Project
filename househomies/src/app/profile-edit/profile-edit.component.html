@@ -31,7 +31,7 @@
                         <div class="col-lg-3 order-lg-2">
                             <div class="card-profile-image">
                                 <a href="javascript:void(0)">
-                                    <img src="./assets/img/theme/team-4-800x800.jpg" class="rounded-circle">
+                                    <img [src]="image" class="rounded-circle">
                                 </a>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
 
                     <div class="text-center mt-5">
                         <!-- Full Name -->
-                        <h4>Name<span class="font-weight-light">: Jessica Jones </span>
+                        <h4>Name<span class="font-weight-light">: {{ fullName }} </span>
 
                             <!-- Full Name Form-->
                             <div class="row justify-content-center">
@@ -72,7 +72,7 @@
                                     <div class="col-md-20">
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="Full Name">
+                                                placeholder="{{ fullName }}">
                                         </div>
                                     </div>
                                 </form>
@@ -81,7 +81,7 @@
                         </h4>
 
                         <!-- Preferred Name -->
-                        <h6>Preferred name<span class="font-weight-light">: Jessy</span> </h6>
+                        <h6>Preferred name<span class="font-weight-light">: {{ preferredName }}</span> </h6>
 
                         <!-- Preferred Name-->
                         <div class="row justify-content-center">
@@ -89,7 +89,7 @@
                                 <div class="col-md-20">
                                     <div class="form-group">
                                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                                            placeholder="Preferred Name">
+                                            placeholder="{{ preferredName }}">
                                     </div>
                                 </div>
                             </form>
@@ -100,7 +100,7 @@
                         <!-- Location -->
                         <h5>
                             <i class="ni ni-air-baloon"></i>
-                            Location<span class="font-weight-light">: City Centre</span>
+                            Location<span class="font-weight-light">: {{ location }}</span>
 
                             <!-- Location Form-->
                             <div class="row justify-content-center">
@@ -108,7 +108,7 @@
                                     <div class="col-md-20">
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="Location">
+                                                placeholder="{{ location }}">
                                         </div>
                                     </div>
                                 </form>
@@ -120,7 +120,7 @@
                         <!-- Gender -->
                         <h5>
                             <i class="ni ni-circle-08"></i>
-                            Gender<span class="font-weight-light">: Female</span>
+                            Gender<span class="font-weight-light">: {{ gender }}</span>
 
                             <!-- Gender Form-->
                             <div class="row justify-content-center">
@@ -128,7 +128,7 @@
                                     <div class="col-md-20">
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="Gender">
+                                                placeholder="{{ gender }}">
                                         </div>
                                     </div>
                                 </form>
@@ -139,7 +139,7 @@
                         <!-- Age -->
                         <h5>
                             <i class="ni ni-user-run"></i>
-                            Age<span class="font-weight-light">: 24</span>
+                            Age<span class="font-weight-light">: {{ age }}</span>
 
                             <!-- Age Form-->
                             <div class="row justify-content-center">
@@ -147,7 +147,7 @@
                                     <div class="col-md-20">
                                         <div class="form-group">
                                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="Age">
+                                                placeholder="{{ age }}">
                                         </div>
                                     </div>
                                 </form>
@@ -160,7 +160,7 @@
                         <!-- Religion -->
                         <h5>
                             <i class="ni ni-istanbul"></i>
-                            Religion<span class="font-weight-light">: Christian</span>
+                            Religion<span class="font-weight-light">: {{ Religion }}</span>
 
                             <!-- Drop down Form -->
                             <span class="font-weight-light"> &nbsp; </span>
@@ -168,7 +168,7 @@
                                 
                                 <div class="btn-group" ngbDropdown>
                                     <button type="button" class="btn btn-secondary  dropdown-toggle"
-                                        ngbDropdownToggle>Secondary</button>
+                                        ngbDropdownToggle>Religion</button>
                                     <div ngbDropdownMenu>
                                         <a ngbDropdownItem href="javascript:void(0)">Action</a>
                                         <a ngbDropdownItem href="javascript:void(0)">Another action</a>
@@ -186,7 +186,7 @@
                         <!-- Phone -->
                         <h5>
                             <i class="ni ni-mobile-button"></i>
-                            Phone<span class="font-weight-light">: 074856545489</span>
+                            Phone<span class="font-weight-light">: {{ phoneNumber }}</span>
                         
                         <!-- Phone Form-->
                         <div class="row justify-content-center">
@@ -194,7 +194,7 @@
                                 <div class="col-md-20">
                                     <div class="form-group">
                                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                                            placeholder="Type phone number here">
+                                            placeholder="{{ phoneNumber }}">
                                     </div>
                                 </div>
                             </form>
@@ -207,7 +207,7 @@
                         <!-- Uni course -->
                         <h5>
                             <i class="ni ni-hat-3"></i>
-                            Uni course<span class="font-weight-light">: Computer Science</span>
+                            Uni course<span class="font-weight-light">: {{ uniCourse }}</span>
                         
                         <!-- Uni course Form-->
                         <div class="row justify-content-center">
@@ -215,7 +215,7 @@
                                 <div class="col-md-20">
                                     <div class="form-group">
                                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                                            placeholder="Type your university course here">
+                                            placeholder="{{ uniCourse }}">
                                     </div>
                                 </div>
                             </form>
@@ -294,13 +294,10 @@
                             <div class="col-lg-9">
                                 <h4><span class="font-weight-light">BIO</span> </h4>
 
-                                <p>An artist of considerable range, Ryan — the name taken by Melbourne-raised,
-                                    Brooklyn-based Nick Murphy — writes, performs and records all of his own music,
-                                    giving it a warm, intimate feel with a solid groove structure. An artist of
-                                    considerable range.</p>
+                                <p>{{bio}}</p>
 
                                     <form>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write a large text here ..."></textarea>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="{{ bio }}"></textarea>
                                       </form>
                                     
                                 <!--

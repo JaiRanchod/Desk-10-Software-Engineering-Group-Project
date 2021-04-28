@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Location, PopStateEvent } from '@angular/common';
+import { DataService } from '../../services/data.service';
 
 @Component({
     selector: 'app-navbar',
@@ -12,7 +13,7 @@ export class NavbarComponent implements OnInit {
     private lastPoppedUrl: string;
     private yScrollStack: number[] = [];
 
-    constructor(public location: Location, private router: Router) {
+    constructor(public location: Location, private router: Router, private dataService: DataService) {
     }
 
     ngOnInit() {
@@ -52,5 +53,9 @@ export class NavbarComponent implements OnInit {
         else {
             return false;
         }
+    }
+
+    handleClick() {
+        this.dataService.email = "undefined";
     }
 }

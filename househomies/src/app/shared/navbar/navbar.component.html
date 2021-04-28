@@ -58,7 +58,7 @@
           </a>
           <div class="dropdown-menu">
             <a [routerLink]="['/about']" class="dropdown-item">About Us</a>
-            <a [routerLink]="['/welcomepage']" class="dropdown-item">Sign Out</a>
+            <a [routerLink]="['/welcomepage']" class="dropdown-item" (click)="handleClick()">Sign Out</a>
           </div>
         </li>
       </ul>
