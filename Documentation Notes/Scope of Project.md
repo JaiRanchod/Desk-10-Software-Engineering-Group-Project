@@ -1,8 +1,8 @@
-**Scope of Project**
+<h1 align="center"> <b> Scope of Project </b> </h1>
 
 
 
-**Conceptual Scope**
+<h2 align="center"> <b> Conceptual Scope </b> </h2>
 
  
 
@@ -33,8 +33,7 @@ Our primary objectives are to create an easier method to find like-minded housem
 ·    Remember that the aim is to build a minimum value viable product (MVP), with the intended aim that it would be at the level to show investors.
 
  
-
-**Technical Scope**
+<h2 align="center"> <b> Technical Scope </b> </h2>
 
  
 
@@ -86,7 +85,7 @@ Speaking to users that have been stuck in houses that weren’t their first choi
 
  
 
-**Evaluation Scope**
+<h2 align="center"> <b> Evaluation Scope </b> </h2>
 
  
 
