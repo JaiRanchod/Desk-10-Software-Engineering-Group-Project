@@ -35,6 +35,42 @@
 
 <h2 align="center"> <b> Background and Motivation </b> </h2>
 
+<br>
+<br>
+<br>
+
+<h2 align="center"> <b> System Implementation </b> </h2>
+
+<br>
+<br>
+<br>
+
+<h2 align="center"> <b> UX Design </b> </h2>
+
+<br>
+<br>
+<br>
+
+<h2 align="center"> <b> Sprints and Project Management </b> </h2>
+
+<br>
+<br>
+<br>
+
+<h2 align="center"> <b> Evaluation </b> </h2>
+
+<br>
+<br>
+<br>
+
+<h2 align="center"> <b> Conclusion </b> </h2>
+
+<br>
+<br>
+<br>
+
+
+
 
 
 
