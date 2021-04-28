@@ -1,3 +1,5 @@
+<h2 align="center"> <b> Group Working Methods </b> </h2>
+
 As a team our project management initially focused on splitting the responsibilities of the team in two, with Jai and Josh
 focusing on the backend and the others on the frontend, focusing on getting the layout of our web app sorted, a backend schema
 and API sorted. Once both teams had finished, we were then able to link these together easily. We then focused on getting data 
