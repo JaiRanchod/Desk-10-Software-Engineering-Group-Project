@@ -15,11 +15,16 @@ export class UserService {
   profiles: Profile[];
   
 
-  constructor(private api: ApiService, private dataService: DataService) { 
+  constructor(private api: ApiService, private dataService: DataService) {   }
+
+  public getAll(){
     this.$user_profile = new Subject<Profile>();
     this.dataService.getAll().subscribe(
       data => {
+        console.log("CHECKING HERE: " + data);
+        console.log("CHECKING " + data[0]._id);
         this.user_id = data[0]._id;
+        console.log("THIS IS THE USER ID " + this.user_id);
         this.user_profile = {"_id":data[0]._id,"Age":data[0].Age,"Bio":data[0].Bio,"First Name":data[0]["First Name"],"Gender":data[0].Gender,"Location":data[0].Location,"Phone Number":data[0]["Phone Number"],"Image":data[0].Image,"Preferred Name":data[0]["Preferred Name"],"Religion":data[0].Religion,"Surname":data[0].Surname,"University Course":data[0]["University Course"],"dislike":[],"like":[]}
       }
     )
@@ -51,6 +56,7 @@ export class UserService {
   }
 
   get_profile(): Profile{
+    console.log(JSON.stringify(this.user_profile));
     return this.user_profile;
   }
 

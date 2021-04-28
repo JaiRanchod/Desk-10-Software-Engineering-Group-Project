@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Profile } from '../interfaces/Profile';
 import { ApiService } from '../services/api.service';
 import { UserService } from '../services/user.service';
+import { DataService } from '../services/data.service';
 
 @Component({
     selector: 'app-matching',
@@ -14,10 +15,14 @@ export class MatchingComponent implements OnInit {
   profiles: Profile[];
   user_profile: Profile;
 
-  constructor(private api: ApiService, private user: UserService) { }
+  constructor(private api: ApiService, private user: UserService, private dataService: DataService) { }
 
-  ngOnInit() {
+  ngOnInit() { 
+    this.retrieveData();
+  }
 
+  retrieveData(){
+    this.user.getAll();
     //create callback when user changes
     this.user.$user_profile.subscribe((profile: Profile) => {
       //get all the profiles again 

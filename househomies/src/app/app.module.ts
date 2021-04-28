@@ -29,6 +29,7 @@ import { CardComponent } from './card/card.component';
 import { MatchCardComponent } from './match-card/match-card.component';
 import { MatchPopupComponent } from './match-popup/match-popup.component';
 import { DataService } from './services/data.service';
+import { UserService } from './services/user.service';
 
 
 @NgModule({
@@ -60,7 +61,7 @@ import { DataService } from './services/data.service';
     BrowserAnimationsModule,
     ReactiveFormsModule,
   ],
-  providers: [DataService],
+  providers: [DataService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
