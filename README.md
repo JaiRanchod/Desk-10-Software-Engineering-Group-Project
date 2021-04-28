@@ -58,11 +58,33 @@
 
 <h2 align="center"> <b> UX Design </b> </h2>
 
+<p align="center"> For our system implemen </p>
+
+<p align="center">
+  <b> # links:</b><br>
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+ <a href="#">LINK</a>
+  <br><br>
+</p>
+
 <br>
 <br>
 <br>
 
 <h2 align="center"> <b> Sprints and Project Management </b> </h2>
+
+<p align="center"> For our system implemen </p>
+
+<p align="center">
+  <b> # links:</b><br>
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+ <a href="#">LINK</a>
+  <br><br>
+</p>
 
 <br>
 <br>
@@ -70,11 +92,33 @@
 
 <h2 align="center"> <b> Evaluation </b> </h2>
 
+<p align="center"> For our system implemen </p>
+
+<p align="center">
+  <b> # links:</b><br>
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+ <a href="#">LINK</a>
+  <br><br>
+</p>
+
 <br>
 <br>
 <br>
 
 <h2 align="center"> <b> Conclusion </b> </h2>
+
+<p align="center"> For our system implemen </p>
+
+<p align="center">
+  <b> # links:</b><br>
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+  <a href="#">LINK</a> |
+ <a href="#">LINK</a>
+  <br><br>
+</p>
 
 <br>
 <br>
