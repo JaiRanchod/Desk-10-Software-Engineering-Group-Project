@@ -15,6 +15,10 @@
 
 <p align="center"> TEAM PHOTO HERE </p>
 
+<h2 align="center"> <b>Team Members</b> </h2>
+
+
+
 <br>
 <br>
 <br>
