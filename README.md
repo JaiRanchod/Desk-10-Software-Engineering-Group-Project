@@ -54,14 +54,16 @@
 
 <h2 align="center"> <b> System Implementation </b> </h2>
 
-<p align="center"> For our system implemen </p>
+<p align="center"> ###### </p>
 
 <p align="center">
-  <b> # links:</b><br>
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
- <a href="#">LINK</a>
+  <b> System Implementation links:</b><br>
+  <a href="#">Stack architecture and system design</a> |
+  <a href="#">Back-End</a> |
+  <a href="#">Middle-Tier </a> |
+ <a href="#">Front-End</a> |
+  <a href="#">Additional elements and components</a> |
+ <a href="#">Deployment details</a>
   <br><br>
 </p>
 
@@ -71,14 +73,15 @@
 
 <h2 align="center"> <b> UX Design </b> </h2>
 
-<p align="center"> For our system implemen </p>
+<p align="center"> ###### </p>
 
 <p align="center">
-  <b> # links:</b><br>
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
- <a href="#">LINK</a>
+  <b> UX Design links:</b><br>
+  <a href="#">Design Process</a> |
+  <a href="#">Identification of interacting users and broader stakeholders</a> |
+  <a href="#">UX approach</a> |
+ <a href="#">Understanding of user group</a> |
+ <a href="#">Wireframes and interaction flow diagrams</a>
   <br><br>
 </p>
 
@@ -88,14 +91,14 @@
 
 <h2 align="center"> <b> Sprints and Project Management </b> </h2>
 
-<p align="center"> For our system implemen </p>
+<p align="center"> ###### </p>
 
 <p align="center">
-  <b> # links:</b><br>
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
- <a href="#">LINK</a>
+  <b> Sprints and Project Management links:</b><br>
+  <a href="#">Group Working Methods</a> |
+  <a href="#">Team Roles</a> |
+  <a href="#">Sprint Documentation</a> |
+ <a href="#">Team use of GitHub</a>
   <br><br>
 </p>
 
@@ -105,14 +108,13 @@
 
 <h2 align="center"> <b> Evaluation </b> </h2>
 
-<p align="center"> For our system implemen </p>
+<p align="center"> ###### </p>
 
 <p align="center">
-  <b> # links:</b><br>
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
- <a href="#">LINK</a>
+  <b> Evaluation links:</b><br>
+  <a href="#">Design Evaluation</a> |
+  <a href="#">Unit Testing/Functional Testing</a> |
+  <a href="#">User Acceptance Testing</a> 
   <br><br>
 </p>
 
@@ -122,14 +124,15 @@
 
 <h2 align="center"> <b> Conclusion </b> </h2>
 
-<p align="center"> For our system implemen </p>
+<p align="center"> ##### </p>
 
 <p align="center">
-  <b> # links:</b><br>
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
- <a href="#">LINK</a>
+  <b> Conclusion links:</b><br>
+  <a href="#">Working Practices Reflection</a> |
+  <a href="#">Refelction on success of the project</a> |
+  <a href="#">Social and Ethical implications</a>|
+ <a href="#">Coronavirus Discussion</a> |
+ <a href="#">Future Work</a>
   <br><br>
 </p>
 
