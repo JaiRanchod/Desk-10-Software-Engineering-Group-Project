@@ -16,8 +16,8 @@ export class UserService {
 
   constructor(private api: ApiService) { 
     this.$user_profile = new Subject<Profile>();
-    this.user_id = '6079779914e77ba9e7f43b9e';
-    this.user_profile = {"_id":"6079779914e77ba9e7f43b9e","Age":24,"Bio":"blah blah","First Name":"Andreas","Gender":"male","Location":"London","Phone Number":"0000000","Preferred Name":"Andreas","Religion":"Religion","Surname":"Phili","University Course":"foo","dislike":[],"like":[]}
+    this.user_id = '60892fffc145b4f92a975cdb';
+    this.user_profile = {"_id":"60892fffc145b4f92a975cdb","Age":18,"Bio":"test1","First Name":"test1","Gender":"male","Location":"Clifton","Phone Number":"447400123040","Preferred Name":"test1","Religion":"Christianity","Surname":"test1","University Course":"test1","dislike":[],"like":[]}
 
     this.api.get_cards().subscribe((profiles: Profile[]) => {
       this.profiles = profiles;

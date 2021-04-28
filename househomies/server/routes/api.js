@@ -20,6 +20,17 @@ router.get('/UserLogins', (req, res) => {
   });
 });
 
+/*router.post('/UsersLogins', (req, res, next) => {
+  userLogins.findOne({ email: req.body.email })
+  .then(user => {
+    if(!user) {
+      res.status(401).send(err);
+    } else {
+      res.status()
+    }
+  });
+});*/
+
 router.get('/UserProfiles', (req, res) => {
   const userInfo = req.body;
   userProfiles.find(userInfo, (err, data) => {
@@ -34,7 +45,7 @@ router.get('/UserProfiles', (req, res) => {
 router.post('/UserProfilesLike', (req, res) => {
   //the current user is in the query string of the request
   let user_id = req.query._id;
-  //the disliked user id is sent as teh body in json format
+  //the disliked user id is sent as the body in json format
   let match_id = req.body._id;
   userProfiles.updateOne(
     {_id: user_id},
@@ -49,7 +60,7 @@ router.post('/UserProfilesLike', (req, res) => {
   );
 });
 
-//set the route for userprofiledislike api call
+//set the route for userProfileDislike api call
 router.post('/UserProfilesDislike', (req, res) => {
   //the current user is in the query string of the request
   let user_id = req.query.id;
