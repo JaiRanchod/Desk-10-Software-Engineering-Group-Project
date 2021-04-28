@@ -128,11 +128,11 @@
 
 <p align="center">
   <b> Conclusion links:</b><br>
-  <a href="#">Working Practices Reflection</a> |
-  <a href="#">Refelction on success of the project</a> |
-  <a href="#">Social and Ethical implications</a>|
- <a href="#">Coronavirus Discussion</a> |
- <a href="#">Future Work</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Working%20Practices%20Reflection.md">Working Practices Reflection</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Reflection%20on%20success%20of%20project.md">Refelction on success of the project</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Social%20and%20Ethical%20Implications.md">Social and Ethical implications</a>|
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Coronavirus%20Discussion.md">Coronavirus Discussion</a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Future%20Work.md">Future Work</a>
   <br><br>
 </p>
 
