@@ -37,11 +37,13 @@
 
 <p align="center"> The identification of our problem came from personal experience, in which some team members had decided to do the Computer Science MSc later than usual, this meant most of the flats/houses had been taken and friends that were staying another year had already signed housing agreements. This left some of our team members in the position of having to find a spare room or people to live with they previously did not know. </p>
 
+<p align="center"> So when it came to trying to find housemates... </p>
+
 <p align="center">
   <b> Background and Motivation links:</b><br>
-  <a href="#">Current Industry Review</a> |
-  <a href="#">Clear definition of our problem</a> |
-  <a href="#">Background Literature</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Current%20Industry%20Review.md">Current Industry Review</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Clear%20definition%20of%20our%20problem.md">Clear definition of our problem</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Background%20Literature.md">Background Literature</a>
   <br><br>
 </p>
 
