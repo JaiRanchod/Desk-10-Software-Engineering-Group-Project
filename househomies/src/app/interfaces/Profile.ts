@@ -1,6 +1,7 @@
 export interface Profile{
   _id: string;
   "Age": number,
+  "Image": string,
   "Bio": string,
   "First Name": string,
   "Gender": string,

@@ -20,6 +20,7 @@ export class ProfileComponent implements OnInit {
     public uniCourse: String;
     public fullName: String;
     public religion: String;
+    public image: String;
     stats: any = [];
 
 
@@ -36,6 +37,7 @@ export class ProfileComponent implements OnInit {
               this.stats = data;
               // now let's update the fields
               this.firstName = this.stats[0]["First Name"];
+              this.image = this.stats[0].Image;
               console.log("Hi " + this.firstName);
               this.lastName = this.stats[0].Surname;
               this.location = this.stats[0].Location;

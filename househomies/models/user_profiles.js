@@ -4,6 +4,7 @@ var userProfileSchema = new mongoose.Schema({
   "Age": {type: Number, required: true},
   "Bio": {type: String, required: true},
   "First Name": {type: String, required: true},
+  "Image": {type: String, required: true},
   "Gender": {type: String, required: true},
   "Location": {type: String, required: true},
   "Phone Number": {type: String, required: true},

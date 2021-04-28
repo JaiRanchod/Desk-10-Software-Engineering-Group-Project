@@ -6,7 +6,7 @@
 			</h3>
 			<div class="card-body py-5">
 				<div class="card-profile-image text-center">
-					<img src="./assets/img/theme/team-4-800x800.jpg" class="rounded-circle" style="height: 150px;" >
+					<img [src]="matched_profile.Image" class="rounded-circle" style="height: 150px;" >
 				</div>
 					<h4 class="text-primary text-uppercase text-center"> it's a match! </h4>
 					<h4 class="text-primary text-uppercase text-center" style="text-align: center;">{{matched_profile['Preferred Name']}} {{matched_profile.Surname}}</h4>
