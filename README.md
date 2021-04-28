@@ -38,11 +38,10 @@
 <p align="center"> The identification of our problem came from personal experience, in which some team members had decided to do the Computer Science MSc later than usual, this meant most of the flats/houses had been taken and friends that were staying another year had already signed housing agreements. This left some of our team members in the position of having to find a spare room or people to live with they previously did not know. </p>
 
 <p align="center">
-  <b> # links:</b><br>
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
-  <a href="#">LINK</a> |
- <a href="#">LINK</a>
+  <b> Background and Motivation links:</b><br>
+  <a href="#">Current Industry Review</a> |
+  <a href="#">Clear definition of our problem</a> |
+  <a href="#">Background Literature</a>
   <br><br>
 </p>
 
