@@ -58,12 +58,12 @@
 
 <p align="center">
   <b> System Implementation links:</b><br>
-  <a href="#">Stack architecture and system design</a> |
-  <a href="#">Back-End</a> |
-  <a href="#">Middle-Tier </a> |
- <a href="#">Front-End</a> |
-  <a href="#">Additional elements and components</a> |
- <a href="#">Deployment details</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Stack%20architecture%20and%20system%20design.md">Stack architecture and system design</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Back-End.md">Back-End</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Middle-Tier.md">Middle-Tier </a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Front-End.md">Front-End</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Additional%20elements%20and%20components.md">Additional elements and components</a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Deployment%20details.md">Deployment details</a>
   <br><br>
 </p>
 
