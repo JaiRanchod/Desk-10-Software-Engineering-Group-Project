@@ -17,10 +17,10 @@
 
 <h2 align="center"> <b> Introduction </b> </h2>
 
-<p [What is the serious problem being addressed?](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/What%20is%20the%20serious%20problem%20being%20addressed.md) </p>
+[What is the serious problem being addressed?](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/What%20is%20the%20serious%20problem%20being%20addressed.md)
 
 
-https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/What%20is%20the%20serious%20problem%20being%20addressed.md
+
 
 
 
