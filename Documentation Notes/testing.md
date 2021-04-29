@@ -18,7 +18,7 @@
 
 <h4><b>Login Page</b></h4>
 
-- SIGN IN button should router link to the Login Page.
+- <b>SIGN IN<b> button should router link to the Login Page.
 -	The page should contain two forms, Email and Password.
 -	If user inputs information in either of the two forms that does not correctly match with data stored in the database, and “Invalid Username” or “Invalid Password” error message should appear.
 -	If the information entered within the email and password forms matches data stored in the database, a “Successful Login prompt” should appear and the user will be granted access to a router link button to their individual profile page.
