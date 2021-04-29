@@ -63,7 +63,7 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 
 <h2 align="center"> <b> System Implementation </b> </h2>
 
-<p align="center"> For our single page application, we used the MEAN Stack approach which uses MongoDB, Express, Angular and Node.js. MongoDB forms the 
+<p align="left"> For our single page application, we used the MEAN Stack approach which uses MongoDB, Express, Angular and Node.js. MongoDB forms the 
 back-end of the application and it makes it easy to pass data between the client and server by saving data in binary JSON format. It provides high 
 performance, high availability, and easy scalability because it is a cross-platform, document-oriented database. Express provides the web development 
 framework, it provides a robust set of features for web and mobile applications; it is a minimal and flexible Node.js web application framework. Angular 
