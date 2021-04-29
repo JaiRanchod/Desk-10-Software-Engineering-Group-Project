@@ -39,6 +39,12 @@
 <h4><b>Homepage Page</b></h4>
 
 - The Homepage should have the navbar component at the top containing the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right.
+- The “Home” link should router link the user to the Homepage page.
+- The “Profile” link should router link the user to the user-profile page.
+-	The “Matches” link should router link the user to the Matches page.
+-	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
+-	In the centre of the page should be an html section containing cascading profile information of other users, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, Personality, Matches, BIO.
+	
 
 
 
