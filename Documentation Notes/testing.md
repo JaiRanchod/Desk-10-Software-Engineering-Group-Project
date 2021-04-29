@@ -28,9 +28,6 @@ Front
 -	The page should also contain two router linked text fields, “Forgot password?” and “Create new account” below the logo and form boxes.
 -	The “Forgot password?” link is tbc.
 -	The “Create new account” link should router link the user to the Register page containing the type form embed.
-![image](https://user-images.githubusercontent.com/74371711/116607726-410ca380-a92a-11eb-99ed-f634af45d2e6.png)
-
-
 
 
 
