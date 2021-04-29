@@ -22,6 +22,6 @@ Some of the downsides are:
 
 To integrate typeform submissions with our mongoDB database we needed to make use of typeform's api. Once again, our initial experience with this was minimal so we discovered and leveraged the help of an online tool which helps connect two api endpoints and make requests in an intuitive interface. **Integromat** allowed us to connect typeform with mongoDB and within a couple days we had a working onboarding interface that was connected with mongoDB. Using Integromat, not only helped us launch our integration in a short period of time, it also showed us how the webhooks and api calls transfer or capture data through JSON format by POST, GET etc.
 
-![](https://ibb.co/bPQBb4P)
+![](https://i.ibb.co/kx58mLx/Screenshot-2021-04-29-at-14-29-10.png)
 
 This learning experience led to our better understanding and confidence in implementing our service API within the app to communicate back and forth with mongoDB
