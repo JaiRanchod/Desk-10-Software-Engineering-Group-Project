@@ -152,11 +152,13 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 
 <h2 align="center"> <b> Conclusion </b> </h2>
 
+<p align="center"> ##### </p>
+
 <p align="center">
   <img src="https://media.giphy.com/media/rSVRXeKPgeM5xfGyCR/source.gif" width="200" height="200">
 </p>
 
-<p align="center"> ##### </p>
+
 
 <p align="center">
   <b> Conclusion links:</b><br>
