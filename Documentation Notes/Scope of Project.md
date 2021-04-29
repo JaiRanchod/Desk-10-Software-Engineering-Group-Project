@@ -36,7 +36,7 @@
 
  
 
-1)   Which sections are you focussing on? Agree as a team is there is there a focus on the backend/ frontend?
+<b>1)   Which sections are you focussing on? Agree as a team is there is there a focus on the backend/ frontend?</b>
 
  
 
@@ -44,7 +44,7 @@
 
  
 
-2)   Does the technical development support the concept? Can you trim out anything that doesn’t?
+<b>2)   Does the technical development support the concept? Can you trim out anything that doesn’t?</b>
 
  
 
@@ -52,7 +52,7 @@
 
  
 
-3)   Decide on the fidelity of each of your functions. For instance, do you need to integrate a fully working map? Or would a static one do as a proof of concept?
+<b>3)   Decide on the fidelity of each of your functions. For instance, do you need to integrate a fully working map? Or would a static one do as a proof of concept?</b>
 
  
 
@@ -66,7 +66,7 @@
 
  
 
-4)   Data. Is this ‘live’ or running from a hand-selected data set?
+<b>4)   Data. Is this ‘live’ or running from a hand-selected data set?</b>
 
  
 
@@ -74,7 +74,7 @@
 
  
 
-5) Use user stories to identify technical scope?
+<b>5) Use user stories to identify technical scope?</b>
 
  
 
@@ -86,7 +86,7 @@
 
  
 
-1)   What evaluation questions do you have? What do you know already? What do you not know? Do you have any assumptions?
+<b>1)   What evaluation questions do you have? What do you know already? What do you not know? Do you have any assumptions?<b/>
 
  
 
@@ -94,7 +94,7 @@
 
  
 
-2)   When are you evaluating it?
+<b>2)   When are you evaluating it?</b>
 
  
 
@@ -102,7 +102,7 @@
 
  
 
-3)   What evaluation methods are you using?
+<b>3)   What evaluation methods are you using?</b>
 
  
 
@@ -110,7 +110,7 @@
 
  
 
-4)   What is the depth of your data collection and analysis? 
+<b>4)   What is the depth of your data collection and analysis?</b>
 
  
 
@@ -118,7 +118,7 @@
 
  
 
-5)   It’s ok to tell us how you would evaluate given further time and resources (we don’t expect you for instance to run a 30-person user study!)
+<b>5)   It’s ok to tell us how you would evaluate given further time and resources (we don’t expect you for instance to run a 30-person user study!)</b>
 
  
 
