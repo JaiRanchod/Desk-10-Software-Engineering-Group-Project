@@ -25,7 +25,7 @@ they'll live with.</p>
 
 - <p>Each property that is listed by the user has details on availability, current flatmates, preferred flatmates details, size, include amenities and a map 
 at the bottom, also links to similar rooms</p>
-- Preferred flatmate option that includes gender, age, occupation
+- <p>Preferred flatmate option that includes gender, age, occupation</p>
 - Pictures of the flats with a user who has a score that is based on things like verified data, including bank and personal details
 
 <p>Badi was similar to spareoom, but both failed to make the process of finding a housemate fun, which we will aim to deliver in our project.
