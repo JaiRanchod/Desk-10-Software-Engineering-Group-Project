@@ -6,7 +6,7 @@
 
  
 
-·    How ‘big’ is your project? What’s the balance between serious and playful sides?
+<p>- How ‘big’ is your project? What’s the balance between serious and playful sides?</p>
 
  
 
