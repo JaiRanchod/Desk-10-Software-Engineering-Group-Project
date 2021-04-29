@@ -57,9 +57,6 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 </p>
 
 
-<br>
-<br>
-<br>
 
 <h2 align="center"> <b> System Implementation </b> </h2>
 
@@ -93,9 +90,6 @@ team we could be rest assured that the application would run on any other Linux 
   <br><br>
 </p>
 
-<br>
-<br>
-<br>
 
 <h2 align="center"> <b> UX Design </b> </h2>
 
@@ -115,9 +109,7 @@ team we could be rest assured that the application would run on any other Linux 
   <br><br>
 </p>
 
-<br>
-<br>
-<br>
+
 
 <h2 align="center"> <b> Sprints and Project Management </b> </h2>
 
@@ -138,9 +130,7 @@ team we could be rest assured that the application would run on any other Linux 
   <br><br>
 </p>
 
-<br>
-<br>
-<br>
+
 
 <h2 align="center"> <b> Evaluation </b> </h2>
 
@@ -158,9 +148,7 @@ team we could be rest assured that the application would run on any other Linux 
   <br><br>
 </p>
 
-<br>
-<br>
-<br>
+
 
 <h2 align="center"> <b> Conclusion </b> </h2>
 
@@ -182,23 +170,7 @@ team we could be rest assured that the application would run on any other Linux 
   <br><br>
 </p>
 
-<br>
-<br>
-<br>
 
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
 
 
 
