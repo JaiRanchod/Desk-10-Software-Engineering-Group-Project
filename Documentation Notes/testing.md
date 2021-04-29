@@ -10,7 +10,7 @@
 -	Respect privacy.
 
 <h2>Functional Testing</h2>
-<b>Welcome Page Front End</b>
+<h3><b>Welcome Page Front End</b></h3>
  - Initial router link page should load the welcome page upon calling localhost3000 link.
  - The page should initially contain two central buttons only, SIGN IN and REGISTER, along with the HouseHomies logo.
 
