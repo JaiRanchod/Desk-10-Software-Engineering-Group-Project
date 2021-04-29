@@ -86,7 +86,7 @@
 
  
 
-<b>1)   What evaluation questions do you have? What do you know already? What do you not know? Do you have any assumptions?<b/>
+<b>1)   What evaluation questions do you have? What do you know already? What do you not know? Do you have any assumptions?</b>
 
  
 
