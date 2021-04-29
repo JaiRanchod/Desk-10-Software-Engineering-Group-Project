@@ -29,7 +29,7 @@
 -	The “Create new account” link should router link the user to the Register page containing the type form embed.
 
 <h4><b>Register Page</b></h4>
-- The start button should display 15 questions as input forms, always in the same order.
+The start button should display 15 questions as input forms, always in the same order.
 The register page should contain one START button.
 The start button should display 15 questions as input forms, always in the same order.
 The data inputted into these forms should be sent to and stored in the database.
