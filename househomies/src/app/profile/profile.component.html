@@ -30,7 +30,7 @@
             <div class="col-lg-3 order-lg-2">
               <div class="card-profile-image">
                 <a href="javascript:void(0)">
-                  <img [src]="image" class="rounded-circle">
+                  <img [src]="image" class="rounded-circle" style="height: 150px;">
                 </a>
               </div>
             </div>
@@ -119,23 +119,15 @@
                             <span class="font-weight-dark">  Budget</span> 
                           </h5>
                             <span>£</span>  
-                            <span>550</span>
+                            <span>{{ budget }} </span>
                         </div>
                         <div class="col-sm">
                           <!-- Introvert / Extrovert -->
-                          <!--<h5>                            
+                          <h5>                            
                             <i class="ni ni-money-coins"></i>
                             <span class="font-weight-dark">  Personality</span> 
                           </h5>
-                            <span>Introvert</span>-->
-                        </div>
-                        <div class="col-sm">
-                           <!-- Num of Matches -->
-                           <!--<h5>                            
-                             <i class="ni ni-favourite-28"></i>
-                            <span class="font-weight-dark">  Matches</span>
-                          </h5>
-                           <span>3</span>-->
+                            <span> {{ personality }}</span>
                         </div>
                       </div>
                     </div>

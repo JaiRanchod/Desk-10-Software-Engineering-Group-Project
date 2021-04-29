@@ -6,7 +6,7 @@
 						<div class="card-profile-image">
 							<a href="javascript:void(0)">
 								<img [src]="profile['Image']" class="rounded-circle 
-													position-relative">
+													position-relative" style="height: 150px;">
 							</a>
 						</div>
 					</div>
@@ -55,7 +55,7 @@
 					<!-- Phone -->
 					<h5>              
 						<i class="ni ni-mobile-button"></i>
-						Phone<span class="font-weight-light">: {{ profile['Phone Number'] }}</span>
+						Phone<span class="font-weight-light">: +{{ profile['Phone Number'] }}</span>
 					</h5>
 					<!-- Uni course -->
 					<h5>              
@@ -81,7 +81,7 @@
 													<span class="font-weight-dark">  Budget</span> 
 												</h5>
 												<span>£</span>  
-												<span>550</span>
+												<span>{{ profile.Budget }}</span>
 											</div>
 											<div class="col-sm">
 												<!-- Introvert / Extrovert -->
@@ -89,15 +89,7 @@
 													<i class="ni ni-money-coins"></i>
 													<span class="font-weight-dark">  Personality</span> 
 												</h5>
-												<span>Introvert</span>
-											</div>
-											<div class="col-sm">
-												<!--
-												<h5>                            
-													<i class="ni ni-favourite-28"></i>
-													<span class="font-weight-dark">  Matches</span>
-												</h5>
-												<span>3</span>-->
+												<span>{{ profile.Personality }}</span>
 											</div>
 										</div>
 									</div>

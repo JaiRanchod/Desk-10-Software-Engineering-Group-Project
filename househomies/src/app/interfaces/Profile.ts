@@ -13,5 +13,7 @@ export interface Profile{
   "University Course": string,
   "like": string[],
   "dislike": string[],
+  "Budget": string,
+  "Personality": String,
 
 }

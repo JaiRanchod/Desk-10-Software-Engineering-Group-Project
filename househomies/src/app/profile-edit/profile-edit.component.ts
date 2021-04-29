@@ -21,6 +21,8 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
     public fullName: String;
     public religion: String;
     public image: String;
+    public personality: String;
+    public budget: number;
     stats: any = [];
 
   constructor(private dataService: DataService) { }
@@ -60,6 +62,8 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
           this.phoneNumber = "+" + this.stats[0]["Phone Number"];
           this.uniCourse = this.stats[0]["University Course"];
           this.bio = this.stats[0].Bio;
+          this.personality = this.stats[0].Personality;
+          this.budget = this.stats[0].Budget;
         },
         error => {
           console.log(error);
