@@ -8,7 +8,6 @@
 -	Be fair and act not to discriminate.
 -	Respect the work required to produce new ideas, inventions, creative works, and computing artifacts.
 -	Respect privacy.
-Front 
 <h2>Functional Testing</h2>
 <h4><b>Welcome Page Front End</b></h4>
 
