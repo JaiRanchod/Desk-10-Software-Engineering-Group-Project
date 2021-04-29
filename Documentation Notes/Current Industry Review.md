@@ -27,7 +27,7 @@ at the bottom, also links to similar rooms</p>
 - Preferred flatmate option that includes gender, age, occupation
 - Pictures of the flats with a user who has a score that is based on things like verified data, including bank and personal details
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Badi was similar to spareoom, but both failed to make the process of finding a housemate fun, which we will aim to deliver in our project.
+<p>Badi was similar to spareoom, but both failed to make the process of finding a housemate fun, which we will aim to deliver in our project.
 </p>
 
 <h3 align="center"> <b> Tinder </b> </h3>
