@@ -118,6 +118,10 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 <p align="center"> ###### </p>
 
 <p align="center">
+  <img src="https://media.giphy.com/media/xT5LMLcvRrCS5Nf2Lu/source.gif" width="120" height="120">
+</p>
+
+<p align="center">
   <b> Evaluation links:</b><br>
   <a href="#">Design Evaluation</a> |
   <a href="#">Unit Testing/Functional Testing</a> |
