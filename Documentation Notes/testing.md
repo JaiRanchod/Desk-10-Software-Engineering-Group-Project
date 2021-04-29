@@ -30,7 +30,7 @@
 
 <h4><b>Register Page</b></h4>
 
-- The <b>START<b> button should display 15 questions as input forms, always in the same order.
+- The <b>START</b> button should display 15 questions as input forms, always in the same order.
 - The register page should contain one <b>START</b> button. Once clicked should display 15 questions as input forms, always in the same order.
 - The data inputted into these forms should be sent to and stored in the database.
 - Once the end of the type form questions has been reached, the page will display a router linked Submit button.
