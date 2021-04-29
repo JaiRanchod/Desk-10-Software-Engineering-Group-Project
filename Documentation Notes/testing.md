@@ -1,6 +1,6 @@
 #
 <h1>Testing</h1>
-<h1>Reasons For Testing</h12>
+<h1>Reasons For Testing</h1>
 
 -	Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing. 
 -	Avoid harm.
