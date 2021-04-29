@@ -90,7 +90,7 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 <p align="center"> ###### </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/MXM5QQ3jY7WmcmPwTI/source.mov" width="200" height="200">
+  <img src="https://media.giphy.com/media/YBkTzzyNewWtUANTso/source.gif" width="200" height="200">
 </p>
 
 <p align="center">
