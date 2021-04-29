@@ -133,7 +133,7 @@ team we could be rest assured that the application would run on any other Linux 
   <b> Sprints and Project Management links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Group%20Working%20Methods.md">Group Working Methods</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Roles.md">Team Roles</a> |
-  <a href="#">Sprint Documentation</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Meeting%20Notes%20and%20Sprint%20Documentation.md">Sprint Documentation</a> |
  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Use%20of%20GitHub.md">Team use of GitHub</a>
   <br><br>
 </p>
