@@ -1,7 +1,6 @@
 <h2 align="center"> <b> Coronavirus Discussion </b> </h2>
 
-<p align="left"> Coronavirus has in no doubt affected how we have approached this academic year, and this project is no exception. As a group we have 
-found online teaching challenging and we have all had to adapt in how we learn and work, but in that we have learnt a lot of valuable skills that we 
+<p align="left"> &nbsp;&nbsp;&nbsp;&nbsp;Coronavirus has in no doubt affected how we have approached this academic year, and this project is no exception. As a group we have found online teaching challenging and we have all had to adapt in how we learn and work, but in that we have learnt a lot of valuable skills that we 
 would not have necessarily acquired.
 
 This was the first piece of work this year in which we had to work as group on a collective piece of work, so in respect to how we have previously worked 
