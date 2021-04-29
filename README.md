@@ -95,7 +95,7 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 <p align="left"> In this section we discuss how we did our sprints and how we managed the team. We appointed Josh as our 'team leader' to organise meetings and be the point of call if any of the team members needed any guidance with the project, although most of were pretty independent in the allocated work we were assigned. We will discuss how we approached communication within the team and how this was affected by the pandemic, our working practices as well as our use of GitHub.</p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/111GaZJtUrzC4o/source.gif">
+  <img src="https://media.giphy.com/media/111GaZJtUrzC4o/source.gif" width="40" height="40">
 </p>
 
  
