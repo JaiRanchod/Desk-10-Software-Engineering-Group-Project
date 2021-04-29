@@ -17,7 +17,7 @@ Front
 - <b>SIGN IN</b> button should router link to the Login Page.
 - <b>REGISTER</b> button should router link to the Register page containing the type form embed.
 
-<h4><b>Login Page Front End</b></h4>
+<h4><b>Login Page</b></h4>
 
 - SIGN IN button should router link to the Login Page.
 -	The page should contain two forms, Email and Password.
@@ -29,6 +29,7 @@ Front
 -	The “Forgot password?” link is tbc.
 -	The “Create new account” link should router link the user to the Register page containing the type form embed.
 
+<h4><b>Register Page</b></h4>
 
 
 
