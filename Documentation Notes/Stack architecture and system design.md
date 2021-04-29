@@ -29,9 +29,9 @@ Allowing an more efficient and easier process for app developers to write modula
 
 
 
-Moreover, Angular JS also connects to Node.js seamlessly to facilitate the fast data serving.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Moreover, Angular JS also connects to Node.js seamlessly to facilitate the fast data serving.</p>
 
-Node.js has an inbuilt web server, which makes it easier for you to deploy the MongoDB database to the cloud.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Node.js has an inbuilt web server, which makes it easier for you to deploy the MongoDB database to the cloud.</p>
 
 
 
