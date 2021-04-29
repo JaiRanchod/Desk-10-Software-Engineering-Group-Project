@@ -24,7 +24,7 @@
 <p align="left"> So we have decided to create a tinder-like app for people to find like-minded housemates. It will feature a swipe action when liking or disliking user profiles, a pop-up action when a match is made and the user will be able to see their matches on a matches page.</p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/QQkyLVLAbQRKU/source.gif" width="200" height="200">
+  <img src="https://media.giphy.com/media/dSdYvmLRPbGMphDQ0r/source.mp4" width="200" height="200">
 </p>
 
  <p align="center">
@@ -66,7 +66,7 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 <p align="center"> ###### </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/S66KTSu4xso4IHhcjv/source.gif" width="200" height="200">
+  <img src="https://media.giphy.com/media/fwbZnTftCXVocKzfxR/source.gif" width="200" height="200">
 </p>
 
 
