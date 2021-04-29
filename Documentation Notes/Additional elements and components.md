@@ -9,13 +9,13 @@ After considering a range of options we decided to implement **Typeform**. Typef
 
 ```
 
-To summarise, the benefits of using typeform are:
+To summarise, **the benefits of using typeform** are:
 
 - It's quick to create, edit and test
 - It's easy to embed in any platform
 - It has open api access
 
-Some of the downsides are:
+Some of **the downsides** are:
 
 - We needed to find a way to connect it with our database
 - We didn't have a way to check field entry in real time
@@ -24,4 +24,12 @@ To integrate typeform submissions with our mongoDB database we needed to make us
 
 ![](https://i.ibb.co/kx58mLx/Screenshot-2021-04-29-at-14-29-10.png)
 
-This learning experience led to our better understanding and confidence in implementing our service API within the app to communicate back and forth with mongoDB
+This learning experience led to our better understanding and confidence in implementing our service API within the app to communicate back and forth with mongoDB.
+
+To summarise, **the benefits of using Integromat** are:
+
+- Easy to authenticate API connections
+- Easy to to create JSON based data fields
+- A helpful introduction and learning experience in understanding how API's are used
+
+In terms of downsides, there isn't anything we can say that impacted the quality or output of our work. The only point we could mention is that using partially Integromat to handle API's and manually doing it through the web app for the rest of its functionality may have cause some confusion in certain circumstances. However, looking at the bigger picture, Integromat allowed us to quickly and effectively meet our needs whilst also providing us with that learning curve that set the foundations for future API work.
