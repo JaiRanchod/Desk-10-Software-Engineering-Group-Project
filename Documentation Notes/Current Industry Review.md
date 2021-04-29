@@ -23,8 +23,7 @@ they'll live with.</p>
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Badi is another application that facilitates finding housemates or a spare room. The aesthetics of the badi site was very appealing and we found that they offered many options in finding specific rooms/people that suit your personal taste such as:</p>
 
-- <p>Each property that is listed by the user has details on availability, current flatmates, preferred flatmates details, size, include amenitiesand amap 
-at the bottom, also links to similar rooms</p>
+- <p>Each property that is listed by the user has details on availability, current flatmates, preferred flatmates details, size, include amenitiesand a map at the bottom, also links to similar rooms</p>
 - <p>Preferred flatmate option that includes gender, age, occupation</p>
 - Pictures of the flats with a user who has a score that is based on things like verified data, including bank and personal details
 
