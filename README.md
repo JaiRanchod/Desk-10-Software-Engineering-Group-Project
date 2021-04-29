@@ -90,6 +90,10 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 <p align="center"> ###### </p>
 
 <p align="center">
+  <img src="https://media.giphy.com/media/MXM5QQ3jY7WmcmPwTI/source.mov" width="200" height="200">
+</p>
+
+<p align="center">
   <b> UX Design links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Design%20Process.md">Design Process</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Identification%20of%20interacting%20users%20and%20broader%20stakeholders.md">Identification of interacting users and broader stakeholders</a> |
