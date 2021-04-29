@@ -63,7 +63,19 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 
 <h2 align="center"> <b> System Implementation </b> </h2>
 
-<p align="center"> ###### </p>
+<p align="center"> For our single page application, we used the MEAN Stack approach which uses MongoDB, Express, Angular and Node.js. MongoDB forms the 
+back-end of the application and it makes it easy to pass data between the client and server by saving data in binary JSON format. It provides high 
+performance, high availability, and easy scalability because it is a cross-platform, document-oriented database. Express provides the web development 
+framework, it provides a robust set of features for web and mobile applications; it is a minimal and flexible Node.js web application framework. Angular 
+is the front-end aspect of the web application, it provides easy-to-use templates and eliminates much of the unwanted code which otherwise we would have 
+written with its feature of data binding and dependency injection. It uses HTML, CSS and SCSS to style the front-end. Node.js acts as the backbone and 
+Express was specifically developed to work on top of Node.js. Angular can connect seamlessly to Node.js so allows for fast deployment of our web 
+application. These four components work togther well as they all run Javascript, so there is no need to learn several programming languages.
+
+We used Docker to to create, deploy, and run instances of our web application by using containers. Containers allowed us a team to package up an 
+application with all of the necessary parts, such as libraries and other dependencies. It deploys it as one package. Thanks to 'containerizing', as a 
+team we could be rest assured that the application would run on any other Linux systems no matter what operating system or machine they were using.</p>
+
 
 <p align="center">
   <img src="https://media.giphy.com/media/fwbZnTftCXVocKzfxR/source.gif" width="200" height="200">
