@@ -10,6 +10,6 @@
 
 <h2>Functional Testing</h2>
 <b>Welcome Page Front End<b>
-  -<p>-	Initial router link page should load the welcome page upon calling localhost3000 link.
+  - Initial router link page should load the welcome page upon calling localhost3000 link.
 
 
