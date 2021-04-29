@@ -1,8 +1,8 @@
-**Meeting Notes** – We mainly used Microsoft Teams for our meetings and then typed up a summary of our meeting on discord, so everyone had easy access to what tasks needed and completing and when ideally, they could be done for.
+<h2 align="center"> <b> Sprint Documentation </b> </h2>
+
+**Meeting Notes** – We mainly used Microsoft Teams for our meetings and then typed up a summary of our meeting on discord, so everyone had easy access to what tasks needed and completing and when ideally they could be done for.
 
 **February** 
-
-
 
 **March 5th, 2021**
 
