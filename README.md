@@ -23,6 +23,10 @@
 
 <p align="left"> So we have decided to create a tinder-like app for people to find like-minded housemates. It will feature a swipe action when liking or disliking user profiles, a pop-up action when a match is made and the user will be able to see their matches on a matches page.</p>
 
+<p align="center">
+  <img src="https://media.giphy.com/media/QQkyLVLAbQRKU/source.gif" width="200" height="200">
+</p>
+
  <p align="center">
   <b> Introduction links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Project%20Brief.md">Project Brief</a> |
@@ -41,6 +45,10 @@
 dull to use and often inefficient in finding like-minded housemates. We looked to Tinder to incorporate the playful aspect for this project, we thought the swiping element would be fun in searching through profiles, rather than scrolling through a page that could contain up to hundreds of profiles. Our method of swiping through users will also mean the user will be able to see all available users so there would be no chance of skipping past profiles that you might have otherwise looked past. Our method also means that all of the users information will be displayed when the user is looking through profiles whereas other websites/pages rely on the user clicking on a user's prfile to see all their information which can be inefficient and you may misjudge someone before you can see their complete profile. </p>
 
 <p align="center">
+  <img src="https://media.giphy.com/media/iIGuFo7k5UqAe9cH0N/source.gif" width="200" height="200">
+</p>
+
+<p align="center">
   <b> Background and Motivation links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Current%20Industry%20Review.md">Current Industry Review</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Clear%20definition%20of%20our%20problem.md">Clear definition of our problem</a> |
@@ -56,6 +64,11 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 <h2 align="center"> <b> System Implementation </b> </h2>
 
 <p align="center"> ###### </p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/S66KTSu4xso4IHhcjv/source.gif" width="200" height="200">
+</p>
+
 
 <p align="center">
   <b> System Implementation links:</b><br>
@@ -134,6 +147,10 @@ dull to use and often inefficient in finding like-minded housemates. We looked t
 <br>
 
 <h2 align="center"> <b> Conclusion </b> </h2>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/rSVRXeKPgeM5xfGyCR/source.gif" width="200" height="200">
+</p>
 
 <p align="center"> ##### </p>
 
