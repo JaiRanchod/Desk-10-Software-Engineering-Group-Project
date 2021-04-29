@@ -17,7 +17,19 @@ Front
 - <b>SIGN IN<b> button should router link to the Login Page.
 - <b>REGISTER</b> button should router link to the Register page containing the type form embed.
 
-<h2><b>Login Page Front End</b></h2>
+<h4><b>Login Page Front End</b></h4>
+
+- SIGN IN button should router link to the Login Page.
+-	The page should contain two forms, Email and Password.
+-	If user inputs information in either of the two forms that does not correctly match with data stored in the database, and “Invalid Username” or “Invalid Password” error message should appear.
+-	If the information entered within the email and password forms matches data stored in the database, a “Successful Login prompt” should appear and the user will be granted access to a router link button to their individual profile page.
+-	The page should contain the central HouseHomies logo.
+-	This logo should be router linked back to the Welcome page.
+-	The page should also contain two router linked text fields, “Forgot password?” and “Create new account” below the logo and form boxes.
+-	The “Forgot password?” link is tbc.
+-	The “Create new account” link should router link the user to the Register page containing the type form embed.
+![image](https://user-images.githubusercontent.com/74371711/116607726-410ca380-a92a-11eb-99ed-f634af45d2e6.png)
+
 
 
 
