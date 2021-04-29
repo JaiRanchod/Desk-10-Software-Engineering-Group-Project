@@ -12,7 +12,7 @@
 <h4><b>Welcome Page Front End</b></h4>
 
 - Initial router link page should load the welcome page upon calling localhost3000 link.
-- The page should initially contain two central buttons only, SIGN IN and REGISTER, along with the HouseHomies logo.
+- The page should initially contain two central buttons only, <b>SIGN IN</b> and <b>REGISTER</b>, along with the HouseHomies logo.
 - <b>SIGN IN</b> button should router link to the Login Page.
 - <b>REGISTER</b> button should router link to the Register page containing the type form embed.
 
