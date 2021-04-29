@@ -37,7 +37,8 @@
 
 <p align="center"> The identification of our problem came from personal experience, in which some team members had decided to do the Computer Science MSc later than usual, this meant most of the flats/houses had been taken and friends that were staying another year had already signed housing agreements. This left some of our team members in the position of having to find a spare room or people to live with they previously did not know. </p>
 
-<p align="center"> So when it came to trying to find housemates... </p>
+<p align="center"> Although there are some well established websites/pages, such as Spareroom and Clifton Stoke Bishop Tickets, we found that these were 
+dull to use and often inefficient in finding like-minded housemates. We looked to Tinder to incorporate the playful aspect for this project, we thought the swiping element would be fun in searching through profiles, rather than scrolling through a page that could contain up to hundreds of profiles. Our method of swiping through users will also mean the user will be able to see all available users so there would be no chance of skipping past profiles that you might have otherwise looked past. Our method also means that all of the users information will be displayed when the user is looking through profiles whereas other websites/pages rely on the user clicking on a user's prfile to see all their information which can be inefficient and you may misjudge someone before you can see their complete profile. </p>
 
 <p align="center">
   <b> Background and Motivation links:</b><br>
