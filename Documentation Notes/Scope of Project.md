@@ -6,7 +6,7 @@
 
  
 
-- How ‘big’ is your project? What’s the balance between serious and playful sides?
+- <b>How ‘big’ is your project? What’s the balance between serious and playful sides?</b>
 
  
 
@@ -14,15 +14,14 @@
 
  
 
-·    Are you looking to raise awareness about your serious issue or to provoke changes in attitude/behaviour? If so, is this with a particular demographic/group?
+- Are you looking to raise awareness about your serious issue or to provoke changes in attitude/behaviour? If so, is this with a particular demographic/group?
 
  
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Not necessarily to raise awareness but we are hoping this platform will provide a useful tool for people in need of a house share. Our current demographic is aimed at University of Bristol students to keep the scope of the project small and manageable, but this may change in the future.</p>
 
  
-
-·    What are the primary objectives for your project? Are there any you could prioritize?
+- What are the primary objectives for your project? Are there any you could prioritize?
 
  
 
