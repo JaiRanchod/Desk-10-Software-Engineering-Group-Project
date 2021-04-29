@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { DataService } from '../services/data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -21,7 +22,7 @@ export class LoginComponent implements OnInit {
   public Password: String;
   public successStatus: String;
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService, private router: Router) { }
 
 
   onLogin(form: NgForm){
@@ -40,10 +41,11 @@ export class LoginComponent implements OnInit {
         console.log(data);
         console.log(data[0].Email + " " + data[0].Password);
         if(userEmail == data[0].Email && userPassword == data[0].Password){
+          this.dataService.email = userEmail;
           this.isLoggedIn = true;
+          this.router.navigate(['/matches']);
           this.successStatus = "Successful Login...Redirecting"
           //this.dataService.changeURL(userEmail);
-          this.dataService.email = userEmail;
         }
         else{
           this.successStatus = "Incorrect Details Entered"
