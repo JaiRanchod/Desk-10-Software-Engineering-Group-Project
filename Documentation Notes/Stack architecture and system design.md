@@ -25,20 +25,16 @@ Allowing an more efficient and easier process for app developers to write modula
 
 **Node.js**
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;The Node.js forms the backbone of the MEAN stack, it is efficient and flexible which helps it run browsers apart from JavaScript applications. The scalability is a great feature of Node.js as it can support millions of simultaneous connections. Node.js connects with the front-end and back-end</p>
-
-
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Moreover, Angular JS also connects to Node.js seamlessly to facilitate the fast data serving.</p>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Node.js has an inbuilt web server, which makes it easier for you to deploy the MongoDB database to the cloud.</p>
-
-
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;It is also critical to understand that Node.js comprises an inbuilt webserver, an aspect that allows an individual to organize the MongoDB database to the cloud. It can support millions of simultaneous connections. Significant aspects of Node.js is its compatibility making it possible to function under low-resource requests in comparison to resource-intensive resources.</p>
-
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>Node.js</b> forms the backbone of the MEAN stack, it is efficient and flexible which helps it run browsers apart from JavaScript applications. The scalability is a great feature of Node.js as it can support millions of simultaneous connections. Node.js connects with the front-end and back-end and passes information between them acting as the 'middle-tier' with Express. Node.js has an inbuilt web server, which makes it easier for you to deploy the MongoDB database to the cloud.</p>
 
 **So why use a MEAN Stack Application**
 
-<p align="left"><p>&nbsp;&nbsp;&nbsp;&nbsp;Before we dive into the details of our each of components that make up our project, let us take a look at an overview of MEAN Stack applications and why we use it.</p>
+- MEAN Stack enables developers to create a simple and open-source solution. Developers need to know only one programming language, which is JavaScript. 
+  
+- The components are all open-sourced and free. 
+  
+- MEAN Stack is highly flexible during web application development as it is quick and easy to add new components of the web application while developing 
+or post-development.
+
+- Easier developing, testing, and deploying phases of the application with MEAN Stack.
 
