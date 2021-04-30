@@ -75,7 +75,11 @@ export class HomepageComponent implements OnInit {
               private user: UserService) { }
 
   ngOnInit(): void {
+    this.retrieveData();
+  }
 
+  retrieveData()
+  {
     //initalize variables
     this.matched = true;
     this.matched_profile = null;
@@ -86,6 +90,7 @@ export class HomepageComponent implements OnInit {
       this.choose_card();
     }
 
+    this.user.getAll();
     this.user.$user_profile.subscribe((cur_profile:Profile) => {
       this.user_profile = cur_profile;
       this.profiles = this.user.get_all_profiles();
@@ -174,3 +179,4 @@ export class HomepageComponent implements OnInit {
   }
 
 }
+

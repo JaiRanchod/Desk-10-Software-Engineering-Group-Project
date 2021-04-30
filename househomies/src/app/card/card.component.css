@@ -21,3 +21,10 @@
 .no:hover {
   opacity: 0.5;
 }
+
+/*img {
+  float: left;
+  width:  150px;
+  height: 100px;
+  object-fit: cover;
+}*/
