@@ -52,7 +52,7 @@
                   <!--<button type="submit" class="btn btn-primary my-4">Sign in</button>-->
                   <button type="button" class="btn btn-primary my-4" (click)="handleClick()">Sign in </button>
                   <div><h4>{{successStatus}}</h4></div>
-                  <a *ngIf = "isLoggedIn" [routerLink]="['/user-profile']"  class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0"><h4><b>Click here for home</b></h4></a>
+                  <a *ngIf = "isLoggedIn" [routerLink]="['/matches']"  class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0"><h4><b>Click here for home</b></h4></a>
                 </div>
               </form>
 
