@@ -1,7 +1,8 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import noUiSlider from "nouislider";
 import { DataService } from '../services/data.service';
-
+import { ApiService } from '../services/api.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile-edit',
@@ -23,9 +24,10 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
     public image: String;
     public personality: String;
     public budget: number;
+    public _id: string;
     stats: any = [];
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService, private api: ApiService, private router: Router) { }
   ngAfterViewInit(): void {
     var slider = document.getElementById("test");
 
@@ -48,6 +50,7 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
         data => {
           console.log(data);
           this.stats = data;
+          this._id = this.stats[0]._id;
           // now let's update the fields
           this.firstName = this.stats[0]["First Name"];
           this.image = this.stats[0].Image;
@@ -59,7 +62,7 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
           this.gender = this.stats[0].Gender;
           this.religion = this.stats[0].Religion;
           this.age = this.stats[0].Age;
-          this.phoneNumber = "+" + this.stats[0]["Phone Number"];
+          this.phoneNumber = this.stats[0]["Phone Number"];
           this.uniCourse = this.stats[0]["University Course"];
           this.bio = this.stats[0].Bio;
           this.personality = this.stats[0].Personality;
@@ -68,6 +71,27 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
         error => {
           console.log(error);
         });
+    }
+
+    handleClick(){
+      let newPreferredName = (document.getElementById('preferredName') as HTMLInputElement).value;
+      console.log(newPreferredName);
+      let newLocation = (document.getElementById('location') as HTMLInputElement).value;
+      console.log(newLocation);
+      let newGender = (document.getElementById('gender') as HTMLInputElement).value;
+      console.log(newGender);
+      let newAge = (document.getElementById('age') as HTMLInputElement).value;
+      console.log(newAge);
+      let newPhoneNumber = (document.getElementById('phoneNumber') as HTMLInputElement).value;
+      console.log(newPhoneNumber);
+      let newUniCourse = (document.getElementById('uniCourse') as HTMLInputElement).value;
+      console.log(newUniCourse);
+      let newBio = (document.getElementById('bio') as HTMLInputElement).value;
+      console.log(newBio); 
+      this.api.post_update(this._id, newPreferredName, newLocation, newGender, newAge, newPhoneNumber, newUniCourse, newBio).subscribe((res) =>{
+        console.log(res);
+      });
+      this.router.navigate(['/user-profile']);
     }
 
 }

@@ -24,4 +24,8 @@ export class ApiService {
     return this.http.post('/api/UserProfilesDislike', {"_id": match_id}, {params: {_id: cur_id}}) 
   }
 
+  post_update(cur_id: string, newPreferredName: string, newLocation: string, newGender: string, newAge: string, newPhoneNumber: string, newUniCourse: string, newBio: string){
+    return this.http.post('/api/UserProfilesUpdate' + "/" + cur_id, {"Age": newAge, "Bio": newBio}, {params: {_id: cur_id}})
+  }
+
 }
