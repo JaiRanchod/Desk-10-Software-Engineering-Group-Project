@@ -105,7 +105,7 @@ router.get('/UserLogins/:Email', (req, res) => {
 })
 
 router.post('/UserProfilesUpdate/:id', (req, res) => {
-  userProfiles.updateOne({_id: req.params.id}, {Bio: req.body.Bio}, (err, data) => {
+  userProfiles.updateOne({_id: req.params.id}, {"Preferred Name": req.body.PreferredName, Age: req.body.Age, Bio: req.body.Bio, Gender: req.body.Gender, "University Course": req.body.UniversityCourse, Location: req.body.Location, "Phone Number": req.body.PhoneNumber}, (err, data) => {
     if(err){
       res.status(500).send(err);
     } else {
