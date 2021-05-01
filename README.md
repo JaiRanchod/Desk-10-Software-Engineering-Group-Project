@@ -89,7 +89,7 @@ team we could be rest assured that the application would run on any other Linux 
 
 <h2 align="center"> <b> UX Design </b> </h2>
 
-<p align="center"> ###### </p>
+<p align="left"> In designing our web application we used a variety of different methods in coming up with the design of our web application. We started with paper prototyping and then developed a wireframe using Figma. We found using Figma an efficient method in formulating the design of the web application as we could all simultaneously work on the application and Figma allowed us to create a 'working' version of the website design where we could embed links between pages so we could get a feel for how the website will work. We discuss, in detail, the specifics of our design process in the links below. </p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/YBkTzzyNewWtUANTso/source.gif" width="200" height="200">
