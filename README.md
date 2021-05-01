@@ -130,7 +130,7 @@ team we could be rest assured that the application would run on any other Linux 
 
 <h2 align="center"> <b> Evaluation </b> </h2>
 
-<p align="center"> ###### </p>
+<p align="left"> In evaluating our project we look to evaluate our design looking at what features worked well and which not so much, and what we sould have changed in the deisgn of the web application. We conducted a user acceptance test of five users to see get feedback on the design and functionality of the web appplication. </p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/xT5LMLcvRrCS5Nf2Lu/source.gif" width="200" height="200">
@@ -148,7 +148,7 @@ team we could be rest assured that the application would run on any other Linux 
 
 <h2 align="center"> <b> Conclusion </b> </h2>
 
-<p align="center"> ##### </p>
+<p align="left"> In this section we look to draw some conclusions from our project, reflecting on the final version of our project and also factors that affected the process of building the application. We concluded that this project could be taken a lot further if we had more time and we could learn how to implement some more advanced features for the application. So we may continue working on the idea, following the submission of this version. </p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/rSVRXeKPgeM5xfGyCR/source.gif" width="200" height="200">
