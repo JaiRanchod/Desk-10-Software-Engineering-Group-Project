@@ -31,7 +31,7 @@
   <b> Introduction links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Project%20Brief.md">Project Brief</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.md">Initial Ideas</a> |
-  <a href="https://www.youtube.com/">Introduction Video</a> |
+  <a href="https://user-images.githubusercontent.com/73884031/116811748-d2566280-ab42-11eb-8fb7-35dbf0301b24.mp4">Introduction Video</a> |
  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Scope%20of%20Project.md">Scope of Project</a>
   <br><br>
 </p>
