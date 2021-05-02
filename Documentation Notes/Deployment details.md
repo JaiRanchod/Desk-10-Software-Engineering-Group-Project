@@ -1,6 +1,6 @@
 Deployment Details 
 
-Docker. Continuous Integration and Deployment 
+Docker, Continuous Integration and Deployment 
 
 As instructed by lecturers, we were told to implement a docker-compose script. Initially, we had many difficulties getting this working and we were all using different platforms which meant it was slightly tricky. Eventually, we got it running and it was easy to see the benefits of using the docker script. 
 
