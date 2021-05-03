@@ -41,15 +41,71 @@ router.get('/UserProfiles/:Email', (req, res) => {
 ```
 
 
-Since we load up the matches screen after logging in. We issue a GET request through the identification method of using the id to identify the user profile and identify the matches they have. This then allows us to implement a for loop which displays all the matches for the user. 
+Since we load up the matches screen after logging in. We issue a GET request through the identification method of using the email we just found to identify the user profile and identify the matches they have. This then allows us to implement a for loop which displays all the matches for the user. 
 
 When we visit the profile page, we use the email address as an identification method to submit a GET request for the correct information displayed for this user. Similarly, this is also done for the profile edit page. However, when the user is done editing their profile page, upon pressing the save button the program submits a POST request to their profile and changes the fields accordingly. 
 
-Code examples here. 
+```javascript
+router.get('/UserProfiles/:Email', (req, res) => {
+  userProfiles.find({Email: req.params.Email}, (err, data) => {
+    if(err){
+      res.status(500).send(err);
+    } else {
+      res.status(201).send(data);
+    }
+  })
+})
+
+```
+
+```javascript
+router.post('/UserProfilesUpdate/:id', (req, res) => {
+  userProfiles.updateOne({_id: req.params.id}, {
+    "Preferred Name": req.body.PreferredName,
+    Age: req.body.Age,
+    Bio: req.body.Bio,
+    Gender: req.body.Gender,
+    "University Course": req.body.UniversityCourse,
+    Location: req.body.Location,
+    "Phone Number": req.body.PhoneNumber,
+    "First Name": req.body.FirstName,
+    Surname: req.body.LastName,
+    Religion: req.body.Religion,
+    Budget: req.body.Budget,
+    Personality: req.body.Personality,
+  }, (err, data) => {
+    if(err){
+      res.status(500).send(err);
+    } else {
+      res.status(201).send(data);
+    }
+  })
+})
+
+```
 
 On the homepage, we will need to update their profile every time the user decides they like or dislike someone. This means a POST request is issued and the profile is updated accordingly (found using the current user ID). We then push the ID of the profile they are currently viewing into an array of likes or dislikes based on what they chose. 
 
-Code example here.    
+```javascript
+router.post('/UserProfilesLike', (req, res) => {
+  //the current user is in the query string of the request
+  let user_id = req.query._id;
+  //the disliked user id is sent as the body in json format
+  let match_id = req.body._id;
+  userProfiles.updateOne(
+    {_id: user_id},
+    { $push: {like: match_id }},
+    (err, update_resp) => {
+      if(err){
+        res.status(500).send(err);
+      }else{
+        res.status(201).send(update_resp);
+      }
+    },
+  );
+});
+
+```
 
 References
 
