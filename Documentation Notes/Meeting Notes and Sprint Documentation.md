@@ -1,4 +1,4 @@
-<h2 align="center"> <b> Meeting Notes and Sprint Documentation </b> </h2>
+<h1 align="center"> <b> Meeting Notes and Sprint Documentation </b> </h1>
 
 We mainly used Microsoft Teams for our meetings and then typed up a summary of our meeting on discord, so everyone had easy access to what tasks needed and completing and when ideally they could be done for. We also detail our sprints within our meeting notes.
 
