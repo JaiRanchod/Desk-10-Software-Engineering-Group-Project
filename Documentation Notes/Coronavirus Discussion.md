@@ -1,4 +1,4 @@
-<h2 align="center"> <b> Coronavirus Discussion </b> </h2>
+<h1 align="center"> <b> Coronavirus Discussion </b> </h1>
 
 <p align="left"> &nbsp;&nbsp;&nbsp;&nbsp;Coronavirus has in no doubt affected how we have approached this academic year, and this project is no exception. As a group we have found online teaching challenging and we have all had to adapt in how we learn and work, but in that we have learnt a lot of valuable skills that we 
 would not have necessarily acquired.</p>
