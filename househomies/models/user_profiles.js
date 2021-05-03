@@ -14,7 +14,8 @@ var userProfileSchema = new mongoose.Schema({
   "University Course": {type: String, required: true},
   "like": {type: [mongoose.Schema.Types.ObjectId], require: true},
   "dislike": {type: [mongoose.Schema.Types.ObjectId], require: true},
-  "budget": {type: String, required: true},
+  "Budget": {type: String, required: true},
+  "Personality": {type: String, required: true},
 
 });
 
