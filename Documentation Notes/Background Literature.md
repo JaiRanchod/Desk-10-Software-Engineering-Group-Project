@@ -29,7 +29,9 @@ For us, what seemed to work well and efficient was utilising the plethora of res
 
 **JWT Authentication & User logins**
 
-- JWT Authorization | Angular Router Guards | Token Refresh - We used this walkthrough video to uderstand how JWT authentication can be used to login in users and carry it throughout the whole web app. (https://www.youtube.com/watch?v=F1GUjHPpCLA)
+- JWT Authorization | Angular Router Guards | Token Refresh - We used this walkthrough video to uderstand how JWT authentication can be used to login in users and carry it throughout the whole web app.
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/F1GUjHPpCLA/0.jpg)](https://www.youtube.com/watch?v=F1GUjHPpCLA)
 - Alongside the above video, we looked into a course from Angular-University.io which provides a full guide in using web tokens for logging in users. (https://blog.angular-university.io/angular-jwt-authentication/)
 
 **MongoDB & Express**
