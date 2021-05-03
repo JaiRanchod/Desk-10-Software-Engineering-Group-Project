@@ -11,7 +11,7 @@ A quick journey of the various stages of database implementation is shown here:
 Originally, through the tutorials that were based on a local Mongo database.
 
 ```javascript
-/*const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 const {
   MONGO_USERNAME,
@@ -35,7 +35,7 @@ mongoose.connect(url, options).then(function () {
 })
   .catch(function (err) {
     console.log(err);
-  });*/
+  });
 
 ```
 
