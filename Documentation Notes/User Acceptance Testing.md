@@ -4,7 +4,7 @@
 
 <h2 align="center">Wireframe Testing</h2>
 
-<p><b>Here are few cases of where we able to test our paper prototype and wireframe.</b></p>
+<p align="center"><b>Here are few cases of where we able to test our paper prototype and wireframe.</b></p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our testing process was to arrange zoom calls and discuss how the wireframe would work. Due to various situations we decided to meet with people we were living with or arrange zoom calls to present a working wireframe. For people we saw in person we were able to just hand over our laptops and allow them to use the app in whatever way they saw fit. For zoom calls, we shared screens and were able to give the users control of the mouse meaning they were able to, again allowing users to use the app in whatever way they saw fit. After users had the opportunity of using the app, we then asked for feedback on what they thought worked well and not so well.</p>
 
