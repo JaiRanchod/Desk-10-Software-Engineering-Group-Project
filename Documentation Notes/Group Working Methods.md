@@ -1,4 +1,4 @@
-<h2 align="center"> <b> Group Working Methods </b> </h2>
+<h1 align="center"> <b> Group Working Methods </b> </h1>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;As a team our project management initially focused on splitting the responsibilities of the team in two, with Jai and Josh
 focusing on the backend and the others on the frontend, focusing on getting the layout of our web app sorted, a backend schema
