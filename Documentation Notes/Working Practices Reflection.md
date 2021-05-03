@@ -14,8 +14,7 @@ person talking at a time, so we liked being able to talk to other team members m
 
 <h2 align="center">Reflecting on the Working Practices of the Team, We Have Enjoyed Working as a Team</h2>
 
-
--We worked in mvb
+- We worked in mvb
 - discord has been used extensively
 - microsoft teams has been good, screenshare
 - good communication
