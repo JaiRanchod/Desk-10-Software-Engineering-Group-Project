@@ -76,3 +76,10 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 - We have decided to try and implement an instant message service using the Telegram API. Unsure on how complex that will be at the current stage of development.
 - We would like both a mobile app and web page in a perfect world
 - Tried to include more details within the profile, however visiting often can be difficult to add.
+
+<h2 align="center">User Interaction Diagram</h2>
+
+![image](https://user-images.githubusercontent.com/73884031/116906543-4f173880-ac38-11eb-8b00-9543484d84b5.png)
+
+We have designed an interaction flow diagram using Figma, ensuring that we remain consistent with the wireframe we have also produced.
+
