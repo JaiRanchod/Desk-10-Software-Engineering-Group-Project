@@ -6,6 +6,7 @@
 - Testing allows developers to refactor our code over and over again.
 - Testing allows developers to remove unintended scenarios and consequences from their work.
 - Must orient tests around the behaviour of our app.
+- There are two types of testing - Doccumented Functinal testing and Coded Automated Testing
 
 <h2>Functional Testing</h2>
 
@@ -87,6 +88,9 @@
 -	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
 -	In the centre of the page should be an html section containing the about us paragraphs of text. 
 -	No buttons should be present in this section.
+
+
+<h2>Coded Automated Testing</h2>
 
 
 
