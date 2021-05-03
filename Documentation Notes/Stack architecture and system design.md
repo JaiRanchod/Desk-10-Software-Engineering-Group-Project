@@ -39,11 +39,49 @@ We have created some class diagrams below, however creating a class diagram for 
 
 ![image](https://user-images.githubusercontent.com/73884031/116901085-6bfc3d80-ac31-11eb-93ee-95c18ff8addc.png)
 
+The two images above work very close together. Results is an event emitter that tells the homepage component whether the user likes or dislikes the user they are currently viewing. Choose_yes is for when a like occurs and choose_no is for a dislike. On results is a method that is called with the parameter of a like/dislike (in the form of an event). Based on this parameter, we then push the user they are viewing into the logged in users likes array. The choose_cards methods are related to the fact that when a user likes/dislikes another user, we need another user to appear until they have gone through all the profiles. 
+
 ![image](https://user-images.githubusercontent.com/73884031/116901157-7d454a00-ac31-11eb-9d4b-564115fd5906.png)
+
+Using a profile interface was something we soon realised would become incredibly helpful. This could be used in various instances, avoiding having to repeat code. It rectified the problem that you can see in the profile component where we have to set all the components manually, making it more time-consuming. We have included both of these to show that whilst we were working on the project we were still looking at ways to make the code more efficient and professional. 
 
 ![image](https://user-images.githubusercontent.com/73884031/116901277-9fd76300-ac31-11eb-8322-4fc49d68f577.png)
 
+The matches component provides the visual of who the current user has matched with when using our platform. Matches is set to get all the matches for this user and the profiles array means all of these profiles can be used on one page. These arrays mean we can use a for loop within the HTML to dynamically get all the users that have matched with the logged in user. Retrieve data is similar to the method described in the profiles component and the get matches component goes through the array within the database and sets the arrays within the current file. 
+
 ![image](https://user-images.githubusercontent.com/73884031/116901330-b1b90600-ac31-11eb-9b4f-61d345489cba.png)
+
+The profile component was one of the initial components we had developed and you can see we did not use the profile interface in this which meant we had to include all the fields of the profile making our code look more messy than what we would have hoped. Retrieve data (shown below) is the main function that is called in this typescript file and sets all the variables so they can be used within the HTML. 
+
+```javascript
+retrieveData() {
+        this.dataService.getAll().subscribe(
+            data => {
+              console.log(data);
+              this.stats = data;
+              // now let's update the fields
+              this.firstName = this.stats[0]["First Name"];
+              this.image = this.stats[0].Image;
+              console.log("Hi " + this.firstName);
+              this.lastName = this.stats[0].Surname;
+              this.location = this.stats[0].Location;
+              this.fullName = this.firstName + " " + this.lastName;
+              this.preferredName = this.stats[0]["Preferred Name"];
+              this.gender = this.stats[0].Gender;
+              this.religion = this.stats[0].Religion;
+              this.age = this.stats[0].Age;
+              this.phoneNumber = "+" + this.stats[0]["Phone Number"];
+              this.uniCourse = this.stats[0]["University Course"];
+              this.bio = this.stats[0].Bio;
+              this.personality = this.stats[0].Personality;
+              this.budget = this.stats[0].Budget;
+            },
+            error => {
+              console.log(error);
+            });
+        }
+        
+```
 
 
 
