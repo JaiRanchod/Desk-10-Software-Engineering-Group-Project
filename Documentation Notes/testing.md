@@ -45,6 +45,8 @@
 -	The “Matches” link should router link the user to the Matches page.
 -	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
 -	In the centre of the page should be an html section containing cascading profile information of other users, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, Personality, Matches, BIO.
+-	On the left centre of the card component should be an interactive cross button. If clicked the current displayed user should be removed from view and should not be matched with the signed in user. The users card should then not be displayed a second time.
+-	 On the right centre of the card component should be an intercative tick button. If clicked the current displayed user should also be removed from view. However, if their profile preferences match with the signed in user then a smaller card component should appear saying "It's a match!" and the displayed user should then appear alongisde other matched cards on the "Matches" page.
 
 <h4><b>Matches Page</b></h4>
 
