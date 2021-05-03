@@ -1,5 +1,4 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import noUiSlider from "nouislider";
 import { DataService } from '../services/data.service';
 import { ApiService } from '../services/api.service';
 import { Router } from '@angular/router';
@@ -28,17 +27,7 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
     stats: any = [];
 
   constructor(private dataService: DataService, private api: ApiService, private router: Router) { }
-  ngAfterViewInit(): void {
-    var slider = document.getElementById("test");
-
-      noUiSlider.create(slider, {
-        start: 40,
-        connect: [true, false],
-        range: {
-          min: 0,
-          max: 100
-        }
-      });
+  ngAfterViewInit(): void {  
     }
 
   ngOnInit(): void {
@@ -88,7 +77,17 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
       console.log(newUniCourse);
       let newBio = (document.getElementById('bio') as HTMLInputElement).value;
       console.log(newBio); 
-      this.api.post_update(this._id, newPreferredName, newLocation, newGender, newAge, newPhoneNumber, newUniCourse, newBio).subscribe((res) =>{
+      let newFirstName = (document.getElementById('firstName') as HTMLInputElement).value;
+      console.log(newFirstName);
+      let newLastName = (document.getElementById('lastName') as HTMLInputElement).value;
+      console.log(newLastName);
+      let newReligion = (document.getElementById('religion') as HTMLInputElement).value;
+      console.log(newReligion);
+      let newBudget = (document.getElementById('budget') as HTMLInputElement).value;
+      console.log(newBudget);
+      let newPersonality = (document.getElementById('personality') as HTMLInputElement).value;
+      console.log(newPersonality);
+      this.api.post_update(this._id, newPreferredName, newLocation, newGender, newAge, newPhoneNumber, newUniCourse, newBio, newFirstName, newLastName, newReligion, newBudget, newPersonality).subscribe((res) =>{
         console.log(res);
       });
       this.router.navigate(['/user-profile']);
