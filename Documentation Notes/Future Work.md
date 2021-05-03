@@ -1,4 +1,4 @@
-<h2 align="center">>Future Work</h2>
+<h2 align="center">Future Work</h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;They are many features that we wanted to add to the project, but a lot of the features were too difficult to implement given our limited technical ability and the limited time in creating the project.</p>
 
