@@ -39,7 +39,7 @@ We have suggested users to add some social media information in their bio.
 
 We have made it more clear in our wireframe that more than one picture is permitted within the profile
 
-<h3 align="center">User 2 – Recently decided to leave Uni (Potential user)</h3>
+<h4 align="center">User 2 – Recently decided to leave Uni (Potential user)</h4>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This user has decided to leave midway through University for personal reasons. They are currently still paying for their accommodation as they are finding it quite hard to let it out to someone. This user lives with user 1. For similar reasons to user 1, they are a good person to use for testing.</p>
 
@@ -67,7 +67,7 @@ Tried to redesign the home/login/register pages to be more aesthetically pleasin
 
 Clearly addressed that we will be using hashing to ensure that details remain secure
 
-<h3 align="center">User 3 – Young Professional (Potential user)</h3>
+<h4 align="center">User 3 – Young Professional (Potential user)</h4>
 
 This user had used SpareRoom to find his current living situation, so was ideal in seeing how an app like this would make the experience better for him and his flatmates.
 
