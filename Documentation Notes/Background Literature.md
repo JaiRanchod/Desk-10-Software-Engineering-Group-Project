@@ -38,6 +38,6 @@ For us, what seemed to work well and efficient was utilising the plethora of res
 
 - Angular - Node - MongoDB & Express (MEAN) Tutorial for Beginners - Getting Started - Once again, we set this video as a team task so that we could gain a good understanding of how to incorporate MongoDB & Express in our application. This resouce was particularly useful in showing how to get user input and send it to mongoDB. (https://www.youtube.com/watch?v=1tRLveSyNz8)
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1tRLveSyNz8/0.jpg)](https://www.youtube.com/watch?v=1tRLveSyNz8)
+
 Reflecting on our background literature approach, we believe that it was appropriate and helpful to our project. With brief primary and secondary research, we were able to gather evidence that suggests there is demand for the problem we are solving and by setting mandatory resources to study as a team, we ensured that every team member was able to contribute in all aspects of the developmeent process, leading to efficiency and a feeling of inclusivity by all.
-
-
