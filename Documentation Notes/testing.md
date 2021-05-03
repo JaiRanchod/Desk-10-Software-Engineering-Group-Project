@@ -2,10 +2,9 @@
 <h1>Testing</h1>
 <h1>Reasons For Testing</h1>
 
-- Brings code up to a professional high-quality standard – especially important when developing mission critical systems (i.e., payment systems).
-- Allows us to refactor our code.
-- Be honest trustworthy.
-- Allows us to remove unintended scenarios and consequences from our work.
+- Brings the code up to a professional high-quality standard. This is especially important when developing mission critical systems such as payment systems.
+- Testing allows developers to refactor our code over and over again.
+- Testing allows developers to remove unintended scenarios and consequences from their work.
 - Must orient tests around the behaviour of our app.
 
 <h2>Functional Testing</h2>
