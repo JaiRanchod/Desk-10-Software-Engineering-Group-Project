@@ -16,6 +16,16 @@ Node.js is a server-side JavaScript execution environment. This means it handles
 The RESTful API allows us to make HTTP requests to access and use data. We can use various methods such as the GET, PUT, POST and DELETE to manipulate the data as we deem necessary. We used various GET and POST methods to call and store the data we needed. The first GET request we make is when the user tries to log in and we make a request based on the email they use. This email then finds the appropriate record and checks to ensure that the email address and password are correct for login verification purposes. Now, that we have found a correct email address and correct user ID, we can then store this and use this to base our future GET requests.
 
 ```javascript
+public getAll2(userEmail){
+    let tmp = this.REST_API_SERVER2;
+    tmp = tmp + "/" + userEmail;
+    console.log("GETTING " + tmp);
+    return this.httpClient.get(tmp)
+  }
+
+```
+
+```javascript
 router.get('/UserLogins/:Email', (req, res) => {
   userLogins.find({Email: req.params.Email}, (err, data) => {
     if(err){
@@ -27,6 +37,15 @@ router.get('/UserLogins/:Email', (req, res) => {
 })
 
 ```
+
+```javascript
+public getAll(){
+    console.log("UNDEFINED HERE. IS THIS WORKING? "  + this.REST_API_SERVER);  
+    return this.httpClient.get(this.REST_API_SERVER + this.slash + this.email);
+  }
+
+```
+
 ```javascript
 router.get('/UserProfiles/:Email', (req, res) => {
   userProfiles.find({Email: req.params.Email}, (err, data) => {
@@ -59,6 +78,26 @@ router.get('/UserProfiles/:Email', (req, res) => {
 ```
 
 ```javascript
+post_update(cur_id: string, newPreferredName: string, newLocation: string, newGender: string, newAge: string, newPhoneNumber: string, newUniCourse: string, newBio: string, newFirstName: string, newLastName: string, newReligion: string, newBudget: string, newPersonality: string){
+    return this.http.post('/api/UserProfilesUpdate' + "/" + cur_id, {
+      "PreferredName": newPreferredName,
+      "Age": newAge,
+      "Bio": newBio,
+      "Gender": newGender,
+      "Location": newLocation,
+      "UniversityCourse": newUniCourse,
+      "PhoneNumber": newPhoneNumber,
+      "FirstName": newFirstName,
+      "LastName": newLastName,
+      "Religion": newReligion,
+      "Budget": newBudget,
+      "Personality": newPersonality,
+    }, {params: {_id: cur_id}})
+  }
+
+```
+
+```javascript
 router.post('/UserProfilesUpdate/:id', (req, res) => {
   userProfiles.updateOne({_id: req.params.id}, {
     "Preferred Name": req.body.PreferredName,
@@ -85,6 +124,13 @@ router.post('/UserProfilesUpdate/:id', (req, res) => {
 ```
 
 On the homepage, we will need to update their profile every time the user decides they like or dislike someone. This means a POST request is issued and the profile is updated accordingly (found using the current user ID). We then push the ID of the profile they are currently viewing into an array of likes or dislikes based on what they chose. 
+
+```javascript
+post_like(match_id: string, cur_id: string){
+    return this.http.post('/api/UserProfilesLike', {"_id": match_id}, {params: {_id: cur_id}}) 
+  }
+
+```
 
 ```javascript
 router.post('/UserProfilesLike', (req, res) => {
