@@ -2,9 +2,9 @@
 <h1>Testing</h1>
 <h1>Reasons For Testing</h1>
 
--	Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing. 
--	Avoid harm.
--	Be honest trustworthy.
+- Brings code up to a professional high-quality standard – especially important when developing mission critical systems (i.e., payment systems).
+- Allows us to refactor our code.![image](https://user-images.githubusercontent.com/74371711/116863858-d2b43380-abfe-11eb-9801-0e0704bb2e2b.png)
+- Be honest trustworthy.
 -	Be fair and act not to discriminate.
 -	Respect the work required to produce new ideas, inventions, creative works, and computing artifacts.
 -	Respect privacy.
