@@ -23,7 +23,7 @@ For us, what seemed to work well and efficient was utilising the plethora of res
 
 - Angular Tutorial for Beginners: Learn Angular & TypeScript - This 2 hour video course was split into various sections, giving brief introductions with real time demonstrations making it easy to understand. Before starting to code, we set a task within the team to watch this introductory video. https://www.youtube.com/watch?v=k5E2AVpwsko&t=620s
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/k5E2AVpwsko&t/0.jpg)](https://www.youtube.com/watch?v=k5E2AVpwsko&t)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/k5E2AVpwsko/0.jpg)](https://www.youtube.com/watch?v=k5E2AVpwsko&t)
 
 
 
