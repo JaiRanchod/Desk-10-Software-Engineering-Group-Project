@@ -1,24 +1,27 @@
 <h1 align="center">Reflection on Working Practices</h1>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;We were lucky with our group in that we had all known each other beforehand through either working together in other modules and also through working together in the Merchant Ventures Building, so from the outset we knew we would well together in a team. What stood out from the start is that we all had big ambitions in creating a project that would test our technical abilities and be a challenging yet fun project to take on. We understood as a small 
-team this would be a challenge but our determinations aligned and so we were able to take this challenge on.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;We were lucky with our group in that we had all known each other beforehand through either working together in other modules 
+and also through working together in the Merchant Ventures Building, so from the outset we knew we would well together in a team. What stood out from the 
+start is that we all had big ambitions in creating a project that would test our technical abilities and be a challenging yet fun project to take on. We 
+understood as a small team this would be a challenge but our determinations aligned and so we were able to take this challenge on.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;The impact of COVID-19 on our project is later discussed in the 'Coronavirus Discussion', so we won't go into detail but to provide a brief overview. The main factor it affected was the effectiveness of our meetings, as after lockdown restrictions were lifted we began to work in MVB together and we were a lot more productive in furthering the project. It was easier to converse with other members of the team, as with online meetings there can only be one 
-person talking at a time, so we liked being able to talk to other team members more easily.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The impact of COVID-19 on our project is discussed in the 'Coronavirus Discussion', so we won't go into detail but to 
+provide a brief overview. The main factor it affected was the effectiveness of our meetings, as after lockdown restrictions were lifted we began to work 
+in MVB together and we were a lot more productive in furthering the project. It was easier to converse with other members of the team, as with online 
+meetings there can only be one person talking at a time, so we liked being able to talk to other team members more easily.</p>
 
-- Before undertaking this project we had all known each other through other modules and some of had worked together in MVB, so we already knew that we would work well together as a team.
-- We worked well in that we were all ambitious in how big we wanted to take the project, so were all on the same wavelength in all had big ambitions with the project, which was a blessing and maybe a hinderance
-- We were able to communiate if we didnt thinbk aother idea was good
-- We all took responsibilites and we all worked at a smilar pace and there were no slackers
-- Half had mac half had wiondows
+<p>&nbsp;&nbsp;&nbsp;&nbsp;One of key factors that made our team work effectively is that we were comfortable in having honest discussions/debates on 
+ideas or suggestions and each team member was able to take on constructive critism. Because of this we were able to clearly align our objectives and it 
+made it clearer for everyone to know what they were doing. If we weren't comfortable with each other this could have led to a team member not willing to 
+share ideas or give honest feedback of an individuals work. Another factor that helped us work well as a team is that we all understood that we each had 
+a responsibilty and that we couldn't let the team down, so this led to no one slacking woth work or anyone having the expectation that another team 
+member would do the work for them.</p>
 
-<h2 align="center">Reflecting on the Working Practices of the Team, We Have Enjoyed Working as a Team</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Our main communication channels were Microsoft Teams and Discord. We liked Teams in that we were able to share our screens, 
+this allowed for effective meetings as we could visually see the other team member's work, this sllowed us to better understand ecah others work as we 
+were able to walk through the code/work and ask any questions if anyone was unsure. We used Discord as our main communication channel when messaging 
+about the project. Discord has a more user-friendly interface and acts more as a messaging platform than Microsoft Teams, especially as Discord has a 
+mobile phone application that is easier to use and navigate than messaging via Microsoft Teams.</p>
 
-- We worked in mvb
-- discord has been used extensively
-- microsoft teams has been good, screenshare
-- good communication
-
-We have already discussed the impact of COVID-19 on our project and how this affected how we worked together, so we won't go into detail but to provide a brief overview.
 
 
