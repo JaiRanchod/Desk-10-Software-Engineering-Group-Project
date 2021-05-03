@@ -50,10 +50,10 @@
 - Could be slightly more aesthetically pleasing on the home page and login/register pages.
 - Improved security credentials?
 
-<h4>What have we done to address this?</h4
+<h4>What have we done to address this?</h4>
 - We think that the app can be used by a user in this situation.
-- Tried to redesign the home/login/register pages to be more aesthetically pleasing
-- Clearly addressed that we will be using hashing to ensure that details remain secure
+- Tried to redesign the home/login/register pages to be more aesthetically pleasing.
+- Clearly addressed that we will be using hashing to ensure that details remain secure.
 
 <h3 align="center">User 3 – Young Professional (Potential user)</h3>
 
@@ -61,7 +61,7 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 
 <h4>Positives</h4>
 
-- This is a lot more fun than using SpareRoom to find a living situation
+- This is a lot more fun than using SpareRoom to find a living situation.
 - I think if I had used this app, I would have found a more suited household. In a pandemic, where we have spent lots of time indoors it would have been nice if we had more common ground.
 - I like the material design. Very simple and easy to use.
 
@@ -71,7 +71,7 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 - A mobile app based on this would be a good idea in the future.
 - Some more options in the profile might be a good idea for example relationship status and whether they would be visiting often etc.
 
-<h4 align="center">What have we done to address this?</h4>
+<h4>What have we done to address this?</h4>
 
 - We have decided to try and implement an instant message service using the Telegram API. Unsure on how complex that will be at the current stage of development.
 - We would like both a mobile app and web page in a perfect world
