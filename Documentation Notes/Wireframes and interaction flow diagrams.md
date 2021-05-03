@@ -15,7 +15,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This user is currently living in private accommodation. Their flatmate (user 2) has recently dropped out. This user is a good person to use for testing since it shows the perspective of trying to find a new flatmate for their current flat.</p>
 
-<h5>Positives</h5>
+<h4>Positives</h4>
 
 The concept is a good idea, since it solves the current problem, I am in.
 
@@ -23,7 +23,7 @@ I also like the fact it tries to match the current flat to a potential new flatm
 
 I like the tinder styling; it is very easy to use.
 
-<h5>Potential Issues/Improvements</h5>
+<h4>Potential Issues/Improvements</h4>
 
 Maybe try and allow users to add their social media pages to their profile. Can provide a useful resource.
 
@@ -33,17 +33,17 @@ Maybe allow for more than one photo if that is already not an option?
 
 What have we done to address this?
 
-We have suggested users to add some social media information in their bio
+We have suggested users to add some social media information in their bio.
 
-<h5>Undecided.</h5>
+<h4>Undecided.</h4>
 
 We have made it more clear in our wireframe that more than one picture is permitted within the profile
 
-User 2 – Recently decided to leave Uni (Potential user)
+<h3 align="center"User 2 – Recently decided to leave Uni (Potential user)</h3>
 
-This user has decided to leave midway through University for personal reasons. They are currently still paying for their accommodation as they are finding it quite hard to let it out to someone. This user lives with user 1. For similar reasons to user 1, they are a good person to use for testing.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This user has decided to leave midway through University for personal reasons. They are currently still paying for their accommodation as they are finding it quite hard to let it out to someone. This user lives with user 1. For similar reasons to user 1, they are a good person to use for testing.</p>
 
-Positives
+<h4>Positives</h4>
 
 Currently, what I am doing is trying to sell it on various Facebook pages which I think is quite inefficient. This resolves the issue.
 
@@ -51,9 +51,9 @@ It is a good idea that I can try and get my flatmates a suitable person to live 
 
 I like the map, as this means we can easily see how far the University is or whether it looks to be a good area.
 
-Potential Issues/Improvements
+<h4>Potential Issues/Improvements</h4>
 
-Would be quite useful to put in a section for situations like myself, where I want to advertise the group too and that I am selling as then I can directly sort out the details regarding the tenancy etc.
+<p>Would be quite useful to put in a section for situations like myself, where I want to advertise the group too and that I am selling as then I can directly sort out the details regarding the tenancy etc.</p>
 
 Could be slightly more aesthetically pleasing on the home page and login/register pages.
 
@@ -67,11 +67,11 @@ Tried to redesign the home/login/register pages to be more aesthetically pleasin
 
 Clearly addressed that we will be using hashing to ensure that details remain secure
 
-User 3 – Young Professional (Potential user)
+<h3 align="center">User 3 – Young Professional (Potential user)</h3>
 
 This user had used SpareRoom to find his current living situation, so was ideal in seeing how an app like this would make the experience better for him and his flatmates.
 
-Positives
+<h4>Positives</h4>
 
 This is a lot more fun than using SpareRoom to find a living situation
 
@@ -79,7 +79,7 @@ I think if I had used this app, I would have found a more suited household. In a
 
 I like the material design. Very simple and easy to use.
 
-Potential Issues/Improvements
+<h4>Potential Issues/Improvements</h4>
 
 Would quite like an instant message service built-in, since then I don’t have to exchange contact details for every match I would get.
 
@@ -87,7 +87,7 @@ A mobile app based on this would be a good idea in the future.
 
 Some more options in the profile might be a good idea for example relationship status and whether they would be visiting often etc.
 
-What have we done to address this?
+<h3 align="center"What have we done to address this?</h3>
 
 We have decided to try and implement an instant message service using the Telegram API. Unsure on how complex that will be at the current stage of development.
 
