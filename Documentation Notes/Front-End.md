@@ -4,7 +4,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Due to the large number of files and styling sheets included, may hours were spent scanning through the initial template to fully understand how the components were interacting with each other and the styling was being implemented. Once the template had been understood, the decvelopers could then begin to remove unanted classes and divisions, add new ones and implement new components to maintin the astetically pleasing style of the tomplete whilst adding the functionality of the HouseHomies platform previously decided upon in the wireframe and paper prototypes.</p> 
 
-<h3 align="center">Final Product</h3>
+<h1 align="center">Final Product</h1>
 
 <h3 align="center"><b>Welcome Page</b></h3>
 
