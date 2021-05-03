@@ -11,7 +11,7 @@ For some more examples of how we have made best use of this – see the RESTful 
 
 Node.js is a server-side JavaScript execution environment. This means it handles the client and server requests. Once we ran Node this allowed our RESTful API (discussed below) to be connected to Mongo. The Node server listens for HTTP requests and responses and is built on top of the Express framework previously discussed. 
 
-<h3><b>RESTful API</b></h3>
+<h3><b>Restful API</b></h3>
 
 The RESTful API allows us to make HTTP requests to access and use data. We can use various methods such as the GET, PUT, POST and DELETE to manipulate the data as we deem necessary. We used various GET and POST methods to call and store the data we needed. The first GET request we make is when the user tries to log in and we make a request based on the email they use. This email then finds the appropriate record and checks to ensure that the email address and password are correct for login verification purposes. Now, that we have found a correct email address and correct user ID, we can then store this and use this to base our future GET requests.
 
