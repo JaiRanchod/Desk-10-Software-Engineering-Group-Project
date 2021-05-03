@@ -1,3 +1,5 @@
+<h1 align="center">Team Roles</h1>
+
 <h2 align="center"> <b> Lucas </b> </h2>
 - Frontend. Lucas has had previous experience in HTML and CSS, so Lucas’ main contribution was in styling the layout of 
 the web app and helping other with issues when developing the frontend. Lucas also contributed lots to document our progress, 
