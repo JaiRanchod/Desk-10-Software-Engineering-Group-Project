@@ -1,6 +1,6 @@
-<h1 align="center>Background Literature</h1>
+<h1 align="center">Background Literature</h1>
  
-<h2 align="center">Suppoirting Our Idea With Data</h2>
+<h2 align="center">Supporting Our Idea With Data</h2>
   
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Firstly, it is worth mentioning that finding data to support our idea was a difficult task. Seeing as our area of research is not popular and our idea itself is niche, we couldn't find research that directly relates and supports our assumptions. Thus, our primary source of validation was derived from the student surveys we carried out. However, we did find indirect data that positively support the need and feasability of our idea.</p>
 
