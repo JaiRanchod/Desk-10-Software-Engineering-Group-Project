@@ -1,5 +1,6 @@
 :host {
   z-index: 0;
+  min-width: 1200px;
 }
 
 /* move check to right side of the box */
