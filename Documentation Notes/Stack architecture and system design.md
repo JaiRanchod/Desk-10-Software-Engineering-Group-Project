@@ -1,4 +1,4 @@
-<h2 align="center"> <b> Stack architecture and system design </b> </h2>
+<h2 align="center"> <b> Stack Architecture and System Design </b> </h2>
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Before we dive into the details of our each of components that make up our project, let us take a look at an overview of a MEAN Stack application and why we use it.</p>
 
