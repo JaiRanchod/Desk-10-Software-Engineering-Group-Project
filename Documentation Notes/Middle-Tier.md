@@ -15,7 +15,31 @@ Node.js is a server-side JavaScript execution environment. This means it handles
 
 The RESTful API allows us to make HTTP requests to access and use data. We can use various methods such as the GET, PUT, POST and DELETE to manipulate the data as we deem necessary. We used various GET and POST methods to call and store the data we needed. The first GET request we make is when the user tries to log in and we make a request based on the email they use. This email then finds the appropriate record and checks to ensure that the email address and password are correct for login verification purposes. Now, that we have found a correct email address and correct user ID, we can then store this and use this to base our future GET requests.
 
-Need to put some code examples in. 
+```javascript
+router.get('/UserLogins/:Email', (req, res) => {
+  userLogins.find({Email: req.params.Email}, (err, data) => {
+    if(err){
+      res.status(500).send(err);
+    } else {
+      res.status(201).send(data);
+    }
+  })
+})
+
+```
+```javascript
+router.get('/UserProfiles/:Email', (req, res) => {
+  userProfiles.find({Email: req.params.Email}, (err, data) => {
+    if(err){
+      res.status(500).send(err);
+    } else {
+      res.status(201).send(data);
+    }
+  })
+})
+
+```
+
 
 Since we load up the matches screen after logging in. We issue a GET request through the identification method of using the id to identify the user profile and identify the matches they have. This then allows us to implement a for loop which displays all the matches for the user. 
 
@@ -30,4 +54,5 @@ Code example here.
 References
 
 https://www.guru99.com/mean-stack-developer.html#:~:text=Mean%20Stack%20refers%20to%20a,used%20to%20develop%20web%20applications.&text=Express%20JS%20is%20a%20framework,Node.
+
 https://searchapparchitecture.techtarget.com/definition/RESTful-API#:~:text=A%20RESTful%20API%20is%20an,deleting%20of%20operations%20concerning%20resources. 
