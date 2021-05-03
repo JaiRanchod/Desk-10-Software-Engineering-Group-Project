@@ -1,0 +1,16 @@
+<div class="d-flex align-items-center justify-content-center h-100">
+	<div class="d-flex flex-column pop-up">
+		<div class="card card-lift--hover shadow border-0 card-width">
+			<h3 class="position-absolute exit" (click)="click_exit()">
+				<i class="ni ni-fat-remove"></i>
+			</h3>
+			<div class="card-body py-5">
+				<div class="card-profile-image text-center">
+					<img [src]="matched_profile.Image" class="rounded-circle" style="height: 125px;" >
+				</div>
+					<h4 class="text-primary text-uppercase text-center"> it's a match! </h4>
+					<h4 class="text-primary text-uppercase text-center" style="text-align: center;">{{matched_profile['Preferred Name']}} {{matched_profile.Surname}}</h4>
+			</div>
+		</div>
+	</div>
+</div>
