@@ -1,4 +1,4 @@
-<h2 align="center"> <b> Team Use of GitHub </b> </h2>
+<h1 align="center"> <b> Team Use of GitHub </b> </h1>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The main branch that we used for our project was the develop branch this is where we would upload our latest versions of our 
 project to. Everyone also had their own branch which they would push their latest versions to so that we were able to merge 
