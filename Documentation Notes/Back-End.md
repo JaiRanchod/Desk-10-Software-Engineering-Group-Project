@@ -10,7 +10,7 @@ A quick journey of the various stages of database implementation is shown here:
 
 Originally, through the tutorials that were based on a local Mongo database.
 
-```html
+```javascript
 /*const mongoose = require('mongoose');
 
 const {
@@ -41,7 +41,7 @@ mongoose.connect(url, options).then(function () {
 
 Revising this we were able to change it to a database that was connected to our MongoDB Atlas account, that was serving data in the cloud.
 
-```html
+```javascript
   var mongoose = require('mongoose');
   var mongoDB = 'mongodb+srv://Jai:Jai@househomies.wmpji.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
@@ -62,7 +62,7 @@ Here we can see how the final data model is implemented in the form of code.
 
 1) User Logins
 
-```html
+```javascript
 var mongoose = require('mongoose');
 var uniqueValidator = require('mongoose-unique-validator');
 
@@ -79,7 +79,7 @@ module.exports = mongoose.model('userLogins', userLoginSchema, 'Users Login Deta
 
 2) User Profiles
 
-```html
+```javascript
 var mongoose = require('mongoose');
 
 var userProfileSchema = new mongoose.Schema({
