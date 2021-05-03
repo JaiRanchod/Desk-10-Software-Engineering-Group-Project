@@ -8,7 +8,8 @@
 - Must orient tests around the behaviour of our app.
 
 <h2>Functional Testing</h2>
-<h4><b>Welcome Page Front End</b></h4>
+
+<h4><b>Welcome Page</b></h4>
 
 - Initial router link page should load the welcome page upon calling localhost3000 link.
 - The page should initially contain two central buttons only, <b>SIGN IN</b> and <b>REGISTER</b>, along with the HouseHomies logo.
