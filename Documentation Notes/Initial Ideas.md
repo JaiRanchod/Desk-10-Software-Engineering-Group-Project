@@ -10,13 +10,10 @@
 
  <p>&nbsp;&nbsp;&nbsp;&nbsp;Out of all the themes and their playful variations, as a group, we showed a particular interest in the following areas:</p>
 
-·    Tinder for finding housemates – matching groups to individuals 
-
-·    Finding movie to watch using virtual dartboard (movie recommender based on preferences) 
-
-·    Find someone to eat dinner with online – sort of like tinder, one meal at a time 
-
-·    Trip advisor but for care homes
+- Tinder for finding housemates – matching groups to individuals. 
+- Finding movie to watch using virtual dartboard (movie recommender based on preferences).
+- Find someone to eat dinner with online – sort of like tinder, one meal at a time. 
+- Trip advisor but for care homes.
 
  
 
