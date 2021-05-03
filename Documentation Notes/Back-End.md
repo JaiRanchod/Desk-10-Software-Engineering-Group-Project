@@ -4,7 +4,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Originally, we followed the worksheets proivided which led to us integrating a local Mongo database. However, due to several discussions we thought it would be easier to opt for an account with Mongo. The main reason for this is because this meant matches would be retained in between builds and would lead to less issues when different users were interacting with the system at the same time. We had two collections (databases) - 1) User Login Details and 2) User Personal Details (shown below). We understand this is not the most secure system, however this is discussed further in our social and ethical discussion (hyperlink here). We altered some of the files that linked our application to a local Mongo database and connected it to our database in the cloud. We wrote our schema and then started creating documents based on this. The registration process also became a lot more streamlined and efficient when we implemented this system. Typeform and some middleware (Andreas) meant once the registration process was complete and submitted this would automatically create two documents in the Mongo space. We would store the email and password in the login details collection and then the rest of the data obtained in the personal details collection. The details for the MongoDB account can be emailed to you if required.</p>
 
-![](https://i2.paste.pics/f99870c61058bfa183d1a7b4e2fa74c8.png)
+![Screenshot 2021-05-03 162801](https://user-images.githubusercontent.com/73884031/116896899-97c8f480-ac2c-11eb-88dd-8f76aab3e0e7.png)
 
 A quick journey of the various stages of database implementation is shown here:
 
