@@ -88,7 +88,12 @@ export class ProfileEditComponent implements OnInit, AfterViewInit {
       console.log(newUniCourse);
       let newBio = (document.getElementById('bio') as HTMLInputElement).value;
       console.log(newBio); 
-      this.api.post_update(this._id, newPreferredName, newLocation, newGender, newAge, newPhoneNumber, newUniCourse, newBio).subscribe((res) =>{
+      let newFirstName = (document.getElementById('firstName') as HTMLInputElement).value;
+      let newLastName = (document.getElementById('lastName') as HTMLInputElement).value;
+      let newReligion = (document.getElementById('religion') as HTMLInputElement).value;
+      let newBudget = (document.getElementById('budget') as HTMLInputElement).value;
+      let newPersonality = (document.getElementById('personality') as HTMLInputElement).value;
+      this.api.post_update(this._id, newPreferredName, newLocation, newGender, newAge, newPhoneNumber, newUniCourse, newBio, newFirstName, newLastName, newReligion, newBudget, newPersonality).subscribe((res) =>{
         console.log(res);
       });
       this.router.navigate(['/user-profile']);
