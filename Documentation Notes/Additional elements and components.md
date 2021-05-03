@@ -1,4 +1,4 @@
-### Additional elements and components
+<h1 align="center">Additional Elements and Components</h1>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;One of the key ideas that we all agreed on was that we wanted the user eperience to be smooth and visually pleasing. Considering that the very first levels of interaction with our web app is the sign up process, we decided to explore third party applications that deliver the user experience we sought. Taking into account that the time frame to develop this application was relatively tight and our coding eperience low, seeking help from third party tools in the early stages was critical in helping us get the head start we needed!</p>
 
@@ -9,13 +9,13 @@
 
 ```
 
-To summarise, **the benefits of using typeform** are:
+<h2 align="center">To Summarise, <b>The Benefits of Using Typeform</b> Are:</h2>
 
 - It's quick to create, edit and test
 - It's easy to embed in any platform
 - It has open api access
 
-Some of **the downsides** are:
+<h2 align="center">Some of <b>the Downsides</b> Are:</h2>
 
 - We needed to find a way to connect it with our database
 - We didn't have a way to check field entry in real time
@@ -26,7 +26,7 @@ Some of **the downsides** are:
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This learning experience led to our better understanding and confidence in implementing our service API within the app to communicate back and forth with mongoDB.</p>
 
-To summarise, **the benefits of using Integromat** are:
+<h2 align="center">To Summarise, <b>the Benefits of Using Integromat</b> Are:</h2>
 
 - Easy to authenticate API connections
 - Easy to to create JSON based data fields
