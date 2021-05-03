@@ -8,6 +8,6 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;By exploring and ideating gaps in the spare room market, we were, thus, able to narrow down **our problem** to include that spare room search websites:</p>
 
-<p>1. Primarily focus on finding a room, whilst ignoring the compatability of housemates.
+1. Primarily focus on finding a room, whilst ignoring the compatability of housemates.
 2. Are dull and unengaging.
-3. Don't specifically cater for the student market.</p>
+3. Don't specifically cater for the student market.
