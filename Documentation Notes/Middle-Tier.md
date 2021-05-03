@@ -7,7 +7,7 @@ In the server.js file we see that we are initialising the Express app object mea
 
 For some more examples of how we have made best use of this – see the RESTful API section below. 
 
-<h3><b>Node</b></h3>
+<h2 align="center">Node</h2>
 
 Node.js is a server-side JavaScript execution environment. This means it handles the client and server requests. Once we ran Node this allowed our RESTful API (discussed below) to be connected to Mongo. The Node server listens for HTTP requests and responses and is built on top of the Express framework previously discussed. 
 
