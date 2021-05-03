@@ -55,6 +55,42 @@
 -	The page should appear empty of match card components if the user has not yet matched with anyone.
 -	If the user has matched with other users’ cards should appear on the screen, these will have a profile photo and basic information about the users they have matched with.
 
+<h4><b>Profile Page</b></h4>
+
+-	The Profile page should have the navbar component at the top containing the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right.
+-	The “Home” link should router link the user to the Homepage page.
+-	The “Profile” link should router link the user to the user-profile page.
+-	The “Matches” link should router link the user to the Matches page.
+-	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
+-	In the centre of the page should be an html section containing cascading profile information the user provided in the register type form, pulled, and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO.
+-	The component should also to the right of the profile picture contain an EDIT button.
+-	Once clicked, this EDIT button should router link to the “Edit Profile” page.
+
+
+<h4><b>Edit Profile Page</b></h4>
+
+-	The Edit Profile page should have the navbar component at the top containing the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right.
+-	The “Home” link should router link the user to the Homepage page.
+-	The “Profile” link should router link the user to the user-profile page.
+-	The “Matches” link should router link the user to the Matches page.
+-	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
+-	In the centre of the page should be an html section containing cascading profile information the user provided in the register type form, pulled, and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO. Underneath each of these in formation fields should be an html form box, where the user can edit each information field.
+-	The component should also to the right of the profile picture contain a SAVE button.
+-	Once clicked, this SAVE button should update the current information in the database with the new information inputted in the html form boxes.
+
+<h4><b>About Us Page</b></h4>
+
+-	The About Us page should have the navbar component at the top containing the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right.
+-	The “Home” link should router link the user to the Homepage page.
+-	The “Profile” link should router link the user to the user-profile page.
+-	The “Matches” link should router link the user to the Matches page.
+-	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
+-	In the centre of the page should be an html section containing the about us paragraphs of text. 
+-	No buttons should be present in this section.
+
+
+
+
 
 	
 
