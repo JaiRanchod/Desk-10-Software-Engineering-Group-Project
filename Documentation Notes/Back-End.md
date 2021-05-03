@@ -57,3 +57,52 @@ Revising this we were able to change it to a database that was connected to our 
 <h2 align="center">Data Model</h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Through the data model documentation (link here), you can see that we have transitioned through various different schemas and data models. We ended up trying to pick something quite simple, since we knew our project was already going to be difficult to create. We initally wanted to use the "id" variable that is automatically generated as a way to call each user profile, however we realised that when we were creating these documents, the "id" was not the same for both of the documents created upon registaration. We then opted to change our data model and include "email" in both documents creating a foreign key that we could use to find the correct corresponding data. With the data model, we had a field for images, so for some of the images we had null if no image was stored and then stored the image as a string via accessing our online database. This was done for some of the pre-loaded up users, however we also had some users that uploaded their images through the typeform registration service we had provided. This image would then stored as binary, however our code was versatile enough to cope with this and still presented the images in the way that we wanted.</p>
+
+Here we can see how the final data model is implemented in the form of code. 
+
+1) User Logins
+
+```html
+var mongoose = require('mongoose');
+var uniqueValidator = require('mongoose-unique-validator');
+
+var userLoginSchema = new mongoose.Schema({
+    email: { type: String, required: true, unique: true},
+    password: { type: String, required: true}
+});
+
+userLoginSchema.plugin(uniqueValidator);
+
+module.exports = mongoose.model('userLogins', userLoginSchema, 'Users Login Details');
+
+```
+
+2) User Profiles
+
+```html
+var mongoose = require('mongoose');
+
+var userProfileSchema = new mongoose.Schema({
+  "Age": {type: Number, required: true},
+  "Bio": {type: String, required: true},
+  "First Name": {type: String, required: true},
+  "Image": {type: String, required: true},
+  "Gender": {type: String, required: true},
+  "Location": {type: String, required: true},
+  "Phone Number": {type: String, required: true},
+  "Preferred Name": {type: String, required: true},
+  "Religion": {type: String, required: true},
+  "Surname": {type: String, required: true},
+  "University Course": {type: String, required: true},
+  "like": {type: [mongoose.Schema.Types.ObjectId], require: true},
+  "dislike": {type: [mongoose.Schema.Types.ObjectId], require: true},
+  "Budget": {type: String, required: true},
+  "Personality": {type: String, required: true},
+
+});
+
+//Creating a model from schema we've just made, and exporting it to be used elsewhere
+module.exports = mongoose.model('userProfiles', userProfileSchema, 'User Personal Details');
+
+```
+
