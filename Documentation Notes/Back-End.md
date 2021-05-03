@@ -1,4 +1,4 @@
-<h1>Back End</h1>
+<h2 align="center">Back End</h2>
 
 <b>MongoDB - Database Implementation</b>
 
