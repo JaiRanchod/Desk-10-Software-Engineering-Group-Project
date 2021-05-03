@@ -64,24 +64,40 @@
 
                     <div class="text-center mt-5">
                         <!-- Full Name -->
-                        <h4>Name<span class="font-weight-light">: {{ fullName }} </span>
+                        <h5>First Name<span class="font-weight-light">: {{ firstName }} </span>
 
                             <!-- Full Name Form-->
                             <div class="row justify-content-center">
                                 <form>
                                     <div class="col-md-20">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="fullName"
-                                                value="{{ fullName }}">
+                                            <input type="text" class="form-control" id="firstName"
+                                                value="{{ firstName }}">
                                         </div>
                                     </div>
                                 </form>
                             </div>
 
-                        </h4>
+                        </h5>
+
+                        <h5>Last Name<span class="font-weight-light">: {{ lastName }} </span>
+
+                            <!-- Full Name Form-->
+                            <div class="row justify-content-center">
+                                <form>
+                                    <div class="col-md-20">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="lastName"
+                                                value="{{ lastName }}">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </h5>
 
                         <!-- Preferred Name -->
-                        <h6>Preferred name<span class="font-weight-light">: {{ preferredName }}</span> </h6>
+                        <h4>Preferred name<span class="font-weight-light">: {{ preferredName }}</span> </h4>
 
                         <!-- Preferred Name-->
                         <div class="row justify-content-center">
@@ -132,7 +148,6 @@
                                         </div>
                                     </div>
                                 </form>
-
                             </div>
 
                         </h5>
@@ -151,7 +166,6 @@
                                         </div>
                                     </div>
                                 </form>
-
                             </div>
 
 
@@ -163,7 +177,7 @@
                             Religion<span class="font-weight-light">: {{ religion }}</span>
 
                             <!-- Drop down Form -->
-                            <span class="font-weight-light"> &nbsp; </span>
+                            <!--<span class="font-weight-light"> &nbsp; </span>
                             <div class="btn-group" ngbDropdown>
                                 
                                 <div class="btn-group" ngbDropdown>
@@ -177,6 +191,16 @@
                                         <a ngbDropdownItem href="javascript:void(0)">Separated link</a>
                                     </div>
                                 </div>
+                            </div>-->
+                            <div class="row justify-content-center">
+                                <form>
+                                    <div class="col-md-20">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="relgiion"
+                                                value="{{ religion }}">
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
 
 
@@ -186,7 +210,7 @@
                         <!-- Phone -->
                         <h5>
                             <i class="ni ni-mobile-button"></i>
-                            Phone<span class="font-weight-light">: +{{ phoneNumber }}</span>
+                            Phone<span class="font-weight-light">: {{ phoneNumber }}</span>
                         
                         <!-- Phone Form-->
                         <div class="row justify-content-center">
@@ -249,8 +273,18 @@
                                                     <span> {{ budget }}</span>
 
                                                     <!-- Budget Slider-->
-                                                    <div class="input-slider-container">
+                                                    <!--<div class="input-slider-container">
                                                         <div id="test" class="input-slider"></div>
+                                                    </div>-->
+                                                    <div class="row justify-content-center">
+                                                        <form>
+                                                            <div class="col-md-20">
+                                                                <div class="form-group">
+                                                                    <input type="text" class="form-control" id="budget"
+                                                                        value="{{ budget }}">
+                                                                </div>
+                                                            </div>
+                                                        </form>
                                                     </div>
 
                                                 </div>
@@ -264,6 +298,16 @@
                                                         <span class="font-weight-dark"> Personality</span>
                                                     </h5>
                                                     <span> {{ personality }}</span>
+                                                    <div class="row justify-content-center">
+                                                        <form>
+                                                            <div class="col-md-20">
+                                                                <div class="form-group">
+                                                                    <input type="text" class="form-control" id="personality"
+                                                                        value="{{ personality }}">
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
