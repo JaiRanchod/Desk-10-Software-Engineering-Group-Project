@@ -1,4 +1,4 @@
-<h2 align="center"> <b> Initial Ideas </b> </h2>
+<h1 align="center"> <b> Initial Ideas </b> </h1>
 
  
 
