@@ -2,7 +2,7 @@
 
 <h2 align="center">Analysis of Survey Feedback</h2>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;A short survey was created and distributed to various potential users as a means to understand more about their current opinion on the concept of a House share finding platform as well as gain some feedback on what they considered to be important factors when finding a housemate.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A short survey was created and distributed to various potential users as a means to understand more about their current opinion on the concept of a House share finding platform as well as gain some feedback on what they considered to be important factors when finding a housemate and some design tips.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;So far, a total of 18 users completed this short questionnaire regarding our web application idea. The results mostly conclude that the platform would be used by members of society and help to solve a real-world issue.</p>
 
@@ -44,6 +44,32 @@
 - 55% of users said that Interests and Hobbies was an important factor. This is similar to lifestyle, but since hobbies may vary significantly, we will probably just display these on the user’s bio page so that other users can view them.
 
 - 0% of users said that Religion was an important factor. Based on this feedback we may decide as a group to completely scrap this criterion from the options, or at least make it an optional field.
+
+<h4 align="center">Evaluation of Criteria Feedback</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The feedback on matching criteria has definitely provided useful information for deciding which factors are most significant for the matching of different users. However, it is important to consider the demographic of the people the survey was distributed to. Since most of the people who filled out this form were friends of our age who have graduated from university, it is natural that they would no longer consider options such as University Course to be of importance. Furthermore, these users are mostly all of the same age and from similar backgrounds. Perhaps for some more robust feedback and data the survey would need to be distributed to different demographics of students, such as first years and groups in sixth form. Results may vary significantly depending on the target audience.</p>
+
+<h2 align="center">Question 5</h2>
+
+![image](https://user-images.githubusercontent.com/74371711/116883023-0736e800-ac1d-11eb-8f60-1d85ba89d3c6.png)
+
+- This question was not particularly helpful. It only received two responses, both of which were already listed in the previous question. However, it does suggest that we have already considered most of the important criteria for finding a housemate in the previous question.
+
+<h2 align="center">Question 6</h2>
+
+![image](https://user-images.githubusercontent.com/74371711/116883128-29c90100-ac1d-11eb-95bc-770a7dcb336d.png)
+
+- 72.2% of users said that they preferred the swiping animation such as on an app like Tinder, rather than a like and dislike button similar to the dating app Hinge. This may be a technical challenge as our application is a website rather than a mobile app. 
+- However, as the groups JavaScript skills improve over the unit, we may be able to implement some kind of animations when the like and dislike buttons are clicked on.
+
+<h2 align="center">Question 7</h2>
+
+![image](https://user-images.githubusercontent.com/74371711/116883242-49602980-ac1d-11eb-8d78-70af0c8b0e17.png)
+
+- When asked if users would recommend a Tinder like housemate finding application to a friend in need of a housemate in the future, the results were very promising.
+- With 55.6% of users saying they would Absolutely recommend this platform to a friend in need and 44.4% saying they would be Very Likely to, this indicated that our idea would be a popular choice for users and would be solving a real-life problem.
+- However, as previously discussed, this survey was completed by a limited demographic of people that the group know personally. Therefore, these users may be more inclined to give biased positive feedback. In the future it would be good to get feedback from a wider demographic to provide more conclusive data, but that has been challenging currently due to the COVID-19 pandemic.
+
 
 
 
