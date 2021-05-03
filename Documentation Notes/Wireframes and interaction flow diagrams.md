@@ -39,7 +39,7 @@ We have suggested users to add some social media information in their bio.
 
 We have made it more clear in our wireframe that more than one picture is permitted within the profile
 
-<h3 align="center"User 2 – Recently decided to leave Uni (Potential user)</h3>
+<h3 align="center">User 2 – Recently decided to leave Uni (Potential user)</h3>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This user has decided to leave midway through University for personal reasons. They are currently still paying for their accommodation as they are finding it quite hard to let it out to someone. This user lives with user 1. For similar reasons to user 1, they are a good person to use for testing.</p>
 
@@ -87,7 +87,7 @@ A mobile app based on this would be a good idea in the future.
 
 Some more options in the profile might be a good idea for example relationship status and whether they would be visiting often etc.
 
-<h3 align="center"What have we done to address this?</h3>
+<h3 align="center">What have we done to address this?</h3>
 
 We have decided to try and implement an instant message service using the Telegram API. Unsure on how complex that will be at the current stage of development.
 
