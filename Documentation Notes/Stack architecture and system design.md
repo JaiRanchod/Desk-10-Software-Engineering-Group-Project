@@ -33,3 +33,20 @@ database from the app.</p>
 or post-development.
 - Easier developing, testing, and deploying phases of the application with MEAN Stack.
 
+We have created some class diagrams below, however creating a class diagram for the whole application became quite complex and we struggled to find a piece of software that would do it for us.
+
+![Screenshot 2021-05-03 170225](https://user-images.githubusercontent.com/73884031/116901045-5be45e00-ac31-11eb-9472-021655170f5f.png)
+
+![image](https://user-images.githubusercontent.com/73884031/116901085-6bfc3d80-ac31-11eb-93ee-95c18ff8addc.png)
+
+![image](https://user-images.githubusercontent.com/73884031/116901157-7d454a00-ac31-11eb-9d4b-564115fd5906.png)
+
+![image](https://user-images.githubusercontent.com/73884031/116901277-9fd76300-ac31-11eb-8322-4fc49d68f577.png)
+
+![image](https://user-images.githubusercontent.com/73884031/116901330-b1b90600-ac31-11eb-9b4f-61d345489cba.png)
+
+
+
+
+
+
