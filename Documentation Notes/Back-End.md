@@ -6,6 +6,54 @@
 
 ![](https://i2.paste.pics/f99870c61058bfa183d1a7b4e2fa74c8.png)
 
+A quick journey of the various stages of database implementation is shown here:
+
+Originally, through the tutorials that were based on a local Mongo database.
+
+```html
+/*const mongoose = require('mongoose');
+
+const {
+  MONGO_USERNAME,
+  MONGO_PASSWORD,
+  MONGO_HOSTNAME,
+  MONGO_PORT,
+  MONGO_DB
+} = process.env;
+
+const options = {
+  useNewUrlParser: true,
+  reconnectTries: Number.MAX_VALUE,
+  reconnectInterval: 500,
+  connectTimeoutMS: 10000,
+};
+
+const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
+
+mongoose.connect(url, options).then(function () {
+  console.log('MongoDB is connected');
+})
+  .catch(function (err) {
+    console.log(err);
+  });*/
+
+```
+
+Revising this we were able to change it to a database that was connected to our MongoDB Atlas account, that was serving data in the cloud.
+
+```html
+  var mongoose = require('mongoose');
+  var mongoDB = 'mongodb+srv://Jai:Jai@househomies.wmpji.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+
+  mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true}).then(function(){
+    console.log('MongoDB is connected in new way');
+  })
+  .catch(function(err){
+    console.log(err);
+  });
+
+```
+
 <h2 align="center">Data Model</h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Through the data model documentation (link here), you can see that we have transitioned through various different schemas and data models. We ended up trying to pick something quite simple, since we knew our project was already going to be difficult to create. We initally wanted to use the "id" variable that is automatically generated as a way to call each user profile, however we realised that when we were creating these documents, the "id" was not the same for both of the documents created upon registaration. We then opted to change our data model and include "email" in both documents creating a foreign key that we could use to find the correct corresponding data. With the data model, we had a field for images, so for some of the images we had null if no image was stored and then stored the image as a string via accessing our online database. This was done for some of the pre-loaded up users, however we also had some users that uploaded their images through the typeform registration service we had provided. This image would then stored as binary, however our code was versatile enough to cope with this and still presented the images in the way that we wanted.</p>
