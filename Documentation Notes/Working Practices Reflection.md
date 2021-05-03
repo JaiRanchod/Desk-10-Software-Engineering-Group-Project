@@ -12,24 +12,12 @@ person talking at a time, so we liked being able to talk to other team members m
 - We all took responsibilites and we all worked at a smilar pace and there were no slackers
 - Half had mac half had wiondows
 
+<h2 align="center">Reflecting on the Working Practices of the Team, We Have Enjoyed Working as a Team</h2>
 
 
-
-
-
-
-
-
-
-Reflecting on the working practices of the team, we have enjoyed working as a team and the method
-
-
-We 
-
-
-- wokred in mvb
-- discord has been used
-- microsodt teams has been good, screenshare
+-We worked in mvb
+- discord has been used extensively
+- microsoft teams has been good, screenshare
 - good communication
 
 We have already discussed the impact of COVID-19 on our project and how this affected how we worked together, so we won't go into detail but to provide a brief overview.
