@@ -10,7 +10,8 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Welcome page componet is the first page loaded when the localhost link is visited. It is a simple page containing just the Househomies logo, the HouseHomies slogan and a <b>SIGN IN</b> and <b>REGISTER</b> button. 
   
-Screenshot to be added later.
+
+
   
 <h2 align="center"><b>Login Page</b></h2>
 
@@ -18,7 +19,8 @@ Screenshot to be added later.
 
 <p>The page also has "Forgot Password?" and "Create new account" options.</p>
 
-Screenshot to be added later.
+￼![image](https://user-images.githubusercontent.com/74371711/117003868-4dec1700-acdd-11eb-9730-962b0aaacca1.png)
+
 
 <h2 align="center"><b>Register Page</b></h2>
 
@@ -30,19 +32,22 @@ Screenshot to be added later.
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Homepage is the main matching page, it contains the navbar component at the top which contains the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right. The centre of the page contains a card containing cascading profile information of other users, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO. On the left centre of the card component is an interactive cross button. On the right centre of the card component should be an intercative tick button. If either of these buttons are clicked a swiping animation is implemented, whereby the card swipes off to either the left or right of the page and dissapears. If by chance profile preferences match with the signed in user then a smaller card component should appear saying "It's a match!" and the displayed user will then appear alongisde other matched cards on the "Matches" page.
   
- Screenshot to be added later.
+￼![image](https://user-images.githubusercontent.com/74371711/117003888-547a8e80-acdd-11eb-8e06-c39d04cfcb09.png)
+
 
 <h2 align="center"><b>Matches Page</b></h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Matches page component is the page which dispays to a user small card compoenents of other users which they have matched with. it also contains the navbar component at the top which contains the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right. If no matches have yet happened then the page will simply contain test floating to the left and nothing else. However as the user gets more matches, small cards will appear containing the display picture, age, genera and location of the user they have matched with. These card will fill the page from left to right and downwards as more matched occur.</p>
 
-Screenshot to be added later.
+￼![image](https://user-images.githubusercontent.com/74371711/117003918-5c3a3300-acdd-11eb-9a87-20acdccdb96b.png)
+
 
 <h2 align="center"><b>Profile Page</b></h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Profile page component is the page at which a user can view their personal profile, and the information contained within in. It is nearly identical to the layout of the Homepage card, and this was done purposely to save time and also keep the style of the interface consistent. The page also contains the navbar component at the top which contains the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right. The centre of the page contains a card containing cascading profile information of other users, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO. The component should also to the right of the profile picture contain an <b>EDIT</b> button which takes a user to the Edit Profile page.
   
-Screenshot to be added later.
+￼![image](https://user-images.githubusercontent.com/74371711/117003940-62c8aa80-acdd-11eb-815d-ff14b3e8a78c.png)
+
 
 <h2 align="center"><b>Edit Profile Page</b></h2>
 
