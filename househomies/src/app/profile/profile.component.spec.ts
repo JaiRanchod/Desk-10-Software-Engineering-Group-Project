@@ -23,4 +23,14 @@ describe('ProfileComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should display the data', () => {
+    expect(component).toBeTruthy();
+    component.firstName = "Hi";
+    component.lastName = "Checking";
+    fixture.detectChanges();
+    const app = fixture.debugElement.componentInstance;
+    expect(app.firstName).toEqual("Hi");
+    expect(app.lastName).toEqual("Checking");    
+  })
 });
