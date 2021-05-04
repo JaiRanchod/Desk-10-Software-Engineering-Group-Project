@@ -60,9 +60,3 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This is a simple page compoennt containing only the navbar compoent at the top, followed by a central card container containing the HouseHomies logo, followed by paragraphs of text explaining more about the platform.</p>
 
 ![image](https://user-images.githubusercontent.com/74371711/117004989-a243c680-acde-11eb-80aa-f42d6939dd98.png)
-
-
-talk about the template
-walk through all pages
-methods we used
-
