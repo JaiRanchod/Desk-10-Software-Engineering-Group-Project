@@ -26,7 +26,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Register page is reached when a user clicks on the <b>REGISTER</b> button. This component contains one simple type form embed, so does not use the same style of background as the other pages. The central "START" button will begin the process of prompting a new user to comlete 15 fields from which their data will be stored in the database.</p>
 
-Screenshot to be added later.
+![image](https://user-images.githubusercontent.com/74371711/117005034-b2f43c80-acde-11eb-9ee0-9ef17daf52fe.png)
 
 <h2 align="center"><b>Homepage Page</b></h2>
 
@@ -53,13 +53,13 @@ Screenshot to be added later.
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Edit Profile page conmponent is the page at which a user can view and change their their profile information. The page also contains the navbar component at the top which contains the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right. The page contains all central profile information found on the initial Profile page but under each of these a form is included allowing the user to submit their edited profile information. Once the user if finished editing their information, a <b>SAVE</b> button is present in place of the <b>EDIT</b> button from the Profile page.
   
-Screenshot to be added later.
+![image](https://user-images.githubusercontent.com/74371711/117005124-c69fa300-acde-11eb-8ada-66093fc21a20.png)
   
 <h2 align="center"><b>About Us Page</b></h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This is a simple page compoennt containing only the navbar compoent at the top, followed by a central card container containing the HouseHomies logo, followed by paragraphs of text explaining more about the platform.</p>
 
-Screenshot to be added later.
+![image](https://user-images.githubusercontent.com/74371711/117004989-a243c680-acde-11eb-80aa-f42d6939dd98.png)
 
 
 talk about the template
