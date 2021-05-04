@@ -2,13 +2,8 @@
 
 <h2 align="center"> <b> Clifton Stoke Bishop Tickets </b> </h2>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Currently the majority of University of Bristol students use the 'Clifton Stoke Bishop Tickets' Facebook page to post/look for spare rooms or other students to live with. This could be considered an effective way of finding potential housemates as the majority of students follow/like 
-that page, however, that page is not primarily for student accomodation. It is used primarily for selling event tickets, lost and found items and also 
-businesses advertising. This means its a tedious process in finding housing posts and some of which they are illegible for as some people have specific 
-requirements when it comes to housing. Also with these facebook advertisements, it is one party that explicitly reaches out to the party who posted the 
-advertisement. This sort of communication method may discouraged people from recahing out to others in fear of rejection in case the other party does not 
-want to partner up with them. Our application solves this problem as you can only communicate with the other party if both parties has 'liked' the other 
-user so it doesn't allow a user to be explicitely rejected.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Currently, the majority of University of Bristol students use the 'Clifton Stoke Bishop Tickets' Facebook page to post/look for spare rooms or other students to live with. This could be considered an effective way of finding potential housemates as the majority of students follow/like that page, however, that page is not primarily for student accommodation. It is used primarily for selling event tickets, lost and found items and also businesses advertising. This means it is a tedious process in finding housing posts and some of which are illegible as some people have specific requirements when it comes to housing. Also with these Facebook advertisements, it is one party that explicitly reaches out to the party who posted the advertisement. This sort of communication method may discourage people from reaching out to others in fear of rejection in case the other party does not want to partner up with them. Our application solves this problem as you can only communicate with the other party if both parties have 'liked' the other 
+user so it doesn't allow a user to be explicitly rejected.</p>
   
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our application aims to make the process of finding housemates as streamlined as possible, and avoid all the inefficiencies that occur infinding housemate through Facebook.</p>
 
@@ -33,7 +28,7 @@ they'll live with.</p>
 <h2 align="center"> <b> Tinder </b> </h2>
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;With all the applications we have looked through none of them provide any playful aspect in finding housemates or a spare room. So we looked to Tinder to see if we could take any ideas from Tinder to see if we can make housemate finding a more fun experience. Having looked at Tinder we 
-found it easy to navigate with minimal tabs making it user friendly, easy to get started and we found the swipe aspect more fun than just scrolling 
+found it easy to navigate with minimal tabs making it user friendly, easy to get started and we found the swiping aspect more fun than just scrolling 
 through endless amounts of profiles. We found that because you have to swipe through every profile as well, there is no chance of scrolling/swiping past 
 any suitable housemates that you might have missed.
 </p>
