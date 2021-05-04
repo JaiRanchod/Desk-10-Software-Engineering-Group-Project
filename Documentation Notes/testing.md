@@ -94,6 +94,112 @@
 
 <h2 align="center">Coded Automated Testing</h2>
 
+When we first ran ng test, we had various tests failing due to the objects being undefined and therefore the HTML not recognising any input, as shown below.
+
+![image](https://user-images.githubusercontent.com/73884031/117061108-b6f18000-ad19-11eb-84b3-0e74f52da7a5.png)
+
+After resolving these (through the help of Marceli) we were then able to begin writing some of our own tests. 
+
+Beginning in the profile component of our app, we check if after setting the components for the page, whether they are displayed to the user. This test is shown here:
+
+```typescript
+it('should display the data', () => {
+    expect(component).toBeTruthy();
+    component.firstName = "Hi";
+    component.lastName = "Checking";
+    fixture.detectChanges();
+    const app = fixture.debugElement.componentInstance;
+    expect(app.firstName).toEqual("Hi");
+    expect(app.lastName).toEqual("Checking");    
+  })
+  
+  ```
+  
+  This test shows us that when we read in a profile for a user, it will be displayed correctly when needed. 
+  
+  Moving on to the edit profile component, we again check if the information is displayed correctly, however we are testing here that this will also be the value in a textbox (the same variable is used for both). The test for this is very similar to the one above so I will just move on to the next. In this component, we are checking that when the user presses the save button they are taken back to the profile page to look at their newly edited profile, and the test is shown here:
+  
+  ```typescript
+it('should navigate back to the profile page', () => {
+    const component = fixture.componentInstance;
+    let router = TestBed.get(Router);
+    const trackSpy = spyOn(router, 'navigate');
+    component.handleClick();
+    fixture.detectChanges();
+    expect(trackSpy).toHaveBeenCalledWith(['/user-profile']);
+  })
+  
+  ```
+  
+  As previously mentioned, we moved from using this method to using an interface to make our lives easier and have more efficient code. For the homepage component, I went and created a profile and set this within the component. I then tried to pull a field from the profile and check it against the correct string to ensure that when we using this interface, it was working correctly. The test is shown here:
+  
+   ```typescript
+it('should display a card', () => {
+    expect(component).toBeTruthy();
+    component.user_profile = {
+      _id: 'profile id',
+      "Age": 10,
+      Image: "https://images.unsplash.com/photo-1617375407361-9815100c4324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "Bio": 'profile bio',
+      "First Name": 'profile first',
+      "Gender": 'profile gender',
+      "Location": 'profile location',
+      "Phone Number": 'profile phone no',
+      "Preferred Name": 'profile preferred',
+      "Religion": 'profile religion',
+      "Surname": 'profile surname',
+      "University Course": 'profile university',
+      "like": [],
+      "dislike": [],
+      "Budget": 'profile budget',
+      "Personality": 'profile personality',
+    };
+    component.cur_card = {
+      _id: 'profile id',
+      "Age": 10,
+      Image: "https://images.unsplash.com/photo-1617375407361-9815100c4324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "Bio": 'profile bio',
+      "First Name": 'checking first',
+      "Gender": 'profile gender',
+      "Location": 'profile location',
+      "Phone Number": 'profile phone no',
+      "Preferred Name": 'profile preferred',
+      "Religion": 'profile religion',
+      "Surname": 'profile surname',
+      "University Course": 'profile university',
+      "like": [],
+      "dislike": [],
+      "Budget": 'profile budget',
+      "Personality": 'profile personality',
+    };
+    fixture.detectChanges();
+    const app = fixture.debugElement.componentInstance;
+    expect(component.cur_card['First Name']).toEqual("checking first");
+  })
+  
+  ```
+  We also wrote some other tests but due to time constraints we were unable to implement them successfully. In the future, we would definitely choose to call a method in the typescript file that would navigate to the correct page rather than doing it directly within the HTML. 
+  
+  ```typescript
+it('should navigate to login', () => {
+    const component = fixture.componentInstance;
+    let router = TestBed.get(Router);
+    const trackSpy = spyOn(router, 'navigate');
+    fixture.detectChanges();
+    expect(trackSpy).toHaveBeenCalledWith(['/login']);
+  })
+
+  it('should navigate to register', () => {
+    const component = fixture.componentInstance;
+    let router = TestBed.get(Router);
+    const trackSpy = spyOn(router, 'navigate');
+    fixture.detectChanges();
+    expect(trackSpy).toHaveBeenCalledWith(['/register']);
+  })
+  
+  ```
+
+
 
 
 
