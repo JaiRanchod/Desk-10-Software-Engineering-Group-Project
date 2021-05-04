@@ -2,7 +2,7 @@
 
 <h2 align="center">Analysis of Survey Feedback</h2>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;A short survey was created and distributed to various potential users as a means to understand more about their current opinion on the concept of a House share finding platform as well as gain some feedback on what they considered to be important factors when finding a housemate and some design tips.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A short survey was created and distributed to various potential users as a means to understand more about their current opinion on the concept of a House share finding platform, as well as gain some feedback on what they considered to be important factors when finding a housemate, and some design tips.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;So far, a total of 18 users completed this short questionnaire regarding our web application idea. The results mostly conclude that the platform would be used by members of society and help to solve a real-world issue.</p>
 
