@@ -12,6 +12,8 @@
   
 * Video feature - we would have like to implement an optional video element whereby the users could record themselves to portray their personality or the user could record a video of the house they are looking for a housemate to fill a room in, this will improve the safety of users as it will be hard to 'catfish' users and so this will reduce the number of users trying to impersonate someone they are not.
 
+* Forgot password - we have left the forgotten password button on the log in page but it currently does not work. So if we had more time we would implement this so that a user would be able to reset their password. We couldn't implement this function at the moment as we would have to send a rest password email and we don't have a server to send out emails.
+
 <p>&nbsp;&nbsp;&nbsp;&nbsp;We are looking forward to where this could go and we have discussed as a team its potential to be put to market. So we are going to keep working on the project either over the summer or after we have finished our dissertations. Now that we will have more time we can spend more time learning to implement features to improve the functionality of the application to make it more 'market ready'.</p>
 
 
