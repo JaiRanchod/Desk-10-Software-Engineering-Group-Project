@@ -3,14 +3,16 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { MatchingComponent } from './matches.component';
 import { Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
+import { DebugElement } from '@angular/core';
 
 describe('MatchingComponent', () => {
   let component: MatchingComponent;
   let fixture: ComponentFixture<MatchingComponent>;
   let router: Router;
+  let html = DebugElement;
 
   beforeEach(async() => {
-    TestBed.configureTestingModule({
+    await TestBed.configureTestingModule({
       imports: [HttpClientTestingModule, RouterTestingModule],
       declarations: [ MatchingComponent ]
     })
