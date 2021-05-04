@@ -9,10 +9,10 @@
 <h2 align="center"><b>Welcome Page</b></h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Welcome page componet is the first page loaded when the localhost link is visited. It is a simple page containing just the Househomies logo, the HouseHomies slogan and a <b>SIGN IN</b> and <b>REGISTER</b> button. 
-  
+
+![image](https://user-images.githubusercontent.com/74371711/117005197-e040ea80-acde-11eb-97e9-8cc6fe015c3c.png)
 
 
-  
 <h2 align="center"><b>Login Page</b></h2>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The Login page is reached when a user clicks on the <b>SIGN IN</b> button. This component contains the central HouseHomies logo, and underneath is a central class inside of which is test asking the user to "Sign in with credentials". Underneath this is two input form classes for Email and Password followe by the <b>SIGN IN</b> button. If inputted credentials match those stored in the database, a second redirect to homepage button will appear.</p>
