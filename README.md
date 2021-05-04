@@ -36,7 +36,7 @@
   <br><br>
 </p>
 
-//https://user-images.githubusercontent.com/73884031/116811748-d2566280-ab42-11eb-8fb7-35dbf0301b24.mp4
+/* https://user-images.githubusercontent.com/73884031/116811748-d2566280-ab42-11eb-8fb7-35dbf0301b24.mp4 */
 
 <h2 align="center"> <b> Background and Motivation </b> </h2>
 
