@@ -8,7 +8,7 @@ Details of how you evaluated your designs (techniques used & awareness of their 
   
   ![image](https://user-images.githubusercontent.com/74371711/117008417-9bb74e00-ace2-11eb-91e3-0fdea60f757d.png)
   
-<p>&nbsp;&nbsp;&nbsp;&nbsp;The original wireframe prototype has significant differences in design from the final product. This is mainly due to our decision to base the final design off of an Angular template, but also a result of the front end team discovering which elements of the design could realisticaly be implemented in the real life code. Despite these design changes, the functionality of the application has for the most part remained consistent since the start of the project and an updated wireframe was later created as a reference for front end code development and a means to aquire user feedback information.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The original wireframe prototype has significant differences in design from the final product. This is mainly due to our decision to base the final design off of an Angular template, but also a result of the front end team discovering which elements of the design could realisticaly be implemented in the real life code. We also took into account user feedback from our wireframe testing. Despite these design changes, the functionality of the application has for the most part remained consistent since the start of the project and an updated wireframe was later created as a reference for front end code development and a means to aquire user feedback information.</p>
 
 <h2 align="center">Updated Wireframe Sketch</h2>
 
