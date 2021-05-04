@@ -26,10 +26,10 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { SettingsComponent } from './settings/settings.component';
 import { ProfileEditComponent } from './profile-edit/profile-edit.component';
 import { CardComponent } from './card/card.component';
-import { MatchCardComponent } from './match-card/match-card.component';
-import { MatchPopupComponent } from './match-popup/match-popup.component';
-import { DataService } from './services/data.service';
-import { UserService } from './services/user.service';
+import { MatchCardComponent } from '../app/match-card/match-card.component';
+import { MatchPopupComponent } from '../app/match-popup/match-popup.component';
+import { DataService } from '../app/services/data.service';
+import { UserService } from '../app/services/user.service';
 
 
 @NgModule({
