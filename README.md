@@ -166,18 +166,3 @@ team we could be rest assured that the application would run on any other Linux 
   <br><br>
 </p>
 
-
-
-
-
-
-
-
-
-1. [Data Model](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Data%20Model.md)
-
-6. [Wireframe Prototype](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/WireFrame%20Prototype)
-7. [Wireframe Testing](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Wireframe%20Testing.md)
-9. [Survey Analysis](https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Survey_Feedback_Analysis.md)
-11. [Wireframe](https://www.figma.com/proto/81lSBYvFPxFcbHZ9xPXTJh/House-Homies?node-id=103%3A4338&scaling=min-zoom&page-id=1%3A5647)
-
