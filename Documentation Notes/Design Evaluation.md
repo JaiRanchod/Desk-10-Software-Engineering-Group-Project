@@ -1,6 +1,6 @@
 <h1 align="center">Design Evaluation</h1>
 
-Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of  techniques suitable for your particular design. A timeline of evaluation of your design. 
+//Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of  techniques suitable for your particular design. A timeline of evaluation of your design.//
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The design process began shortly after the proroject proposal had been confirmed in late Feburary. The team decided to individually draft their design ideas on paper and then each member share them with the group in the next Microsoft Teams meeting. Due to the remote nature of this work it proved too problematic to effectively combine our ideas into one difinitive paper prototype. To solve this problem the team decided in late Feburary to use a collaborative interface design tool such as Figma. This made the design process much smoother and allowed the team to all be on the same page. Since then all developers could interact with the same Figma sketch simultaneously, combining drafted paper prottype ideas to create one, singlar wireframe prototype.</p>
 
