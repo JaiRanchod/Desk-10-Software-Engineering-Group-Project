@@ -10,17 +10,12 @@ provide a brief overview. The main factor it affected was the effectiveness of o
 in MVB together and we were a lot more productive in furthering the project. It was easier to converse with other members of the team, as with online 
 meetings there can only be one person talking at a time, so we liked being able to talk to other team members more easily.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;One of key factors that made our team work effectively is that we were comfortable in having honest discussions/debates on 
-ideas or suggestions and each team member was able to take on constructive critism. Because of this we were able to clearly align our objectives and it 
-made it clearer for everyone to know what they were doing. If we weren't comfortable with each other this could have led to a team member not willing to 
-share ideas or give honest feedback of an individuals work. Another factor that helped us work well as a team is that we all understood that we each had 
-a responsibilty and that we couldn't let the team down, so this led to no one slacking woth work or anyone having the expectation that another team 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;One of the key factors that made our team work effectively is that we were comfortable in having honest discussions/debates on ideas or suggestions and each team member was able to take on constructive criticism. Because of this, we were able to align our objectives and it made it clearer for everyone to know what they were doing. If we weren't comfortable with each other this could have led to a team member not willing to share ideas or give honest feedback on an individuals work. Another factor that helped us work well as a team is that we all understood that we each had 
+a responsibility and that we couldn't let the team down, so this led to no one slacking with work or anyone expecting that another team 
 member would do the work for them.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our main communication channels were Microsoft Teams and Discord. We liked Teams in that we were able to share our screens, 
-this allowed for effective meetings as we could visually see the other team member's work, this sllowed us to better understand ecah others work as we 
-were able to walk through the code/work and ask any questions if anyone was unsure. We used Discord as our main communication channel when messaging 
-about the project. Discord has a more user-friendly interface and acts more as a messaging platform than Microsoft Teams, especially as Discord has a 
+this allowed for effective meetings as we could visually see the other team member's work, this allowed us to better understand each other's work as we were able to walk through the code/work and ask any questions if anyone was unsure. We used Discord as our main communication channel when messaging about the project. Discord has a more user-friendly interface and acts more as a messaging platform than Microsoft Teams, especially as Discord has a 
 mobile phone application that is easier to use and navigate than messaging via Microsoft Teams.</p>
 
 
