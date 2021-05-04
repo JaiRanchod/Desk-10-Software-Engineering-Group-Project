@@ -23,7 +23,6 @@ import { LoginComponent } from './login/login.component';
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
-import { SettingsComponent } from './settings/settings.component';
 import { ProfileEditComponent } from './profile-edit/profile-edit.component';
 import { CardComponent } from './card/card.component';
 import { MatchCardComponent } from './match-card/match-card.component';
@@ -43,7 +42,6 @@ import { UserService } from './services/user.service';
     LoginComponent,
     HomepageComponent,
     AboutusComponent,
-    SettingsComponent,
     ProfileEditComponent,
     CardComponent,
     MatchCardComponent,

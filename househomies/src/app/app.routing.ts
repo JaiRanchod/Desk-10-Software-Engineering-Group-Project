@@ -10,7 +10,6 @@ import { MatchingComponent } from './matches/matches.component';
 import { LoginComponent } from './login/login.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
-import { SettingsComponent } from './settings/settings.component';
 import { ProfileEditComponent } from './profile-edit/profile-edit.component';
 
 const routes: Routes =[
@@ -22,7 +21,6 @@ const routes: Routes =[
     { path: 'matches',          component: MatchingComponent },
     { path: 'login',          component: LoginComponent },
     { path: 'about',           component: AboutusComponent },
-    { path: 'settings',         component: SettingsComponent },
     { path: '', redirectTo: 'welcomepage', pathMatch: 'full' }
 ];
 
