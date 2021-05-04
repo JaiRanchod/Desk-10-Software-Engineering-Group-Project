@@ -1,78 +1,45 @@
 <h1 align="center">User Acceptance Testing</h1>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;One the initial wireframe had been created, it was distributed to a small number of users (mainly students at the univeristy of Bristol) for a design and functionality review. The feedback was generally very positive. However because of this, could be deemed as biased since the it all came from friends of the team memebers, who were likely to give a biased positive response. In our evaluation and reflection, the team decided if more time or resources were available, it would have been more informative to distribute the wireframe to a wider demographic, who would have potentially been more critical and provided more informative feedback. Furthermore, since the design has evolved so much since the initial wireframe, it would be a good idea to distribute the updated design to users for more relevant feedback. If the team has time before submission, this will be done so that the design can be improved if there is time, or at least some more user feedback can be considered in the evaluation or as potential ideas discussed in the Future Work section of the doccumentation.</p>
+<p>To generate user testing, we sampled a group of University of Bristol students from a variety of years, including freshers who could arguably benefit the most from our app after restrictions imposed when meeting new people, limiting their options for future housemates. The database was initially loaded with several sample users which our testers could choose to use or they were allowed to generate their own user through our registration page within the app. Here there was some input required from our end as the new profiles would currently not have any likes as the other users were not active. To resolve this we simply logged into some of the sample users and manually liked the newly created user profile, this could have also been done by adding the user id to the array of liked users in the database but it was more convenient on our end to simply log in as the different sample users. From here the users were given freedom to play around with the app as they liked, including changing any of the user profile settings and swiping on profiles that would appear from the homepage of the logged in account, noting any things they liked or disliked as well as any other feedback. All of our testers decided to create their own profiles rather than using one of the sample users, with their feedback as follows:</p>
 
-<h2 align="center">Wireframe Testing</h2>
+<h6>User1:</h6>
+<p>Positives:
+• Looks good and simplicity makes it easy to use
+Negatives:
+• Can't see all of the users information on the matched card
+General feedback:
+Overall it looks good and easy to use, would definitely use the app</p>
 
-<p align="center"><b>Here are few cases of where we able to test our paper prototype and wireframe.</b></p>
+<h6>User2:</h6>
+<p>Positives:
+• I like the aesthetics, as well as logo and name, the overall design is really good
+Negatives:
+• Would like to be able to see budget on the matches page after matching with someone
+General feedback:
+N/A</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Our testing process was to arrange zoom calls and discuss how the wireframe would work. Due to various situations we decided to meet with people we were living with or arrange zoom calls to present a working wireframe. For people we saw in person we were able to just hand over our laptops and allow them to use the app in whatever way they saw fit. For zoom calls, we shared screens and were able to give the users control of the mouse meaning they were able to, again allowing users to use the app in whatever way they saw fit. After users had the opportunity of using the app, we then asked for feedback on what they thought worked well and not so well.</p>
+<h6>User3:</h6>
+<p>Positives:
+• The personality score is cool and something nice to take into account when living with other people. Especially with current circumstances meaning more time is being spent at home with your flatmates.
+Negatives:
+• None, works well and has fun features
+General feedback:</p>
 
-<h3 align="center">Overview of Test Cases:</h3>
+<p>User4:
+Positives:
+	• Functional and straight to the point. Very easy to set up with the registration survey and then can get straight into matching.
+Negatives:
+	• For those in a group looking to get an extra housemate to fill a vacancy there can only be one image and name. It might be nice to have more images available for the rest of the group. There is also no option to change the image or delete account which would be good once housemates have been found
 
-<h3 align="center">User 1 – Current Student (Potential user)</h3>
+User5:
+Positives:
+	• Good layout and design, easy to navigate and edit profile to desired changes
+Negatives:
+	• Some of the users info is fixed with certain options in the registration but is allowed to be changed to anything on the edit profile screen, it would be nice to have them consistent across both parts
+General feedback:
+Overall I think it is really good and has great potential, just a few little things that would be nice to have included
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;This user is currently living in private accommodation. Their flatmate (user 2) has recently dropped out. This user is a good person to use for testing since it shows the perspective of trying to find a new flatmate for their current flat.</p>
+After users had completed their trial of the app we reverted any changes they had made, including deleting any new accounts and changing fields back to their initial state for sample users. This was done in order to preserve anonymity and protect privacy as our passwords are not currently being hashed for this version of our web app. The users feedback also remains anonymous to again protect privacy of users.
 
-<h4>Positives</h4>
-
-- The concept is a good idea, since it solves the current problem, I am in.
-- I also like the fact it tries to match the current flat to a potential new flatmate as this would provide a good flat atmosphere.
-- I like the tinder styling; it is very easy to use.
-
-<h4>Potential Issues/Improvements</h4>
-
-- Maybe try and allow users to add their social media pages to their profile. Can provide a useful resource.
-- Superlike function – Would be quite useful if you were in quite a rush.
-- Maybe allow for more than one photo if that is already not an option?
-- What have we done to address this?
-- We have suggested users to add some social media information in their bio.
-
-<h4>What have we done to address this?</h4>
-
-- We have made it more clear in our wireframe that more than one picture is permitted within the profile
-
-<h3 align="center">User 2 – Recently decided to leave Uni (Potential user)</h3>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;This user has decided to leave midway through University for personal reasons. They are currently still paying for their accommodation as they are finding it quite hard to let it out to someone. This user lives with user 1. For similar reasons to user 1, they are a good person to use for testing.</p>
-
-<h4>Positives</h4>
-
-- Currently, what I am doing is trying to sell it on various Facebook pages which I think is quite inefficient. This resolves the issue.
-- It is a good idea that I can try and get my flatmates a suitable person to live with in hope that the flat dynamic is not ruined.
-- I like the map, as this means we can easily see how far the University is or whether it looks to be a good area.
-
-<h4>Potential Issues/Improvements</h4>
-
-<p>Would be quite useful to put in a section for situations like myself, where I want to advertise the group too and that I am selling as then I can directly sort out the details regarding the tenancy etc.</p>
-
-- Could be slightly more aesthetically pleasing on the home page and login/register pages.
-- Improved security credentials?
-
-<h4>What have we done to address this?</h4>
-- We think that the app can be used by a user in this situation.
-- Tried to redesign the home/login/register pages to be more aesthetically pleasing.
-- Clearly addressed that we will be using hashing to ensure that details remain secure.
-
-<h3 align="center">User 3 – Young Professional (Potential user)</h3>
-
-This user had used SpareRoom to find his current living situation, so was ideal in seeing how an app like this would make the experience better for him and his flatmates.
-
-<h4>Positives</h4>
-
-- This is a lot more fun than using SpareRoom to find a living situation.
-- I think if I had used this app, I would have found a more suited household. In a pandemic, where we have spent lots of time indoors it would have been nice if we had more common ground.
-- I like the material design. Very simple and easy to use.
-
-<h4>Potential Issues/Improvements</h4>
-
-- Would quite like an instant message service built-in, since then I don’t have to exchange contact details for every match I would get.
-- A mobile app based on this would be a good idea in the future.
-- Some more options in the profile might be a good idea for example relationship status and whether they would be visiting often etc.
-
-<h4>What have we done to address this?</h4>
-
-- We have decided to try and implement an instant message service using the Telegram API. Unsure on how complex that will be at the current stage of development.
-- We would like both a mobile app and web page in a perfect world
-- Tried to include more details within the profile, however visiting often can be difficult to add.
+On evaluating user acceptance testing, it is clear that our use of template proved to be a good decision as almost all of our users commented on the appearance as a positive. The layout was also commonly praised, here it is clear that sticking to the well-known template of current dating apps such as Tinder, Hinge and Bumble proved effective as users recognised the familiar layout. Considering the negative feedback, many of these include comments about usability, including having all information available for current matches and more accessibility for groups. This are definitely features that should be considered in the future and with more time we would have been likely to implement.</p>
 
