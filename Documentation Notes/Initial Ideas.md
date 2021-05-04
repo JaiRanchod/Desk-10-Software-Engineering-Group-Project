@@ -17,7 +17,7 @@
 
  
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Our initial methodology of narrowing down to our potential project was to judge the ideas on the basis of individual interest and excitement towards them. There was a clear consensus that **A)** The tinder for finding housemates idea and **B)** The Finding a movie to watch using a virtual dartboard; were the two favourites.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Our initial methodology of narrowing down to our potential project was to judge the ideas on the basis of individual interest and excitement towards them. There was a clear consensus that 1. The tinder for finding housemates idea and 2. The Finding a movie to watch using a virtual dartboard; were the two favourites.</p>
 
  
 
