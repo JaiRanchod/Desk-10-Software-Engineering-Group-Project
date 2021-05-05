@@ -5,6 +5,8 @@
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>MEAN</b> is an open-source JavaScript software stack. The acronym representing a collection of four technologies and the combination of the 
 four cater to the complex demands needed by the applications built by developers.</p>
 
+<p align="center"><img src="https://i.ibb.co/ZHB29Qf/101218-1400-Whatis-Mean-S2.png" alt="101218-1400-Whatis-Mean-S2" border="0"></p>
+
 <h2 align="center">Mongo</h2>
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>MongoDB</b> acts as the back-end of our web application, where all the data will be stored. It is a NoSQL database so it uses collections 
