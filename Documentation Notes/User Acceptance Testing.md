@@ -12,9 +12,9 @@ Overall it looks good and easy to use, would definitely use the app</p>
 
 <h6 align="center">User2:</h6>
 <p>Positives:
-• I like the aesthetics, as well as logo and name, the overall design is really good
+- I like the aesthetics, as well as logo and name, the overall design is really good
 Negatives:
-• Would like to be able to see budget on the matches page after matching with someone
+- Would like to be able to see budget on the matches page after matching with someone
 General feedback:
 N/A</p>
 
