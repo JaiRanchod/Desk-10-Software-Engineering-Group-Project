@@ -158,3 +158,10 @@ router.post('/UserProfilesLike', (req, res) => {
 https://www.guru99.com/mean-stack-developer.html#:~:text=Mean%20Stack%20refers%20to%20a,used%20to%20develop%20web%20applications.&text=Express%20JS%20is%20a%20framework,Node.
 
 https://searchapparchitecture.techtarget.com/definition/RESTful-API#:~:text=A%20RESTful%20API%20is%20an,deleting%20of%20operations%20concerning%20resources. 
+
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Front-End.md">
+<b>Next Section</b></a>
