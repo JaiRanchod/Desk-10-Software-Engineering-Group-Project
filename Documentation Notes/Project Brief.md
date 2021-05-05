@@ -27,5 +27,5 @@ Location, Budget, No. of Housemates, Preference of Gender, Religion, Amenties, A
 
 
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
-  <b>Return To Home</b>
+  <h2>Return To Home</h2>
               </a>
