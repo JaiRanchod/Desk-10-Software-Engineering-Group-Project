@@ -27,7 +27,12 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The most important factors that give us confidence in this project is the fact that it solves a real problem, it involves a good balance between backend and frontend requirements, and we all agree that it will be a huge learning experience for us all.</p>
 
- 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://www.youtube.com/watch?v=J7W7AVbA9sw&feature=youtu.be">
+<b>Next Section</b></a>
 
  
 
