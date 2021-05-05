@@ -8,7 +8,7 @@ user so it doesn't allow a user to be explicitly rejected.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our application aims to make the process of finding housemates as streamlined as possible, and avoid all the inefficiencies that occur infinding housemate through Facebook.</p>
 
 
-<a align="center"><img src="https://i.ibb.co/bsG9PP5/Screenshot-2021-05-05-at-11-41-20.png" alt="Screenshot-2021-05-05-at-11-41-20" border="0"></a>
+<p align="center"><img src="https://i.ibb.co/bsG9PP5/Screenshot-2021-05-05-at-11-41-20.png" alt="Screenshot-2021-05-05-at-11-41-20" border="0"></p>
 
 
 <h2 align="center"> <b> Spareroom </b> </h2>
@@ -18,7 +18,7 @@ One of the aspects of Spareroom that we liked is that your were able to set a pr
 you're looking for which improves on the Facebook posts which usually only detail the room and price, and not anything to do with anything of the people 
 they'll live with.</p>
 
-<a align="center"><img src="https://i.ibb.co/fY20db5/Screenshot-2021-05-05-at-11-41-50.png" alt="Screenshot-2021-05-05-at-11-41-50" border="0"></a>
+<p align="center"><img src="https://i.ibb.co/fY20db5/Screenshot-2021-05-05-at-11-41-50.png" alt="Screenshot-2021-05-05-at-11-41-50" border="0"></p>
 
 <h2 align="center"> <b> Badi </b> </h2>
 
@@ -32,7 +32,7 @@ they'll live with.</p>
 </p>
 
 
-<a align="center"><img src="https://i.ibb.co/NS0N0My/Screenshot-2021-05-05-at-11-42-20.png" alt="Screenshot-2021-05-05-at-11-42-20" border="0"></a>
+<p align="center"><img src="https://i.ibb.co/NS0N0My/Screenshot-2021-05-05-at-11-42-20.png" alt="Screenshot-2021-05-05-at-11-42-20" border="0"></p>
 
 <h2 align="center"> <b> Tinder </b> </h2>
 
