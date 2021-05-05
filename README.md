@@ -24,7 +24,7 @@
 
 <h2 align="center"> <b> Introduction </b> </h2>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;For our project, we established the problem of looking for housing with a suitable group of friends. Sometimes, this can occur due to people dropping out and needing another person to fill in. Other times it may be that there are people unhappy with their current living situation and looking to move to a happier and more enjoyable situation. </p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;For our project, we recognised the problem regrading finding a suitable group of people. Sometimes, this can occur due to members dropping out and needing another person to fill in. Other times it may be that there are people unhappy with their current living situation and looking to move to a happier and more enjoyable situation. </p>
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Currently, the majority of university students who do not have a house sorted use Facebook pages to find a room or other people to bunch up to find a house together. We see that most people either turn to the Clifton and Stoke Bishop Facebook page or alternative housing Facebook groups designed to help people find suitable accommodation. The problems with these pages are that they can be unorganized, making it hard to track what users have seen and what users are yet to see. </p>
 
