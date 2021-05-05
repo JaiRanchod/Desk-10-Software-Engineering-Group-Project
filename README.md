@@ -11,7 +11,7 @@
 
 <p align="center"> <b>Team Members</b> </p>
 
-<p align="center"> Andreas Phillipou, Charles Hilton, Jai Ranchod, Josh Pears and Lucas MacKenzie </p>
+<p align="center"> Jai Ranchod, Josh Pears, Charles Hilton, Andreas Phillipou and Lucas MacKenzie </p>
 
 <p align="center">
   <img src="https://i.ibb.co/6B9N28m/Profile.jpg" width="150" height="150"/>
