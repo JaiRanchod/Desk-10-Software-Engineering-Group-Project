@@ -1,14 +1,14 @@
 <h1 align="center">Front End</h1>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;After some research and thought, the group decided that the use of a pre made angular template would be more suitable for a project of this scale since building an astetically pleasing user interface from scratch would be overly time consuming, and time could be better allocated to other areas of the project. With this in mind, the team settled on a template from the Argon website - https://demos.creative-tim.com/argon-design-system-angular.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;After some research and thought, the group decided that the use of a pre-made angular template would be more suitable for a project of this scale since building an aesthetically pleasing user interface from scratch would be overly time-consuming, and time could be better allocated to other areas of the project. With this in mind, the team settled on a template from the Argon website - https://demos.creative-tim.com/argon-design-system-angular.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Due to the large number of files and styling sheets included, may hours were spent scanning through the initial template to fully understand how the components were interacting with each other, and the styling was being implemented. Once the template had been understood, the developers could then begin to remove unwanted classes and divisions, add new ones and implement new components to maintain the astetically pleasing style of the templete whilst adding the functionality of the HouseHomies platform previously decided upon in the wireframe and paper prototypes.</p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Due to a large number of files and styling sheets included, many hours were spent scanning through the initial template to fully understand how the components were interacting with each other, and the styling was being implemented. Once the template had been understood, the developers could then begin to remove unwanted classes and divisions, add new ones and implement new components to maintain the aesthetically pleasing style of the template whilst adding the functionality of the HouseHomies platform previously decided upon in the wireframe and paper prototypes.</p> 
 
 <h1 align="center">Final Product</h1>
 
 <h2 align="center"><b>Welcome Page</b></h2>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;The Welcome page componet is the first page loaded when the localhost link is visited. It is a simple page containing only the Househomies logo, slogan and a <b>SIGN IN</b> and <b>REGISTER</b> button. 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The Welcome page component is the first page loaded when the localhost link is visited. It is a simple page containing only the Househomies logo, slogan and a <b>SIGN IN</b> and <b>REGISTER</b> button. 
 
 ![image](https://user-images.githubusercontent.com/74371711/117005197-e040ea80-acde-11eb-97e9-8cc6fe015c3c.png)
 
