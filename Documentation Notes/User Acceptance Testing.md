@@ -27,7 +27,8 @@
 - Would like to be able to see budget on the matches page after matching with someone.
 
 <h4>General feedback:</h4>
-N/A
+
+- N/A
 
 <h3 align="center">User 3:</h3>
 
@@ -42,17 +43,19 @@ N/A
 General feedback:</p>
 
 <h3 align="center">User4:</h3>
+
 <h4>Positives:</h4>
 
 - Functional and straight to the point. Very easy to set up with the registration survey and then can get straight into matching.
 
 <h4>Negatives:</h4>
 
-- For those in a group looking to get an extra housemate to fill a vacancy there can only be one image and name. It might be nice to have more images available for the rest of the group. There is also no option to change the image or delete account which would be good once housemates have been found
+- For those in a group looking to get an extra housemate to fill a vacancy there can only be one image and name. It might be nice to have more images available for the rest of the group. There is also no option to change the image or delete account which would be good once housemates have been found.
 
 <h3 align="center>User5:</h3>
 	   
 <h4>Positives:</h4>
+
 - Good layout and design, easy to navigate and edit profile to desired changes.
 
 <h4>Negatives:</h4>
