@@ -31,7 +31,7 @@ One of the key reasons why we decided to pursue HouseHomies was to overcome the 
 
 <h3 align="center">We implemented an engaging onboarding process</h3>
 
-![](https://i.ibb.co/bKRX3Pb/ezgif-com-gif-maker.gif)
+<img src="https://i.ibb.co/bKRX3Pb/ezgif-com-gif-maker.gif" class ="center">
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;As the registration process is one of the first interactions a user has with our web app, we wanted to ensure the experience would stand out from our competitors. Once again, we leveraged the flexibility of a third party tool called Typeform, which allowed us to build a smooth and engaging onboarding experience.</p>
 
