@@ -11,7 +11,7 @@ One of the key reasons why we decided to pursue HouseHomies was to overcome the 
 ![](https://i.ibb.co/cN3N7y1/Screenshot-2021-05-04-at-14-44-36.png)
 
 
-<h2 align="center>Competitor 2</h2>
+<h2 align="center">Competitor 2</h2>
 
 ![](https://i.ibb.co/pRQ7V8k/Screenshot-2021-05-04-at-14-48-54.png)
 
