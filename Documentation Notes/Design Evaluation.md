@@ -18,3 +18,10 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Throughout the progression of the coded design implementation, HTML, CSS, SCSS and typescript files were used to create new and edit existing components. By using the pre-made SCSS styling configurations in HTML classes, we were able to keep the final design simple, consistent and visually appealing whilst ensuring a pleasant user experience.</p>
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/testing.md">
+<b>Next Section</b></a>
+
