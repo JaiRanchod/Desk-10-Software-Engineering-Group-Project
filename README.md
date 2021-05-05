@@ -28,7 +28,7 @@
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Currently, the majority of university students who do not have a house sorted use Facebook pages to find a room or other people to bunch up to find a house together. We see that most people either turn to the Clifton and Stoke Bishop Facebook page or alternative housing Facebook groups designed to help people find suitable accommodation. The problems with these pages are that they can be unorganized, making it hard to track what users have seen and what users are yet to see. </p>
 
-<p align="left"> With the above in mind, have decided to create a tinder-like app for people to find like-minded housemates. It will feature a swipe action when liking or disliking user profiles, a pop-up action when a match is made and the user will be able to see their matches on a matches page.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;With the above in mind, have decided to create a tinder-like app for people to find like-minded housemates. It will feature a swipe action when liking or disliking user profiles, a pop-up action when a match is made and the user will be able to see their matches on a matches page.</p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/w2KHfIlI3V7bi/giphy.gif" width="200" height="200">
@@ -102,7 +102,7 @@ machine they were using.</p>
 
 <h2 align="center"> <b> UX Design </b> </h2>
 
-<p align="left"> In designing our web application we used a variety of different methods in coming up with the design of our web application. We started with paper prototyping and then developed a wireframe using Figma. We found using Figma an efficient method in formulating the design of the web application as we could all simultaneously work on the application and Figma allowed us to create a 'working' version of the website design where we could embed links between pages so we could get a feel for how the website will work. We discuss, in detail, the specifics of our design process in the links below. </p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;The design process of our application consisted of a variety of different methods in coming up with the design of our web application. We started with paper prototyping and then developed a wireframe using Figma. We found using Figma an efficient method in formulating the design of the web application as we could all simultaneously work on the application and Figma allowed us to create a 'working' version of the website design where we could embed links between pages so we could get a feel for how the website will work. We discuss, in detail, the specifics of our design process in the links below. </p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/YBkTzzyNewWtUANTso/source.gif" width="200" height="200">
@@ -143,7 +143,7 @@ machine they were using.</p>
 
 <h2 align="center"> <b> Evaluation </b> </h2>
 
-<p align="left"> In evaluating our project we look to evaluate our design looking at what features worked well and which not so much, and what we should have changed in the design of the web application. We conducted a user acceptance test of five users to see get feedback on the design and functionality of the web application. </p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;In evaluating our project we look to evaluate our design looking at what features worked well and which not so much, and what we should have changed in the design of the web application. We conducted a user acceptance test of five users to see get feedback on the design and functionality of the web application. </p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/xT5LMLcvRrCS5Nf2Lu/source.gif" width="200" height="200">
@@ -161,7 +161,7 @@ machine they were using.</p>
 
 <h2 align="center"> <b> Conclusion </b> </h2>
 
-<p align="left"> In this section we look to draw some conclusions from our project, reflecting on the final version of our project and also factors that affected the process of building the application. We concluded that this project could be taken a lot further if we had more time and we could learn how to implement some more advanced features for the application. So we may continue working on the idea, following the submission of this version. </p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;In this section we look to draw some conclusions from our project, reflecting on the final version of our project and also factors that affected the process of building the application. We concluded that this project could be taken a lot further if we had more time and we could learn how to implement some more advanced features for the application. So we may continue working on the idea, following the submission of this version. </p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/rSVRXeKPgeM5xfGyCR/source.gif" width="200" height="200">
