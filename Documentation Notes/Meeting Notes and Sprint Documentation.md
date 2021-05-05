@@ -128,3 +128,10 @@ This was just a quick catch-ip meeting to see where everyone was at and to see w
 This meeting invloved Marceli where we discussed adding an authentication feature to our project, as currently anyone can access any page without permission. By adding this feature we are replicating how a normal website that requires a login and register page operates, so that a user can access their profile.
 
 We also asked Marceli about solving our issue with having dynamic data within our matching and matches page, as we currently have hard-coded cards and profile information, which is no use to us as we want a fully working web app that can get profiles from our database and display their information correctly. So Marceli suggested a few ideas on how to get around this, so we are looking into those now.
+
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Use%20of%20GitHub.md">
+<b>Next Section</b></a>
