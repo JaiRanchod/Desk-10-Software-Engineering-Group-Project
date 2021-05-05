@@ -7,12 +7,18 @@ user so it doesn't allow a user to be explicitly rejected.</p>
   
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our application aims to make the process of finding housemates as streamlined as possible, and avoid all the inefficiencies that occur infinding housemate through Facebook.</p>
 
+![](https://ibb.co/X7GRbbx)
+
+
+
 <h2 align="center"> <b> Spareroom </b> </h2>
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Spareroom is the other major provider in finding housemates or a spare room. Spareroom caters for both students and the general public, and it includes many factors which help in finding suitable housemates/spare room, such as smoking household, occupation and living with landlord etc. 
 One of the aspects of Spareroom that we liked is that your were able to set a profile picture, a bio and you can also list a set of options of what 
 you're looking for which improves on the Facebook posts which usually only detail the room and price, and not anything to do with anything of the people 
 they'll live with.</p>
+
+![](https://ibb.co/cc1ThPH)
 
 <h2 align="center"> <b> Badi </b> </h2>
 
@@ -24,6 +30,8 @@ they'll live with.</p>
 
 <p>Badi was similar to spareoom, but both failed to make the process of finding a housemate fun, which we will aim to deliver in our project.
 </p>
+
+![](https://ibb.co/743p3q1)
 
 <h2 align="center"> <b> Tinder </b> </h2>
 
