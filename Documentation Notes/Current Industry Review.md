@@ -42,4 +42,6 @@ through endless amounts of profiles. We found that because you have to swipe thr
 any suitable housemates that you might have missed.
 </p>
 
+<p align="center"><img src="https://i.ibb.co/wSfPX0G/4-bio3.jpg" alt="4-bio3" border="0"></p>
+
 
