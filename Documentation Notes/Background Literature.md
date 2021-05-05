@@ -43,3 +43,11 @@ For us, what seemed to work well and efficient was utilising the plethora of res
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Reflecting on our background literature approach, we believe that it was appropriate and helpful to our project. With brief primary and secondary research, we were able to gather evidence that suggests there is demand for the problem we are solving and by setting mandatory resources to study as a team, we ensured that every team member was able to contribute in all aspects of the developmeent process, leading to efficiency and a feeling of inclusivity by all.</p>
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Stack%20architecture%20and%20system%20design.md">
+<b>Next Section</b></a>
+
+
