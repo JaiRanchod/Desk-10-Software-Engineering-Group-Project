@@ -22,12 +22,12 @@ Finally, the platform does not knowingly breach any copyright laws, the logo was
 
 <h2 align="center">Reading & References</h2>
 
+British Psychological Society. (2013). Ethics guidelines for internet-mediated research.
+British Psychological Society. Retrieved from https://doi.org/INF206/1.2013 
+
 Condie, J., Lean, G. and Wilcockson, B. (2017), "The Trouble with Tinder: The Ethical Complexities of Researching Location-Aware Social Discovery Apps", Woodfield, K. (Ed.) The Ethics of Online Research (Advances in Research Ethics and Integrity, Vol. 2), Emerald Publishing Limited, Bingley, pp. 135-158. https://doi.org/10.1108/S2398-601820180000002006
 
 Lanzing, Marjolein. “The Transparent Self -A Normative Investigation of Changing Selves and Relationships in the Age of the Quantified Self.” The Transparent Self -A Normative Investigation of Changing Selves and Relationships in the Age of the Quantified Self (2019): n. pag. Print.
-
-British Psychological Society. (2013). Ethics guidelines for internet-mediated research.
-British Psychological Society. Retrieved from https://doi.org/INF206/1.2013 
  
 Ronald E. Anderson. 1992. ACM code of ethics and professional conduct. Commun. ACM 35, 5 (May 1992), 94–99. DOI:https://doi.org/10.1145/129875.129885
 
