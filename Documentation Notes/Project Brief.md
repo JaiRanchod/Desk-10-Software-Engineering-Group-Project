@@ -29,5 +29,6 @@ Location, Budget, No. of Housemates, Preference of Gender, Religion, Amenties, A
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
 <b>Homepage</b></a>
 <br>
+<br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.md">
 <b>Next Section</b></a>
