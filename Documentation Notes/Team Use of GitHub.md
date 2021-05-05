@@ -11,3 +11,10 @@ locally and then we would push this version onto our branch.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;We would communicate at the end of the day if someone had pushed to their branch to see what changes they had made and then others could add to that version. We found that as most of us were working physically together it was easier to work 
 in merging our work physically.</p>
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Design%20Evaluation.md">
+<b>Next Section</b></a>
+
