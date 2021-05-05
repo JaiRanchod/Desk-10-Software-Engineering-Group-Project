@@ -31,6 +31,9 @@ Lanzing, Marjolein. “The Transparent Self -A Normative Investigation of Changi
  
 Ronald E. Anderson. 1992. ACM code of ethics and professional conduct. Commun. ACM 35, 5 (May 1992), 94–99. DOI:https://doi.org/10.1145/129875.129885
 
+The echo chamber effect on social media. Matteo Cinelli, Gianmarco De Francisci Morales, Alessandro Galeazzi, Walter Quattrociocchi, Michele Starnini
+Proceedings of the National Academy of Sciences Mar 2021, 118 (9) e2023301118; DOI: 10.1073/pnas.2023301118
+
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
 <b>Homepage</b></a>
