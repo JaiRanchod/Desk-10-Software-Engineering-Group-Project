@@ -26,9 +26,9 @@ Location, Budget, No. of Housemates, Preference of Gender, Religion, Amenties, A
 - https://online.officetimeline.com/shareable-link?token=6NI7YhOL2hnapXXKpHY6y8%2fQb7kLjxNxql%2fnCP2Fe6eOoNo2yt8dPjTFZCeCgABRk23ISmlSLlg%2fHurCnBCBMC7Nelc70FrWP5UENK1OJPwDSpHjrYdzDNG24Oplr9j0
 
 
+<br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
 <b>Homepage</b></a>
-<br>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.md">
 <b>Next Section</b></a>
