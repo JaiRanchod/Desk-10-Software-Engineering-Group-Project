@@ -2,13 +2,13 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;To generate user testing, we sampled a group of University of Bristol students from a variety of years, including freshers who could arguably benefit the most from our app after restrictions imposed when meeting new people, limiting their options for future housemates. The database was initially loaded with several sample users which our testers could choose to use or they were allowed to generate their own user through our registration page within the app. Here there was some input required from our end as the new profiles would currently not have any likes as the other users were not active. To resolve this we simply logged into some of the sample users and manually liked the newly created user profile, this could have also been done by adding the user id to the array of liked users in the database but it was more convenient on our end to simply log in as the different sample users. From here the users were given freedom to play around with the app as they liked, including changing any of the user profile settings and swiping on profiles that would appear from the homepage of the logged in account, noting any things they liked or disliked as well as any other feedback. All of our testers decided to create their own profiles rather than using one of the sample users, with their feedback as follows:</p>
 
-<h3 align="center">User1:</h3>
+<h3 align="center">User 1:</h3>
 <h4>Positives:</h4>
 - Looks good and simplicity makes it easy to use
 <h4>Negatives:</h4>
 - Can't see all of the users information on the matched card
 <h4>General feedback:</h4>
-Overall it looks good and easy to use, would definitely use the app</p>
+- Overall it looks good and easy to use, would definitely use the app.
 
 <h6 align="center">User2:</h6>
 <p>Positives:
