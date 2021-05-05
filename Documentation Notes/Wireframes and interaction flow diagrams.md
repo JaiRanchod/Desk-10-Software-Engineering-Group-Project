@@ -83,3 +83,10 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 
 We have designed an interaction flow diagram using Figma, ensuring that we remain consistent with the wireframe we have also produced.
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Group%20Working%20Methods.md">
+<b>Next Section</b></a>
+
