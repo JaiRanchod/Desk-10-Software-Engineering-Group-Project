@@ -16,5 +16,12 @@ member would do the work for them.</p>
 this allowed for more effective meetings as we could visually see the other team member's work, this allowed us to better understand each other's work as we were able to walk through the code/work and ask any questions if anyone was unsure. We used Discord as our main communication channel when messaging about the project. Discord has a more user-friendly interface and acts more as a messaging platform than Microsoft Teams, especially as Discord has a 
 mobile phone application that is easier to use and navigate than messaging via Microsoft Teams.</p>
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Reflection%20on%20success%20of%20project.md">
+<b>Next Section</b></a>
+
 
 
