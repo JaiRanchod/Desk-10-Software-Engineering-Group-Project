@@ -44,4 +44,11 @@ any suitable housemates that you might have missed.
 
 <p align="center"><img src="https://i.ibb.co/wSfPX0G/4-bio3.jpg" alt="4-bio3" border="0"></p>
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Clear%20definition%20of%20our%20problem.md">
+<b>Next Section</b></a>
+
 
