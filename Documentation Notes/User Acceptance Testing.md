@@ -4,7 +4,8 @@
 
 <h3 align="center">User 1:</h3>
 <h4>Positives:</h4>
-- Looks good and simplicity makes it easy to use
+- Looks good and simplicity makes it easy to use.
+- 
 <h4>Negatives:</h4>
 - Can't see all of the users information on the matched card
 <h4>General feedback:</h4>
