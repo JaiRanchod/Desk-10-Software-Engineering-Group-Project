@@ -71,6 +71,14 @@
 - However, as previously discussed, this survey was completed by a limited demographic of people that the group know personally. Therefore, these users may be more inclined to give biased positive feedback. In the future it would be good to get feedback from a wider demographic to provide more conclusive data, but that has been challenging currently due to the COVID-19 pandemic.
 
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Wireframes%20and%20interaction%20flow%20diagrams.md">
+<b>Next Section</b></a>
+
+
 
 
 

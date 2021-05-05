@@ -27,4 +27,12 @@ piecing the project together. He has pretty much worked on most aspects of the p
 in helping them accomplish their objectives. Jai connected the frontend and backend together which wouldn’t have been possible 
 without him.
 
+<br>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Meeting%20Notes%20and%20Sprint%20Documentation.md">
+<b>Next Section</b></a>
+
 

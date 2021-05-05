@@ -21,5 +21,12 @@ Finally, the platform does not knowingly breach any copyright laws, the logo was
 
 <p>https://www.acm.org/code-of-ethics</p>
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Coronavirus%20Discussion.md">
+<b>Next Section</b></a>
+
 
 

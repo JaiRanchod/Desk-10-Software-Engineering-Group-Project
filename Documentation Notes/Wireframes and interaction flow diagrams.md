@@ -1,13 +1,13 @@
 <h1 align="center">Wireframes and Interaction Flow Diagrams</h1>
 
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;One the initial wireframe had been created, it was distributed to a small number of users (mainly students at the univeristy of Bristol) for a design and functionality review. The feedback was generally very positive. However because of this, could be deemed as biased since the it all came from friends of the team memebers, who were likely to give a biased positive response. In our evaluation and reflection, the team decided if more time or resources were available, it would have been more informative to distribute the wireframe to a wider demographic, who would have potentially been more critical and provided more informative feedback. Furthermore, since the design has evolved so much since the initial wireframe, it would be a good idea to distribute the updated design to users for more relevant feedback. If the team has time before submission, this will be done so that the design can be improved if there is time, or at least some more user feedback can be considered in the evaluation or as potential ideas discussed in the Future Work section of the doccumentation.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Once the initial wireframe had been created, it was distributed to a small number of users (mainly students at the University of Bristol) for a design and functionality review. The feedback was generally very positive. However because of this, could be deemed as biased since it all came from friends of the team members, who were likely to give a biased positive response. In our evaluation and reflection, the team decided if more time or resources were available, it would have been more informative to distribute the wireframe to a wider demographic, who would have potentially been more critical and provided more informative feedback. Furthermore, since the design has evolved so much since the initial wireframe, it would be a good idea to distribute the updated design to users for more relevant feedback. If the team has time before submission, this will be done so that the design can be improved if there is time, or at least some more user feedback can be considered in the evaluation or as potential ideas discussed in the Future Work section of the documentation.</p>
 
 <h2 align="center">Wireframe Testing</h2>
 
 <p><b>Here are few cases of where we able to test our paper prototype and wireframe.</b></p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Our testing process was to arrange zoom calls and discuss how the wireframe would work. Due to various situations we decided to meet with people we were living with or arrange zoom calls to present a working wireframe. For people we saw in person we were able to just hand over our laptops and allow them to use the app in whatever way they saw fit. For zoom calls, we shared screens and were able to give the users control of the mouse meaning they were able to, again allowing users to use the app in whatever way they saw fit. After users had the opportunity of using the app, we then asked for feedback on what they thought worked well and not so well.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Our testing process was to arrange zoom calls and discuss how the wireframe would work. Due to various situations, we decided to meet with people we were living with or arrange zoom calls to present a working wireframe. For people we saw in person we were able to just hand over our laptops and allow them to use the app in whatever way they saw fit. For zoom calls, we shared screens and were able to give the users control of the mouse meaning they were able to, again allowing users to use the app in whatever way they saw fit. After users had the opportunity of using the app, we then asked for feedback on what they thought worked well and not so well.</p>
 
 <h3 align="center">Overview of Test Cases:</h3>
 
@@ -82,4 +82,11 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 ![image](https://user-images.githubusercontent.com/73884031/116906543-4f173880-ac38-11eb-8b00-9543484d84b5.png)
 
 We have designed an interaction flow diagram using Figma, ensuring that we remain consistent with the wireframe we have also produced.
+
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Group%20Working%20Methods.md">
+<b>Next Section</b></a>
 
