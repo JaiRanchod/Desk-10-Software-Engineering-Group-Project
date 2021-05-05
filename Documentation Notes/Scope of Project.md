@@ -124,6 +124,14 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;If we had more time a group study might have been fun and informative, but this was difficult to do.</p> 
 
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Current%20Industry%20Review.md">
+<b>Next Section</b></a>
+
+
  
 
  
