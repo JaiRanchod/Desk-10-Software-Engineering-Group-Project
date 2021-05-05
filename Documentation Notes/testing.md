@@ -2,11 +2,11 @@
 <h1 align="center">Testing</h1>
 <h2 align="center">Reasons For Testing</h1>
 
-- Brings the code up to a professional high-quality standard. This is especially important when developing mission critical systems such as payment systems.
+- Brings the code up to a professional high-quality standard. This is especially important when developing mission-critical systems such as payment systems.
 - Testing allows developers to refactor our code over and over again.
 - Testing allows developers to remove unintended scenarios and consequences from their work.
 - Must orient tests around the behaviour of our app.
-- There are two types of testing - Doccumented Functinal testing and Coded Automated Testing
+- There are two types of testing - Documented Functional testing and Coded Automated Testing.
 
 <h2 align="center">Functional Testing</h2>
 
@@ -18,10 +18,9 @@
 - <b>REGISTER</b> button should router link to the Register page containing the type form embed.
 
 <h3 align="center"><b>Login Page</b></h3>
-
 - <b>SIGN IN</b> button should router link to the Login Page.
 -	The page should contain two forms, <b>Email</b> and <b>Password</b>.
--	If user inputs information in either of the two forms that does not correctly match with data stored in the database, and “Invalid Username” or “Invalid Password” error message should appear.
+-	If the user inputs information in either of the two forms that does not correctly match with data stored in the database, an “Invalid Username” or “Invalid Password” error message should appear.
 -	If the information entered within the <b>Email</b> and <b>Password</b> forms matches data stored in the database, a “Successful Login prompt” should appear and the user will be granted access to a router link button to their individual profile page.
 -	The page should contain the central HouseHomies logo.
 -	This logo should be router linked back to the Welcome page.
@@ -35,18 +34,19 @@
 - The register page should contain one <b>START</b> button. Once clicked should display 15 questions as input forms, always in the same order.
 - The data inputted into these forms should be sent to and stored in the database.
 - Once the end of the type form questions has been reached, the page will display a router linked <b>Submit</b> button.
-- The <b>Submit</b> button should router link take the user to the Login page where they can then login.
+- The <b>Submit</b> button should router link take the user to the Login page where they can then log in.
 
 <h3 align="center"><b>Homepage Page</b></h3>
+
 
 - The Homepage should have the navbar component at the top containing the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right.
 - The “Home” link should router link the user to the Homepage page.
 - The “Profile” link should router link the user to the User-profile page.
 -	The “Matches” link should router link the user to the Matches page.
 -	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
--	In the centre of the page should be an html section containing cascading profile information of other users, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO.
--	On the left centre of the card component should be an interactive cross button. If clicked the current displayed user should be removed from view and should not be matched with the signed in user. The users card should then not be displayed a second time.
--	 On the right centre of the card component should be an intercative tick button. If clicked the current displayed user should also be removed from view. However, if their profile preferences match with the signed in user then a smaller card component should appear saying "It's a match!" and the displayed user should then appear alongisde other matched cards on the "Matches" page.
+-	In the centre of the page should be an HTML section containing cascading profile information of other users, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO.
+-	On the left centre of the card component should be an interactive cross button. If clicked, the currently displayed user should be removed from view and should not be matched with the signed-in user. The user's card should then not be displayed a second time.
+-	 On the right centre of the card component should be an interactive tick button. If clicked, the currently displayed user should also be removed from view. However, if their profile preferences match with the signed-in user then a smaller card component should appear saying "It's a match!" and the displayed user should then appear alongside other matched cards on the "Matches" page.
 
 <h3 align="center"><b>Matches Page</b></h3>
 
@@ -65,7 +65,7 @@
 -	The “Profile” link should router link the user to the User-profile page.
 -	The “Matches” link should router link the user to the Matches page.
 -	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
--	In the centre of the page should be an html section containing cascading profile information the user provided in the register type form, pulled, and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO.
+-	In the centre of the page should be an HTML section containing cascading profile information the user provided in the register type form, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO.
 -	The component should also to the right of the profile picture contain an <b>EDIT</b> button.
 -	Once clicked, this <b>EDIT</b> button should router link to the “Edit Profile” page.
 
@@ -74,21 +74,21 @@
 
 -	The Edit Profile page should have the navbar component at the top containing the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right.
 -	The “Home” link should router link the user to the Homepage page.
--	The “Profile” link should router link the user to the user-profile page.
+-	The “Profile” link should router link the user to the user profile page.
 -	The “Matches” link should router link the user to the Matches page.
 -	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
--	In the centre of the page should be an html section containing cascading profile information the user provided in the register type form, pulled, and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO. Underneath each of these in formation fields should be an html form box, where the user can edit each information field.
+-	In the centre of the page should be an HTML section containing cascading profile information the user provided in the register type form, pulled and displayed from the API. This includes profile picture, Preferred Name, Location, Gender, Age, Religion, Contact Number, University Course, Budget, BIO. Underneath each of these information fields should be an HTML form box, where the user can edit each information field.
 -	The component should also to the right of the profile picture contain a <b>SAVE</b> button.
--	Once clicked, this <b>SAVE</b> button should update the current information in the database with the new information inputted in the html form boxes.
+-	Once clicked, this <b>SAVE</b> button should update the current information in the database with the new information inputted in the HTML form boxes.
 
 <h3 align="center"><b>About Us Page</b></h3>
 
 -	The About Us page should have the navbar component at the top containing the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right.
 -	The “Home” link should router link the user to the Homepage page.
--	The “Profile” link should router link the user to the user-profile page.
+-	The “Profile” link should router link the user to the user profile page.
 -	The “Matches” link should router link the user to the Matches page.
 -	The “Settings” heading should contain a hover over dropdown menu with two router linked headings, “About Us” and “Logout”.
--	In the centre of the page should be an html section containing the about us paragraphs of text. 
+-	In the centre of the page should be an HTML section containing the about us paragraphs of text. 
 -	No buttons should be present in this section.
 
 
