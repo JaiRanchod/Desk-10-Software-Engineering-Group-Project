@@ -72,6 +72,9 @@
 
 - Overall I think it is really good and has great potential, just a few little things that would be nice to have included.
 
+<br>
+<br>
+
 <p>&nbsp;&nbsp;&nbsp;&nbsp;After users had completed their trial of the app we reverted any changes they had made, including deleting any new accounts and changing fields back to their initial state for sample users. This was done in order to preserve anonymity and protect privacy as our passwords are not currently being hashed for this version of our web app. The users feedback also remains anonymous to again protect privacy of users.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;On evaluating user acceptance testing, it is clear that our use of template proved to be a good decision as almost all of our users commented on the appearance as a positive. The layout was also commonly praised, here it is clear that sticking to the well-known template of current dating apps such as Tinder, Hinge and Bumble proved effective as users recognised the familiar layout. Considering the negative feedback, many of these include comments about usability, including having all information available for current matches and more accessibility for groups. This are definitely features that should be considered in the future and with more time we would have been likely to implement.</p>
