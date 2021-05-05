@@ -13,12 +13,12 @@
 
 <p align="center"> Andreas Phillipou, Charles Hilton, Jai Ranchod, Josh Pears and Lucas MacKenzie </p>
 
-<p float="left">
-  <img src="https://i.ibb.co/6B9N28m/Profile.jpg" width="100" />
-  <img src="https://i.ibb.co/1m5frKk/Screenshot-2021-05-05-at-12-01-33.png" width="100" /> 
-  <img src="https://i.ibb.co/Q6tB28R/Screenshot-2021-05-05-at-12-03-34.png" width="100" />
- <img src="https://i.ibb.co/MN1M4zz/Screenshot-2021-05-05-at-12-04-00.png" width="100" /> 
-  <img src="https://i.ibb.co/4jXdXvm/Screenshot-2021-05-05-at-12-02-28.png" width="100" />
+<p float="center">
+  <img src="https://i.ibb.co/6B9N28m/Profile.jpg" width="150" height="150"/>
+  <img src="https://i.ibb.co/1m5frKk/Screenshot-2021-05-05-at-12-01-33.png" width="150" height="150"/> 
+  <img src="https://i.ibb.co/Q6tB28R/Screenshot-2021-05-05-at-12-03-34.png" width="150" height="150"/>
+ <img src="https://i.ibb.co/MN1M4zz/Screenshot-2021-05-05-at-12-04-00.png" width="150" height="150"/> 
+  <img src="https://i.ibb.co/4jXdXvm/Screenshot-2021-05-05-at-12-02-28.png" width="150" height="150"/>
 </p>
 
 
