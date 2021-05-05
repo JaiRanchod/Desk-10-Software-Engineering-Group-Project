@@ -1,12 +1,12 @@
-## UX Approach
+<h1 align="center">UX Approach</h1>
 
-### Problem statement
+<h2 align="center">Problem statement</h2>
 
 One of the key reasons why we decided to pursue HouseHomies was to overcome the **dullness** and **unengaging** nature of our competitors. 
 
-#### Here are some examples of our competitors' designs:
+<h2 align="center">Here are some examples of our competitors' designs:</h2>
 
-**Competitor 1**
+<h3 align="center">Competitor 1</h3>
 
 ![](https://i.ibb.co/cN3N7y1/Screenshot-2021-05-04-at-14-44-36.png)
 
