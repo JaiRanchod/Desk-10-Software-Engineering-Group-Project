@@ -11,3 +11,10 @@
 1. Primarily focus on finding a room, whilst ignoring the compatability of housemates.
 2. Are dull and unengaging.
 3. Don't specifically cater for the student market.
+
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Background%20Literature.md">
+<b>Next Section</b></a>
