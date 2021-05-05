@@ -8,7 +8,7 @@ One of the key reasons why we decided to pursue HouseHomies was to overcome the 
 
 <h3 align="center">Competitor 1</h3>
 
-<div align="center">![](https://i.ibb.co/cN3N7y1/Screenshot-2021-05-04-at-14-44-36.png)</div>
+<p align="center">![](https://i.ibb.co/cN3N7y1/Screenshot-2021-05-04-at-14-44-36.png)</p>
 
 
 
