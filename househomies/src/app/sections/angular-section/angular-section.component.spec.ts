@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { NgbDate, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularSectionComponent } from './angular-section.component';
 
 describe('AngularSectionComponent', () => {
@@ -8,6 +8,7 @@ describe('AngularSectionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports:[NgbModule],
       declarations: [ AngularSectionComponent ]
     })
     .compileComponents();
