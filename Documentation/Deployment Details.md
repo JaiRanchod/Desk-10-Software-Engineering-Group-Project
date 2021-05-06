@@ -14,7 +14,7 @@
 <p>This took a lot of time if we were changing just one line of code and towards the end this was the case due to us trying to fix any bugs we had.</p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Design%20Process.md">
