@@ -6,8 +6,6 @@
   <img src="https://i.ibb.co/Tr0C935/househomies.png" alt="househomies" border="0">
 </p>
 
-
-
 <p align="center"> Welcome to Desk 10's GitHub repo we hope you enjoy going through our project as much as we did making it! </p>
 <br>
 
