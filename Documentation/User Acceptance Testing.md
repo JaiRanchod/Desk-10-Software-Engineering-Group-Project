@@ -80,7 +80,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;On evaluating user acceptance testing, it is clear that our use of template proved to be a good decision as almost all of our users commented on the appearance as a positive. The layout was also commonly praised, here it is clear that sticking to the well-known template of current dating apps such as Tinder, Hinge and Bumble proved effective as users recognised the familiar layout. Considering the negative feedback, many of these include comments about usability, including having all information available for current matches and more accessibility for groups. This are definitely features that should be considered in the future and with more time we would have been likely to implement.</p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Working%20Practices%20Reflection.md">
