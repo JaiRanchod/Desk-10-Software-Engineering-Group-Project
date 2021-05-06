@@ -58,8 +58,8 @@
 <p align="center">
   <b> Background and Motivation links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Current%20Industry%20Review">Current Industry Review</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Clear definition of our problem</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Background Literature</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Clear%20Definition%20of%20Our%20Problem.md">Clear definition of our problem</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Background%20Literature.md">Background Literature</a>
   <br><br>
 </p>
 
@@ -90,12 +90,12 @@ machine they were using.</p>
 
 <p align="center">
   <b> System Implementation links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Stack architecture and system design</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Back-End</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Middle-Tier </a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Front-End</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Stack%20Architecture%20and%20System%20Design.md">Stack architecture and system design</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Back%20End.md">Back-End</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Middle%20Tier.md">Middle-Tier </a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Front%20End.md">Front-End</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Additional%20Elements%20and%20Components.md">Additional elements and components</a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Deployment%20details.md">Deployment details</a>
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Deployment%20Details.md">Deployment details</a>
   <br><br>
 </p>
 
@@ -110,11 +110,11 @@ machine they were using.</p>
 
 <p align="center">
   <b> UX Design links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Design%20Process.md">Design Process</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Identification%20of%20interacting%20users%20and%20broader%20stakeholders.md">Identification of interacting users and broader stakeholders</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/UX%20approach.md">UX approach</a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Understanding%20of%20user%20group.md">Understanding of user group</a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Wireframes%20and%20interaction%20flow%20diagrams.md">Wireframes and interaction flow diagrams</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Design%20Process.md">Design Process</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/edit/release/Documentation/Identification%20of%20Interacting%20Users%20and%20Broader%20Stakeholders.md">Identification of interacting users and broader stakeholders</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/UX%20Approach.md">UX approach</a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Understanding%20of%20User%20Group.md">Understanding of user group</a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Wireframes%20and%20Interaction%20Flow%20Diagrams.md">Wireframes and interaction flow diagrams</a>
   <br><br>
 </p>
 
