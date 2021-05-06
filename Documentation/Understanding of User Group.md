@@ -75,15 +75,23 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 - We would like both a mobile app and web page in a perfect world
 - Tried to include more details within the profile, however visiting often can be difficult to add.
 
-<h2 align="center">User Interaction Diagram</h2>
+<h2 align="center">User Stoies</h2>
 
-![image](https://user-images.githubusercontent.com/73884031/116906543-4f173880-ac38-11eb-8b00-9543484d84b5.png)
+<h4>User 1: First year student in a pandemic stayed at home and is looking for flatmates in second year</h4>
 
-We have designed an interaction flow diagram using Figma, ensuring that we remain consistent with the wireframe we have also produced.
-<br>
-<br>
-<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Hi! I'm Alex, a first-year Computer Scientist and I'm from Suffolk. I was really excited to go to University last year but the pandemic put me in 2 minds on whether I was going to move out or stay at home. I thought I'd save some money and stay at home and help with my family situation who would have struggled with lockdown without me. Now, we are reaching a more normal situation and I am again excited to move to University for my second-year. I have some coursemates, however they have already sorted ther accommodation. What shall I do?</p>
 
+<h4>How can Househomies help?</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;We believe our platform would be the perfect place to advertise yourself and find a good group of friends to live with next year. You can scroll through and look at peoples profile in a very easy way whilst avoiding having to look through all the pages on Facebook.</p>
+
+<h4>User 2: Second year student and fallen out with flatmates</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Hi! I'm Sarah, a second-year Economist. I sorted out my accommodation for this year early in first-year and now I realise we do not have a lot in common. I would love to find a group that I get along with more and have a happier living situation. I was wondering if there were any platforms for this?</p>
+
+<h4>How can Househomies help?</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;HouseHomies! We think the platform we have created is a great place to find friends you get along with and enjoy a much happier living situation.</p>
 
 <h2 align="center">Analysis of Survey Feedback</h2>
 
