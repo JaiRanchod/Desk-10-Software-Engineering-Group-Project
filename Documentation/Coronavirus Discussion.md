@@ -12,7 +12,7 @@ organisational skills. We found that we could hold meetings that were both effec
 appreciated this aspect of the online learning experience. </p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Future%20Work.md">
