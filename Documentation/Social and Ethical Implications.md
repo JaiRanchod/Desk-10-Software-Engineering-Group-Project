@@ -38,5 +38,5 @@ Proceedings of the National Academy of Sciences Mar 2021, 118 (9) e2023301118; D
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Coronavirus%20Discussion.md">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Coronavirus%20Discussion.md">
 <b>Next Section</b></a>
