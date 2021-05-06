@@ -43,5 +43,5 @@
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Identification%20of%20interacting%20users%20and%20broader%20stakeholders.md">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Identification%20of%20Interacting%20Users%20and%20Broader%20Stakeholders.md">
 <b>Next Section</b></a>
