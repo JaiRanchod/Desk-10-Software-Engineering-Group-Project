@@ -30,7 +30,7 @@
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Abstract here </p>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
+<img src="https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw">
 
 
 
