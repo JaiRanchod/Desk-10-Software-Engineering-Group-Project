@@ -30,7 +30,8 @@
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Abstract here </p>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
 
 
 
@@ -56,7 +57,7 @@
 
 <p align="left"><p>&nbsp;&nbsp;&nbsp;&nbsp;Although there are some well-established websites/pages, such as Spareroom and Clifton Stoke Bishop Tickets, we found these were dull to use and plagued with advertisements, making it inefficient for finding potential housemates. The swiping aspect of apps such as Tinder seemed like a fun and efficient way to search through profiles, rather than scrolling through a page that could contain hundreds of profiles. Our method of swiping through users will also mean the users won't be able to skip a profile that they may otherwise have looked past. This method also means that all of the user's information will be displayed when the user is looking through profiles whereas other websites/pages rely on the user clicking on a user's profile to see all their information which can be inefficient may result in misjudging profiles before they can be completely seen.</p>
 
-<p align="center">
+<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://media.giphy.com/media/iIGuFo7k5UqAe9cH0N/source.gif" width="200" height="200">
 </p>
 
