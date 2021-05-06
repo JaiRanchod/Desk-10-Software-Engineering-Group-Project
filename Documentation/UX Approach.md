@@ -8,7 +8,7 @@
 
 <h2 align="center">Problem statement</h2>
 
-  One of the key reasons why we decided to pursue HouseHomies was to overcome the **dullness** and **unengaging** nature of our competitors. 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;One of the key reasons why we decided to pursue HouseHomies was to overcome the **dullness** and **unengaging** nature of our competitors.</p>
 
 <h2 align="center">Here are some examples of our competitors' designs:</h2>
 
