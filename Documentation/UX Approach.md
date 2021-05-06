@@ -2,7 +2,7 @@
 
 <h2 align="center">Design Heuristics</h2>
 
-<p align="center"><img src="https://i.ibb.co/tBNt7Ph/nielsens-heuristics.png" alt="nielsens-heuristics" border="0"></p
+<p align="center"><img src="https://i.ibb.co/tBNt7Ph/nielsens-heuristics.png" alt="nielsens-heuristics" border="0"></p>
 
 <h2 align="center">Problem statement</h2>
 
