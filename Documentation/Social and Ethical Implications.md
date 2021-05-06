@@ -35,7 +35,7 @@ The echo chamber effect on social media. Matteo Cinelli, Gianmarco De Francisci 
 Proceedings of the National Academy of Sciences Mar 2021, 118 (9) e2023301118; DOI: 10.1073/pnas.2023301118
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Coronavirus%20Discussion.md">
