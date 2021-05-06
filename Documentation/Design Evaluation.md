@@ -26,5 +26,5 @@ To accommodate for changes on the way, an updated wireframe was later created as
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Background%20Literature.md">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Unit%20and%20Functional%20Testing.md">
 <b>Next Section</b></a>
