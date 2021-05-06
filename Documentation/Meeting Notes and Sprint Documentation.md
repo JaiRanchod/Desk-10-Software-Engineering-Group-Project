@@ -141,6 +141,8 @@ The whole team attended this meeting the back end team decided to finish off the
 
 In this meeting all mambers of the team met and any bugs such as a bug linking with the edit profile to the back end and some fields not working were brought to light and addressed. Once these bugs were fixed the coding aspect of the project would be essentially complete so the team turned their discussion to what addidtional aspects could be added to the repo and any thoughts on the doccumentation.
 
+As Merchant Ventures building was now fully re-open, members of the team began to meet in person and complete sprints together, this resulted in a reduction in Microsoft Teams video calls, but generally an increase in productivity as there were less barriers to communication and idea sharing.
+
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
