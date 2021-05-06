@@ -22,14 +22,6 @@
 </p>
 
 
-<h2 align="center"> <b> Introduction </b> </h2>
-
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;For our project, we recognised the problem regrading finding a suitable group of people to house share with. This can sometimes occur due to members dropping out and a need for another person to fill in. Other times it may be that there are people unhappy with their current living situation and looking to move to a happier and more enjoyable space. </p>
-
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Currently, the majority of university students who do not have a house lined up use Facebook pages to find a room or other people to bunch up to find a house together. We see that most people either turn to the Clifton and Stoke Bishop Facebook page or alternative housing Facebook groups designed to help people find suitable accommodation. The problems with these pages are that they can be unorganized, making it hard to track what users have seen and what users are yet to see. </p>
-
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;With the above in mind, have decided to create a tinder-like app for people to find like-minded housemates. It will feature a swipe action when liking or disliking user profiles, a pop-up action when a match is made and the user will be able to see their matches on a matches page.</p>
-
 <p align="center">
   <img src="https://media.giphy.com/media/w2KHfIlI3V7bi/giphy.gif" width="200" height="200">
 </p>
