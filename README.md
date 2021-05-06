@@ -103,7 +103,7 @@ machine they were using.</p>
 <p align="center">
   <b> UX Design links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Design%20Process.md">Design Process</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/edit/release/Documentation/Identification%20of%20Interacting%20Users%20and%20Broader%20Stakeholders.md">Identification of interacting users and broader stakeholders</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Identification%20of%20Interacting%20Users%20and%20Broader%20Stakeholders.md">Identification of interacting users and broader stakeholders</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/UX%20Approach.md">UX approach</a> |
  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Understanding%20of%20User%20Group.md">Understanding of user group</a> |
  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Wireframes%20and%20Interaction%20Flow%20Diagrams.md">Wireframes and interaction flow diagrams</a>
