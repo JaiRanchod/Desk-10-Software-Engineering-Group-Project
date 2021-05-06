@@ -1,0 +1,31 @@
+:host {
+  z-index: 0;
+  min-width: 1200px;
+}
+
+/* move check to right side of the box */
+.yes {
+  right: 50px;
+  cursor: pointer;
+}
+
+/* move "X" to left side of the box */
+.no {
+  left: 50px;
+  cursor: pointer;
+}
+
+.yes:hover {
+  opacity: 0.5;
+}
+
+.no:hover {
+  opacity: 0.5;
+}
+
+/*img {
+  float: left;
+  width:  150px;
+  height: 100px;
+  object-fit: cover;
+}*/

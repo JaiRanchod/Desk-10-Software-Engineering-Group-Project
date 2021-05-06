@@ -1,0 +1,144 @@
+<!--
+  so this is the matches page, we want to keep the card layout we have now but only want said cards to appear 
+  when a match has occured, and simplicity when we populate a database with profiles we can set that theyve
+  already liked the user so a potential match can be made
+-->
+
+<main>
+  <div class="position-relative">
+    <!-- shape Hero -->
+    <section class="section section-lg section-shaped pb-250">
+      <div class="shape shape-style-1 shape-default">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container py-lg-md d-flex">
+        <div class="col px-0">
+          <div class="row">
+            <div class="col-lg-6" *ngIf="user_profile">
+							<h1 class="display-3  text-white">Hi {{ user_profile['Preferred Name'] }}!</h1>
+              <h1 class="display-3  text-white">This is the Matches page
+                <span>where you will find all of the people that matched with you.</span>
+              </h1>
+              <p class="lead  text-white">From here you can see their profile and interact with them, happy HouseHomie finding!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+    
+    <section class="section section-lg pt-lg-0 mt--200">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+						<div class="row row-grid justify-content-between">
+
+							<!-- for loop to load the cards dynamically -->
+							<app-match-card *ngFor="let match of matches" [card_profile]="match">
+							</app-match-card>
+
+						</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+  </div>
+</main>
+
+
+<!--<mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>-->
+
+
+
+    <!--<div style="text-align: center;">
+      <mdb-card>
+      
+        <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap"></mdb-card-img>
+        
+        <mdb-card-body>
+      
+          
+          <mdb-card-title>
+            <h4>Card Title</h4>
+          </mdb-card-title>
+      
+          
+          <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </mdb-card-text>
+      
+          <a href="#" mdbBtn color="primary" mdbWavesEffect>Button</a>
+        </mdb-card-body>
+      </mdb-card>
+      <mdb-card>
+        
+        <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap"></mdb-card-img>
+        
+        <mdb-card-body>
+      
+          
+          <mdb-card-title>
+            <h4>Card Title</h4>
+          </mdb-card-title>
+      
+          
+          <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </mdb-card-text>
+      
+          <a href="#" mdbBtn color="primary" mdbWavesEffect>Button</a>
+        </mdb-card-body>
+      </mdb-card>
+      <mdb-card>
+        
+        <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap"></mdb-card-img>
+        
+        <mdb-card-body>
+      
+          
+          <mdb-card-title>
+            <h4>Card Title</h4>
+          </mdb-card-title>
+      
+          
+          <mdb-card-text> Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </mdb-card-text>
+      
+          <a href="#" mdbBtn color="primary" mdbWavesEffect>Button</a>
+        </mdb-card-body>
+      </mdb-card>
+    </div>-->

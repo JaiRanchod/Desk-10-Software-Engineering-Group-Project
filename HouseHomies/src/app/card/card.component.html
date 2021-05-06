@@ -1,0 +1,104 @@
+<section class="section"> <div class="container">
+		<div class="card card-profile shadow mt--300">
+			<div class="px-4">
+				<div class="row justify-content-center">
+					<div class="col-lg-3 order-lg-2">
+						<div class="card-profile-image">
+							<a href="javascript:void(0)">
+								<img [src]="profile['Image']" class="rounded-circle 
+													position-relative" style="height: 150px;">
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Middle Section-->
+				<div class="text-center">
+					<!-- Full Name -->
+					<!-- take the first and last name from profile interface and put here  -->
+					<h4>Name<span class="font-weight-light">: {{ profile['First Name'] }} {{ profile.Surname }} </span> </h4>
+					<!-- put the preferred name here -->
+					<h6>Preferred name<span class="font-weight-light">: {{ profile['Preferred Name'] }} </span> </h6>
+					<div class="mt-3 py-4 border-top text-center"> </div>
+					<!-- Location -->
+					<h5> 
+						<i class="ni ni-air-baloon"></i>
+						Location<span class="font-weight-light">: {{profile.Location}}</span> 
+					</h5>
+					<!-- Gender -->
+					<h5>
+						<i class="ni ni-circle-08"></i>
+						Gender<span class="font-weight-light">: {{ profile.Gender }}</span>
+					</h5>
+					<h1 class="position-absolute yes">
+						<i class="ni ni-check-bold" (click)="choose_yes()"></i>
+					</h1>
+					<h1 class="position-absolute no">
+						<i class="ni ni-fat-remove" (click)="choose_no()"></i>
+					</h1>
+					<!-- Age -->
+					<h5>              
+						<i class="ni ni-user-run"></i>
+						Age<span class="font-weight-light">: {{ profile.Age }}</span>
+					</h5>
+					<!-- Religion -->
+					<h5>
+						<i class="ni ni-istanbul"></i>
+						Religion<span class="font-weight-light">: {{ profile.Religion }}</span>
+					</h5>
+					<!-- Phone -->
+					<!--<h5>              
+						<i class="ni ni-mobile-button"></i>
+						Phone<span class="font-weight-light">: +{{ profile['Phone Number'] }}</span>
+					</h5>-->
+					<!-- Uni course -->
+					<h5>              
+						<i class="ni ni-hat-3"></i>
+						Uni course<span class="font-weight-light">: {{ profile['University Course'] }}</span>
+					</h5>
+					<!-- 3 Column Section -->
+					<div class="px-1">
+						<div class="row justify-content-center">
+							<div class="col-lg-7 order-lg-2">
+								<div class="text-center mt-4">
+									<div class="py-2 border-top text-center"> </div>
+
+									<div class="container">
+										<div class="row">
+											<div class="col-sm">
+												<!-- Budget -->
+												<h5>              
+													<i class="ni ni-money-coins"></i>
+													<span class="font-weight-dark">  Budget</span> 
+												</h5>
+												<span>£</span>  
+												<span>{{ profile.Budget }}</span>
+											</div>
+											<div class="col-sm">
+												<!-- Introvert / Extrovert -->
+												<h5>                            
+													<i class="ni ni-money-coins"></i>
+													<span class="font-weight-dark">  Personality</span> 
+												</h5>
+												<span>{{ profile.Personality }}</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- BIO -->
+				<div class="mt-5 py-4 border-top text-center">
+					<div class="row justify-content-center">
+						<div class="col-lg-9">
+							<h4><span class="font-weight-light">BIO</span> </h4>
+							<p>{{ profile.Bio }}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
