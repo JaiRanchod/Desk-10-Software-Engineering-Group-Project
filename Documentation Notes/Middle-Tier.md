@@ -123,7 +123,7 @@ router.post('/UserProfilesUpdate/:id', (req, res) => {
 
 ```
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;On the homepage, we will need to update their profile every time the user decides they like or dislike someone. This means a POST request is issued and the profile is updated accordingly (found using the current user ID). We then push the ID of the profile they are currently viewing into an array of likes or dislikes based on what they chose.</p> 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;On the homepage, we will need to update their profile every time the user decides they like or dislike someone. This means a POST request is issued and the profile is updated accordingly (found using the current user ID). We are then able to push the ID of the profile they are currently viewing into an array of likes or dislikes based on what they chose.</p> 
 
 ```javascript
 post_like(match_id: string, cur_id: string){
