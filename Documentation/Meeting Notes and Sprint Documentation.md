@@ -117,7 +117,7 @@ The Frontend team discussed the layout of the web app as there was some misalign
 
 **April 16th, 2021**
 
-In this meeting Josh, Jai and Andreas discuused how we were going to query and display dynamic data on our profile cards.
+In this meeting Josh, Jai and Andreas discussed how we were going to query and display dynamic data on our profile cards.
 
 **April 19th, 2021**
 
@@ -128,6 +128,18 @@ This was just a quick catch-ip meeting to see where everyone was at and to see w
 This meeting invloved Marceli where we discussed adding an authentication feature to our project, as currently anyone can access any page without permission. By adding this feature we are replicating how a normal website that requires a login and register page operates, so that a user can access their profile.
 
 We also asked Marceli about solving our issue with having dynamic data within our matching and matches page, as we currently have hard-coded cards and profile information, which is no use to us as we want a fully working web app that can get profiles from our database and display their information correctly. So Marceli suggested a few ideas on how to get around this, so we are looking into those now.
+
+**April 22th, 2021**
+
+In this meeting, Josh and Jai met with Stuart for a review of the current project and to ask for advice.
+
+**April 26th, 2021**
+
+The whole team attended this meeting the back end team decided to finish off the login and sign out process, find and fix any bugs and implement some coded tests. Since the front end team had maily finished, they divided up and allocated tasks related to clening up and formatting the repo to allow ease of reading and marking in the final project.
+
+**May 3rd, 2021**
+
+In this meeting all mambers of the team met and any bugs such as a bug linking with the edit profile to the back end and some fields not working were brought to light and addressed. Once these bugs were fixed the coding aspect of the project would be essentially complete so the team turned their discussion to what addidtional aspects could be added to the repo and any thoughts on the doccumentation.
 
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
