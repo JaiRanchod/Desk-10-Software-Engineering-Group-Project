@@ -81,7 +81,7 @@ code which would have to be written if not for its feature of data binding and d
 Node.js acts as the backbone and Express was specifically developed to work on top of Node. Angular can connect seamlessly to Node so allows for 
 fast deployment of our web application. These four components work together and create a more convenient working environment as they all run Javascript, removing the need to learn several programming languages.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;We use Docker to create, deploy, and run instances of our web application through the use of containers. Containers allow our 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;We use Docker to create, deploy, and run instances of our web application through the use of containers. Containers allowed our 
 team to separate our application from its infrastructure. This meant we could easily deploy and test code. Thanks to docker we could be confident our application would run on any other systems, regardless of OS or environment.</p>
 
 
