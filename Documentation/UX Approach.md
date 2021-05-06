@@ -4,7 +4,7 @@
 
 <p align="center"><img src="https://i.ibb.co/tBNt7Ph/nielsens-heuristics.png" alt="nielsens-heuristics" border="0"></p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;When implementing our design we looked the Nielsen's heuristics to improve any design issues with our code. For exmaple, we used Typeform to implement our registration process as it contains <b>error prevention</b> features, such as it does not allow invalid email formats (such as test.test.com it needs <name>@<name>.<com/co.uk> for example). We also liked the components provided by the template as this improved the <b>consistency</b> and <b>minimalist style</b> of our application.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;When implementing our design we looked to Nielsen's heuristics to improve any design issues with our code. For example, we used Typeform to implement our registration process as it contains <b>error prevention</b> features, such as it does not allow invalid email formats (such as test.test.com it needs <name>@<name>.<com/co.uk> for example). We also liked the components provided by the template as this improved the <b>consistency</b> and <b>minimalist style</b> of our application, we elaborate on this in the <b>We used the minimum required number of pages</b> below.
 
 <h2 align="center">Problem statement</h2>
 
