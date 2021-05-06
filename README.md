@@ -37,9 +37,9 @@
  <p align="center">
   <b> Introduction links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/project_brief.md">Project Brief</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Initial%20Ideas.md">Initial Ideas</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Initial%20Ideas">Initial Ideas</a> |
   <a href="https://youtu.be/J7W7AVbA9sw">Introduction Video</a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Scope%20of%20Project.md">Scope of Project</a>
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Scope%20of%20Project">Scope of Project</a>
   <br><br>
 </p>
 
@@ -57,9 +57,9 @@
 
 <p align="center">
   <b> Background and Motivation links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Current%20Industry%20Review.md">Current Industry Review</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Clear%20definition%20of%20our%20problem.md">Clear definition of our problem</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Background%20Literature.md">Background Literature</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Current%20Industry%20Review">Current Industry Review</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Clear definition of our problem</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Background Literature</a>
   <br><br>
 </p>
 
@@ -90,11 +90,11 @@ machine they were using.</p>
 
 <p align="center">
   <b> System Implementation links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Stack%20architecture%20and%20system%20design.md">Stack architecture and system design</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Back-End.md">Back-End</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Middle-Tier.md">Middle-Tier </a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Front-End.md">Front-End</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Additional%20elements%20and%20components.md">Additional elements and components</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Stack architecture and system design</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Back-End</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Middle-Tier </a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/new/release/Documentation">Front-End</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Additional%20Elements%20and%20Components.md">Additional elements and components</a> |
  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Deployment%20details.md">Deployment details</a>
   <br><br>
 </p>
