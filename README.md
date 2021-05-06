@@ -37,7 +37,7 @@
 
 
 
-<h2 align="left"><b> Project Objectives </b> </h2>
+<h3 align="left"><b> Project Objectives </b> </h3>
 
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our project had a focus on the relationship between individuals, creating an efficient way to find compatible housemates, with the following objectives:
