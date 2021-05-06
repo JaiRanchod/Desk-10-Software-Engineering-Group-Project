@@ -97,7 +97,7 @@ this.profiles = this.user.get_all_profiles();
 From this, you can see the assignment of properties for any given profile is a lot easier and saved a lot of time.  
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Back-End.md">
