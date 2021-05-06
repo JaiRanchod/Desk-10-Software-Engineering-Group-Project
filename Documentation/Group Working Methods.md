@@ -10,7 +10,7 @@ across either organically leaves or organically add to our project. We liked thi
 we were all free at the same times throughout the day, so we were able to easily organise meetings and jump on calls quickly if we needed an urgent issue sorting.</p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Roles.md">
