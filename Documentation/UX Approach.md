@@ -4,9 +4,11 @@
 
 <p align="center"><img src="https://i.ibb.co/tBNt7Ph/nielsens-heuristics.png" alt="nielsens-heuristics" border="0"></p>
 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;When implementing our design we looked the Nielsen's heuristics to improve any design issues with our code. For exmaple, we used Typeform to implement our registration process as it contains <b>error prevention</b> features, such as it does not allow invalid email formats (such as test.test.com it needs <name>@<name>.<com/co.uk> for example). We also liked the components provided by the template as this improved the <b>consistency</b> and <b>minimalist style</b> of our application.
+
 <h2 align="center">Problem statement</h2>
 
-One of the key reasons why we decided to pursue HouseHomies was to overcome the **dullness** and **unengaging** nature of our competitors. 
+  One of the key reasons why we decided to pursue HouseHomies was to overcome the **dullness** and **unengaging** nature of our competitors. 
 
 <h2 align="center">Here are some examples of our competitors' designs:</h2>
 
