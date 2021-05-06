@@ -75,7 +75,7 @@ This user had used SpareRoom to find his current living situation, so was ideal 
 - We would like both a mobile app and web page in a perfect world
 - Tried to include more details within the profile, however visiting often can be difficult to add.
 
-<h2 align="center">User Stoies</h2>
+<h2 align="center">User Stories</h2>
 
 <h4>User 1: First year student in a pandemic stayed at home and is looking for flatmates in second year</h4>
 
