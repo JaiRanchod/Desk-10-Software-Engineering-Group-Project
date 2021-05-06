@@ -12,7 +12,7 @@
 
 <h4>User 2: Second year student and fallen out with flatmates</h4>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Hi! I'm Sarah, a second-year Economist. I sorted out my accommodation for this year early in first-year and now I realise we do not have a lot in common. I would love to find a group that I get along with more and have a happier living situation. I was wondering if there were any platforms for this?</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Hi! I'm Sarah, a second-year Economist. I sorted out my accommodation for this year early in first-year and now I realise we do not have a lot in common and have very different requirements for living standards. I would love to find a group that I get along with more and have a happier living situation. I was wondering if there were any platforms for this?</p>
 
 <h4>How can Househomies help?</h4>
 
