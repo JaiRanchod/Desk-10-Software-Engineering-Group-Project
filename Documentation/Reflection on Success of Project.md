@@ -7,7 +7,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;We were ambitious at the beginning of the project and we could say we may have got carried away with some ideas that, which is not necessarily a bad thing, but we reached a point with some features that we would not be able to implement given our limited technical ability. Given this, we are still very proud of the project we have built and it still serves the same purpose as intended in easing and making the search for housemates more fun, so we believe the end-product has been a success. Given more time we would have implemented more advanced features such as an option to chat with other users on the app etc. We have discussed as a group as we believe this is a viable product that could be brought to market that we will potentially work on our application post-university to add more features and make the project ready to potentially put into the real world, so we look forward in seeing where we can take it.</p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Social%20and%20Ethical%20Implications.md">
