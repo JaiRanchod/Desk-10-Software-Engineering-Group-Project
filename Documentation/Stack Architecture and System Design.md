@@ -1,35 +1,31 @@
 <h1 align="center"> <b> Stack Architecture and System Design </b> </h1>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Before we dive into the details of our each of components that make up our project, let us take a look at an overview of a MEAN Stack application and why we use it.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Before we dive into the details of each component making up our project, let us take a look at an overview of a MEAN Stack application and why we use it.</p>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>MEAN</b> is an open-source JavaScript software stack. The acronym representing a collection of four technologies and the combination of the 
-four cater to the complex demands needed by the applications built by developers.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>MEAN</b> is an open-source JavaScript software stack. The acronym representing a collection of four technologies, the combination  catering well to the complex demands needed by developers and their applications.</p>
 
 <p align="center"><img src="https://i.ibb.co/ZHB29Qf/101218-1400-Whatis-Mean-S2.png" alt="101218-1400-Whatis-Mean-S2" border="0"></p>
 
 <h2 align="center">Mongo</h2>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>MongoDB</b> acts as the back-end of our web application, where all the data will be stored. It is a NoSQL database so it uses collections 
-and documents. This allows for easy handling of lots of data and it is also scalable, it can also facilitate adding fields to the databasd without the 
-need to reload the entire table. The JSON documents created in our angular front-end can be sent to Express where they are processed and stored in 
-MongoDB. Because the database and the application use JavaScript, MongoDB eliminates the underlying need for translation once the object moves to the 
-database from the app.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>MongoDB</b> acts as the back-end of our web application, where all the data will be stored. It is a NoSQL database using collections 
+and documents. This allows for easy handling of data and is also scalable, facilitating additional fields without the need to reload the entire table. The JSON documents created in our angular front-end can be sent to Express where they are processed and stored in Mongo. Because the database and the application use JavaScript, MongoDB eliminates the underlying need for translation once the object moves to the database from the app. In our case we chose to use MongoDB Altas which is a cloud based database service, maintaing data across users and devices.</p>
 
 <h2 align="center">Express</h2>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>Express</b> works with Node.js and assists in the management of interactions between the front-end and the back-end, smoothing out the process of data transfer. Express.js calls itself a “fast, unopinionated, minimalist web framework for Node.js,” and that is indeed exactly what it is. Allowing an more efficient and easier process for app developers to write modular and create fast and secure apps.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>Express</b> works with Node.js and assists in the management of interactions between the front-end and the back-end, smoothing out the process of data transfer. Express.js describes itself as a “fast, unopinionated, minimalist web framework for Node.js,” and proving to be exactly that. Allowing a more efficient and easier process for app developers to write modular and create fast and secure apps.</p>
 
 <h2 align="center">Angular</h2>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>Angular</b> is the front-end component of the MEAN Stack which works with JavaScript, that is highly popular within the software developer community. Websites such as Forbes, Paypal and GMail use an angular framework for the user-facing side of their web application. Angular allows you to extend your HTML tags with metadata as it contains lots of templates and components, so it allows to develop single-page and dynamic web apps quickly. As Angular uses JavaScript it allows a smooth flow of data among all parts of the web application.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>Angular</b> is the front-end component of the MEAN Stack, working with JavaScript, being highly popular within the software developer community. Websites such as Forbes, Paypal and GMail use an angular framework for the user-facing side of their web application. Angular allows you to extend your HTML tags with metadata as it contains many templates and components, allowing the development of single-page and dynamic web apps quickly. As Angular uses JavaScript it allows a smooth flow of data among all parts of the web application.</p>
 
 <h2 align="center">Node.js</h2>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>Node.js</b> forms the backbone of the MEAN stack, it is efficient and flexible which helps it run browsers apart from JavaScript applications. The scalability is a great feature of Node.js as it can support millions of simultaneous connections. Node.js connects with the front-end and back-end and passes information between them acting as the 'middle-tier' with Express. Node.js has an inbuilt web server, which makes it easier for you to deploy the MongoDB database to the cloud.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b>Node.js</b> forms the backbone of the MEAN stack, it is efficient and flexible useful for executing JavaScript server-side. The scalability is a great feature of Node.js, being able to support millions of simultaneous connections. Node.js connects with the front-end and back-end, passing information between them to act as the 'middle-tier' with Express. Node.js has an inbuilt web server, making it easier to deploy the MongoDB database to the cloud.</p>
 
 <h2 align="center">So why use a MEAN Stack Application</h2>
 
-- MEAN Stack enables developers to create a simple and open-source solution. Developers need to know only one programming language, which is JavaScript. 
+- MEAN Stack enables developers to create a simple and open-source solution. Developers only need to know only one core programming language, JavaScript. 
 - The components are all open-sourced and free.
 - MEAN Stack is highly flexible during web application development as it is quick and easy to add new components of the web application while developing 
 or post-development.
