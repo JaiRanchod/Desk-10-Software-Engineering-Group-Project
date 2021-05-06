@@ -26,6 +26,8 @@
   </section>
 	<div class="d-flex justify-content-center">
 
+    <h1 class="position-absolute yes" style="color: navy;">No More Users To Match</h1>
+
 		<!-- initalize child component here -->
 		<!-- [@viewInOut]="matched ? 'yes' : 'no'" => this is for animations. It takes the variable matched and sets [@viewInOut] to be yes or no if matched is true or false respectively.
 		Setting viewInOut to yes or no corresponds to the states in animations-->
@@ -36,6 +38,7 @@
 			 class="position-absolute top">
 		</app-card>
 	</div>
+
 
 </main>
 <app-match-popup *ngIf="matched_profile" [matched_profile]="matched_profile" (exit)="exit_popup()">
