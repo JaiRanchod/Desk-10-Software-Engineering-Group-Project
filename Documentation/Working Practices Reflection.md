@@ -20,5 +20,5 @@ mobile phone application that is easier to use and navigate than messaging via M
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Reflection%20on%20success%20of%20project.md">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Reflection%20on%20Success%20of%20Project.md">
 <b>Next Section</b></a>
