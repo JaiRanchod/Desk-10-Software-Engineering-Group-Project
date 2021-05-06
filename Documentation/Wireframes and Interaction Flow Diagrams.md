@@ -21,10 +21,6 @@ To accommodate for changes on the way, an updated wireframe was later created as
 
 ![image](https://user-images.githubusercontent.com/74371711/117008729-ee910580-ace2-11eb-8355-0b66f0026af6.png)
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;As discussed in the 'Front End' section of the documentation, the decision to use a template from the Argon website (https://demos.creative-tim.com/argon-design-system-angular) came in early March, when the team decided it would save time wasted on making the site look 'aesthetically pleasing, and so instead of trying to code an Angular project from scratch, the team integrated the template files and began to build classes and components within that. This was initially confusing trying to work out the function of every file within the template, but after many hours of scanning through the project the pieces began to come into place and the team were able to begin implementing desired features within the HTML, stylesheet and typescript files of the template. Many ideas of what the site would look like evolved other the course of the coding as expectations were managed with the reality of the teams' limited software development skills/experience and the relatively short timeframe in which we had to complete this project. An example of this was removing the option to upload and view more than one display picture due to complications arising in both front and back end development.</p>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Throughout the progression of the coded design implementation, HTML, CSS, SCSS and typescript files were used to create new and edit existing components. By using the pre-made SCSS styling configurations in HTML classes, we were able to keep the final design simple, consistent and visually appealing whilst ensuring a pleasant user experience.</p>
-
 <br>
 
 <h2 align="center">Wireframe Testing</h2>
