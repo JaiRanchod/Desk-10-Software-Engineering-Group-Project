@@ -3,7 +3,10 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our first ideation process consisted of using a Matrix which consisted of specific and rather playful themes to trigger creative solutions.</p>
 
-<p align="center"><img src="https://i.ibb.co/py25Mxh/Screenshot-2021-05-06-at-12-37-06.png" alt="Screenshot-2021-05-06-at-12-37-06" border="0"></p>
+
+
+![image](https://user-images.githubusercontent.com/78741241/117292329-ff1eb880-ae67-11eb-9b64-bf354455542e.png)
+
 
 
  
