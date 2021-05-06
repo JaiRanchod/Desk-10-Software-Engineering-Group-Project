@@ -13,7 +13,7 @@
 1) ng build
 2) docker-compose up –build -d. 
 
-<p>This took a lot of time if we were changing just one line of code and towards the end this was the case due to us trying to fix any bugs we had.</p>
+<p>This took a lot of time if we were changing just one line of code and towards the end this was the case due to us trying to fix any bugs.</p>
 
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
