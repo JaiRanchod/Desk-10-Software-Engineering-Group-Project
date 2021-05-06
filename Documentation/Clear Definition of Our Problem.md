@@ -1,20 +1,9 @@
 <h1 align="center">Clear Definition of Our Problem</h1>
 
-<h2 align="center">Our Problem is as Follows</h2> 
+<h2 align="left">Our Problem is as Follows:</h2> 
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Searching for a spare room accomodation is a significant commitment. Whilst there are websites out there that provide spare room search engines which help students and young professionals find a place to stay, they forget one of the most important aspects of renting out a room... getting along with housemates.</p>
+<p>After considering our own experiences as a group, we came to the conclusion of a serious problem that needs addressing when finding housemates. As a University student many of us have felt limited with options for housing arrangements, leaving us with no choice but to join groups that weren't quite right. This often created difficult living situations that were riddled with small conflicts and negatively impacted the university experience. With cohabitating relations often turning hostile, creating a highly stressful environment in the place individuals spend a large portion of their time. This is further emphasised by COVID-19 with lockdown putting further strain on relations and highlighting the importance of a happy and healthy flat.
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;While young professionals may not include "getting along with housemates" as a priority, we believe university students certainly do.
+Student mental health is a serious problem that seems to be arising from a variety of causes. As such it is key to recognise the importance of support groups, of which many are formed through the people we live with whom are much more access in times of need. We hypothesise that using a tinder like feature will improve efficiency and increase options available for potential housemates. This in turn has the potential to lead to better relations between housemates with more trust. Our hope is that this will lead to more support and openness between cohabitating individuals, alongside a living experience that is more fun, providing distractions and an overall more positive university experience. This is a challenging task to face, however we hope that having a clear directive that puts a focus on relationships between users through more available information and increased search efficiency will be a step in the right direction.
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;By exploring and ideating gaps in the spare room market, we were, thus, able to narrow down **our problem** to include that spare room search websites:</p>
-
-1. Primarily focus on finding a room, whilst ignoring the compatability of housemates.
-2. Are dull and unengaging.
-3. Don't specifically cater for the student market.
-
-<br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
-<b>Homepage</b></a>
-<br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Background%20Literature.md">
-<b>Next Section</b></a>
+As found in our surveys, currently the majority of University of Bristol students looking for housing use Facebook pages to find a room or others individuals in a similar position, with whom they can group up with. We see that most people turn to Clifton and Stoke Bishop Tickets Facebook page or University of Bristol housemate finder. However, these both have their flaws. They tend to be very unorganised with spam and advertising obstructing useful posts. This makes it very difficult to keep track of what users have seen and what they are yet to see. The results is a tedious process leading individuals to scroll through endless housing advertisements, of which many they will be ineligible for due to specific requirements. Additionally posts to Facebook groups usually contain very little information about an individual, making it difficult to gauge if they would be a good fit. Alternatives to Facebook pages include apps and websites such as Spareroom. However, these have a very broad market, targeting professionals as well as students. They also have a further emphasis on the room itself, feeling like housemates are someone to simple split the rent with. For our app we have a focus on relations between individuals in order to improve wellbeing. We hope that an app targeted towards students created by students will meet their needs and provide a much healthier environment, hopefully reducing mismatches and taking away some of the stress in the process.<\p>
