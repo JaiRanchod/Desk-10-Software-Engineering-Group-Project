@@ -152,6 +152,23 @@ router.post('/UserProfilesLike', (req, res) => {
 });
 
 ```
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Linked to this we see the get_matches function within the matches component shown below.</p>
+
+```javascript
+get_matches(): void {
+    //initalize empty array
+    this.matches = [];
+    for(let i = 0; i < this.profiles.length; i++){
+      //if both have each other's _ids inside their liked array it's a match
+      if(this.profiles[i].like.includes(this.user_profile._id) &&
+         this.user_profile.like.includes(this.profiles[i]._id)){
+
+        //pushed matched profile into matches
+        this.matches.push(this.profiles[i]);
+      }
+
+```
+<p>&nbsp;&nbsp;&nbsp;&nbsp;In this function, we get all the user profiles that have been stored in our database and iterate through it to see if the user that is logged in is in the like array and the current user logged in has the other user in their likes array. If this is true this is then added to the empty array and then the HTML goes through this array and generates a card component for each profile to be displayed on the matches page.</p>
 
 <h5>References</h5>
 
