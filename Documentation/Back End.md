@@ -112,7 +112,7 @@ module.exports = mongoose.model('userProfiles', userProfileSchema, 'User Persona
 <p>&nbsp;&nbsp;&nbsp;&nbsp;You may notice that we have three parameters when we export the model. The reason for this is because upon registering the typescript automatically creates the new documents within the respective databases, and then when we read/write to these collections we need to ensure they are being read from pre-existing collections rather than creating new ones. This was a problem at the point of implementation since we were automatically creating new collections every time we booted up the website. The third parameter we included now identifies the correct collection within Mongo, rectifying the problem.</p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Middle-Tier.md">
