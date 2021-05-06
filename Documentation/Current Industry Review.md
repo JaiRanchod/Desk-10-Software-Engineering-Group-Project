@@ -48,5 +48,5 @@ any suitable housemates that you might have missed.
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Clear%20definition%20of%20our%20problem.md">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Clear%20Definition%20of%20Our%20Problem.md">
 <b>Next Section</b></a>
