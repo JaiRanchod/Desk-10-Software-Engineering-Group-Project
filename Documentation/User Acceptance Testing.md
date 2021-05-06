@@ -12,7 +12,7 @@ As the creation of new users come without any likes or dislikes, we needed to ad
 
 <h4>Negatives:</h4>
 
-- Can't see all of the users information on the matched card.
+- Can't see all of the users' information on the matched card.
 
 <h4>General feedback:</h4>
 
@@ -77,9 +77,9 @@ As the creation of new users come without any likes or dislikes, we needed to ad
 <br>
 <br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;After users had completed their trial of the app we reverted any changes they had made, including deleting any new accounts and changing fields back to their initial state for sample users. This was done in order to preserve anonymity and protect privacy as our passwords are not currently being hashed for this version of our web app. The users feedback also remains anonymous to again protect privacy of users.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;After the test users completed their trial of the app we reverted any changes they had made. Changes included deleting any new accounts and changing fields back to their initial state for sample users. This was done to preserve anonymity and protect privacy as passwords are not currently being hashed in this version of our web app. The users' feedback also remains anonymous to protect their privacy.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;On evaluating user acceptance testing, it is clear that our use of template proved to be a good decision as almost all of our users commented on the appearance as a positive. The layout was also commonly praised, here it is clear that sticking to the well-known template of current dating apps such as Tinder, Hinge and Bumble proved effective as users recognised the familiar layout. Considering the negative feedback, many of these include comments about usability, including having all information available for current matches and more accessibility for groups. This are definitely features that should be considered in the future and with more time we would have been likely to implement.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;On evaluating user acceptance testing, it is clear that our use of the template proved to be a good decision as almost all of our users commented on the appearance as a positive. The layout was also commonly praised. It is clear that sticking to the well-known template of current dating apps such as Tinder, Hinge and Bumble proved effective as users recognised the familiar layout. Regarding the negative feedback, many of these include comments about usability, including having all information available for current matches and more accessibility for groups. These are, certainly, features that should be considered in the future development of the app. If it weren't for time pressure, we would have likely implemented these suggestions..</p>
 
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
