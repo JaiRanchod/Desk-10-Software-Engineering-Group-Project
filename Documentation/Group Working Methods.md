@@ -17,7 +17,7 @@ Credit: https://www.bocasay.com/agile-methodology/
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The main benefits of using this method was that people were efficient in completing the tasks because they knew the specifics of what they had to complete. We think that the key benefit was that this method allowed us to make a start on our minimum viable product, overcoming the struggles of deciding where to start.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;In future projects, we think it would be useful to include a scrum board using software such as Jira to track project status, and it can also be used as a reminder of what needs to be done.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;In future projects, we think it would be useful to include a scrum board using software such as Jira to track project status, as it could also be used as a reminder of what needs to be done next.</p>
 
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
