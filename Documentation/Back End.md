@@ -115,5 +115,5 @@ module.exports = mongoose.model('userProfiles', userProfileSchema, 'User Persona
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Middle-Tier.md">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Middle%20Tier.md">
 <b>Next Section</b></a>
