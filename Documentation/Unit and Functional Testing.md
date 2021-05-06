@@ -18,6 +18,7 @@
 - <b>REGISTER</b> button should router link to the Register page containing the type form embed.
 
 <h3 align="center"><b>Login Page</b></h3>
+
 - <b>SIGN IN</b> button should router link to the Login Page.
 -	The page should contain two forms, <b>Email</b> and <b>Password</b>.
 -	If the user inputs information in either of the two forms that does not correctly match with data stored in the database, an “Invalid Username” or “Invalid Password” error message should appear.
