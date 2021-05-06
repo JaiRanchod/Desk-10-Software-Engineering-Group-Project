@@ -57,7 +57,7 @@
 
 <p align="center">
   <b> Background and Motivation links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Current%20Industry%20Review">Current Industry Review</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Current%20Industry%20Review.md">Current Industry Review</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Clear%20Definition%20of%20Our%20Problem.md">Clear definition of our problem</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Background%20Literature.md">Background Literature</a>
   <br><br>
