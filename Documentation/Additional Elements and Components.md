@@ -19,6 +19,7 @@
 
 - We needed to find a way to connect it with our database
 - We didn't have a way to check field entry in real time
+- Due to the above point emails cannot be checked for uniqueness against our database
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;To integrate typeform submissions with our mongoDB database we needed to make use of typeform's api. Once again, our initial experience with this was minimal so we discovered and leveraged the help of an online tool which helps connect two api endpoints and make requests in an intuitive interface. **Integromat** allowed us to connect typeform with mongoDB and within a couple days we had a working onboarding interface that was connected with mongoDB. Using Integromat, not only helped us launch our integration in a short period of time, it also showed us how the webhooks and api calls transfer or capture data through JSON format by POST, GET etc.</p>
 
@@ -32,7 +33,7 @@
 - Easy to to create JSON based data fields
 - A helpful introduction and learning experience in understanding how API's are used
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;In terms of downsides, there isn't anything we can say that impacted the quality or output of our work. The only point we could mention is that using partially Integromat to handle API's and manually doing it through the web app for the rest of its functionality may have cause some confusion in certain circumstances. However, looking at the bigger picture, Integromat allowed us to quickly and effectively meet our needs whilst also providing us with that learning curve that set the foundations for future API work.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;In terms of downsides, there isn't anything we can say that impacted the quality or output of our work. The only point we could mention is that using partially Integromat to handle API's and manually doing it through the web app for the rest of its functionality may have cause some confusion in certain circumstances. It also currently causes some problems with ensuring that passwords are unique. However, looking at the bigger picture, Integromat allowed us to quickly and effectively meet our needs whilst also providing us with that learning curve that set the foundations for future API work.</p>
 
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
