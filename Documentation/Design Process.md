@@ -3,7 +3,8 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our first ideation process consisted of using a Matrix which consisted of specific and rather playful themes to trigger creative solutions.</p>
 
-<p align="center"><img src="https://i.ibb.co/9wmGSbz/Screenshot-2021-05-06-at-12-28-47.jpg" alt="Screenshot-2021-05-06-at-12-28-47" border="0"></p>
+<p align="center"><img src="https://i.ibb.co/py25Mxh/Screenshot-2021-05-06-at-12-37-06.png" alt="Screenshot-2021-05-06-at-12-37-06" border="0"></p>
+
 
  
  <p>&nbsp;&nbsp;&nbsp;&nbsp;Out of all the themes and their playful variations, as a group, we showed a particular interest in the following areas:</p>
