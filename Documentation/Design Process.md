@@ -23,7 +23,7 @@
 
  
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Narrowing down to 2 potential projects, we now considered a different approach to choosing our project; one that relies on expected complexity, feasibility and how big of a problem it solves. Ultimately, after exploring the logistics and requirements of building some kind of graphical interface that would mimic a dartboard, we mutually agreed that it was simply too hard to achieve. We then looked into identifying the complexities and feasibility of making a tinder for housemates’ web app and our research gave us confidence that this is the project we will pursue.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Narrowing down to 2 potential projects, we now considered a different approach to choosing our project; one that relies on expected complexity, feasibility and how big of a problem it solves. Ultimately, after exploring the logistics and requirements of building some kind of graphical interface that would mimic a dartboard, we mutually agreed that it was simply not as interesting to us. We then looked into identifying the complexities and feasibility of making a tinder for housemates’ web app and our research gave us confidence that this is the project we will pursue.</p>
 
  
 
@@ -31,13 +31,13 @@
 
 <h2 align="center">Design Process</h2>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;The design process began shortly after the project proposal had been confirmed. Several members of the team had drafted on paper their design and layout ideas, and then we collated our ideas onto our first paper prototype model which is shown below, we found paper prototyping made it easy to visualise our own individual ideas, but due to remotely working on Microsoft Teams and Discord, it was initially difficult to bring these ideas together into one definitive paper prototype. To solve this problem the team decided in late February to use a collaborative interface design tool such as Figma. This made the design process much smoother and allowed the team to all be on the same page. Since then all developers could interact with the same Figma sketch simultaneously, combining drafted paper prototype ideas to create one, singular wireframe prototype.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The design process began shortly after the project proposal had been confirmed. Several members of the team had drafted on paper their design and layout ideas, and then we collated our ideas onto our first paper prototype model which is shown below. We found paper prototyping made it easy to visualise our own individual ideas, but due to remotely working on Microsoft Teams and Discord, it was initially difficult to bring these ideas together into one definitive paper prototype. To solve this problem the team decided in late February to use a collaborative interface design tool such as Figma. This made the design process much smoother and allowed the team to all be on the same page. Since then all developers could interact with the same Figma sketch simultaneously, combining drafted paper prototype ideas to create one, singular wireframe prototype.</p>
 
 <p align="center"><img src="https://i.ibb.co/k1S2Jzg/IMG-3449-2.jpg" alt="IMG-3449-2" border="0"></p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The original wireframe prototype has significant differences in design from the final product. This is mainly due to our decision to base the final design off of an Angular template, but also a result of the front end team discovering which elements of the design could realistically be implemented in the real-life code. Despite these design changes, the functionality of the application has for the most part remained consistent since the start of the project and an updated wireframe was later created as a reference for front end code development and a means to acquire user feedback information.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Given the decision to use a tempalte we decided to construct another paper prototype to visualise the new design of the application given the new templates and components we could use through the Argon template we downloaded. This paper prototype is shown below. Once this paper prototype design had been confirmed as our final design we translated into onto a wireframe model shown in the ----- section.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Given the decision to use a template we decided to construct another paper prototype. This allowed us to visualise the new design of the application given the new templates and components we could use through the Argon template. This paper prototype is shown below. Once this paper prototype design had been confirmed as our final design we translated into onto a wireframe model shown in the ----- section.</p>
 
 <p align="center"><img src="https://i.ibb.co/1QhSZg3/IMG-3450-2.jpg" alt="IMG-3450-2" border="0"></p>
 
