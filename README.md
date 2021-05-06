@@ -21,19 +21,35 @@
   <img src="https://i.ibb.co/4jXdXvm/Screenshot-2021-05-05-at-12-02-28.png" width="150" height="150"/>
 </p>
 
+<h2 align="center"> <b> Introduction </b> </h2>
+
+
 
 <p align="center">
   <img src="https://media.giphy.com/media/w2KHfIlI3V7bi/giphy.gif" width="200" height="200">
 </p>
 
- <p align="center">
-  <b> Introduction links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/project_brief.md">Project Brief</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Initial%20Ideas.md">Initial Ideas</a> |
-  <a href="https://youtu.be/J7W7AVbA9sw">Introduction Video</a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Scope%20of%20Project.md">Scope of Project</a>
-  <br><br>
-</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Abstract here </p>
+
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<b> Promotional Video </b> </p>
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
+
+
+
+<h2 align="left"><b> Project Objectives </b> </h2>
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Our project had a focus on the relationship between individuals, creating an efficient way to find compatible housemates, with the following objectives:
+  
+* Create a single page web app for students, aiding in their search for housemates, using mechanics similar to those seen in dating apps such as Tinder.
+  
+* Ensure relevant information is presented in a structured format, allowing users to make more informed decisions on candidate housemates.
+
+* Reduce conflict and improve cohabiting relations. With hopes of enriching the university experience while also providing a strong and readily available support network during the current student mental health crisis.
+
+* Bring more engagement and efficiency in the arduous task of finding flatmates through the use of gamification.</p>
+ 
 
 <!-- https://user-images.githubusercontent.com/73884031/116811748-d2566280-ab42-11eb-8fb7-35dbf0301b24.mp4 -->
 
