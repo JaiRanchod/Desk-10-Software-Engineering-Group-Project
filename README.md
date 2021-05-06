@@ -9,6 +9,10 @@
 <p align="center"> Welcome to Desk 10's GitHub repo we hope you enjoy going through our project as much as we did making it! </p>
 <br>
 
+<p align="center">
+  <img src="https://media.giphy.com/media/w2KHfIlI3V7bi/giphy.gif" width="200" height="200">
+</p>
+
 <p align="center"> <b>Team Members</b> </p>
 
 <p align="center"> Jai Ranchod, Josh Pears, Charles Hilton, Andreas Phillipou and Lucas MacKenzie </p>
@@ -25,9 +29,7 @@
 
 
 
-<p align="center">
-  <img src="https://media.giphy.com/media/w2KHfIlI3V7bi/giphy.gif" width="200" height="200">
-</p>
+
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Abstract here </p>
 
