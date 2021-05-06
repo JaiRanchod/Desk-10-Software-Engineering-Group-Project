@@ -132,10 +132,10 @@ machine they were using.</p>
 
 <p align="center">
   <b> Sprints and Project Management links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Group%20Working%20Methods.md">Group Working Methods</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Roles.md">Team Roles</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Meeting%20Notes%20and%20Sprint%20Documentation.md">Sprint Documentation</a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Use%20of%20GitHub.md">Team use of GitHub</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Group%20Working%20Methods.md">Group Working Methods</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Team%20Roles.md">Team Roles</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Meeting%20Notes%20and%20Sprint%20Documentation.md">Sprint Documentation</a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Team%20Use%20of%20Github.md">Team use of GitHub</a>
   <br><br>
 </p>
 
@@ -151,9 +151,9 @@ machine they were using.</p>
 
 <p align="center">
   <b> Evaluation links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Design%20Evaluation.md">Design Evaluation</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/testing.md">Unit testing/Functional testing</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/User%20Acceptance%20Testing.md">User Acceptance Testing</a> 
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Design%20Evaluation.md">Design Evaluation</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Unit%20and%20Functional%20Testing.md">Unit testing/Functional testing</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/User%20Acceptance%20Testing.md">User Acceptance Testing</a> 
   <br><br>
 </p>
 
@@ -171,10 +171,10 @@ machine they were using.</p>
 
 <p align="center">
   <b> Conclusion links:</b><br>
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Working%20Practices%20Reflection.md">Working Practices Reflection</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Reflection%20on%20success%20of%20project.md">Refelction on success of the project</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Social%20and%20Ethical%20Implications.md">Social and Ethical implications</a>|
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Coronavirus%20Discussion.md">Coronavirus Discussion</a> |
- <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Future%20Work.md">Future Work</a>
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Working%20Practices%20Reflection.md">Working Practices Reflection</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Reflection%20on%20Success%20of%20Project.md">Refelction on success of the project</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Social%20and%20Ethical%20Implications.md">Social and Ethical implications</a>|
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Coronavirus%20Discussion.md">Coronavirus Discussion</a> |
+ <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Future%20Work.md">Future Work</a>
   <br><br>
 </p>
