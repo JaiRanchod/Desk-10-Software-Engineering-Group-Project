@@ -177,7 +177,7 @@ machine they were using.</p>
 <p align="center">
   <b> Conclusion links:</b><br>
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Working%20Practices%20Reflection.md">Working Practices Reflection</a> |
-  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Reflection%20on%20Success%20of%20Project.md">Refelction on success of the project</a> |
+  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Reflection%20on%20Success%20of%20Project.md">Reflection on success of the project</a> |
   <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Social%20and%20Ethical%20Implications.md">Social and Ethical implications</a>|
  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Coronavirus%20Discussion.md">Coronavirus Discussion</a> |
  <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Future%20Work.md">Future Work</a>
