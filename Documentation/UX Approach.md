@@ -43,5 +43,5 @@ One of the key reasons why we decided to pursue HouseHomies was to overcome the 
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Understanding%20of%20user%20group.md">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/release/Documentation/Understanding%20of%20User%20Group.md">
 <b>Next Section</b></a>
