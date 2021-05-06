@@ -37,7 +37,7 @@
 <h3 align="left"><b> Project Objectives: </b> </h3>
 
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Our project had a focus on the relationship between individuals, creating an efficient way to find compatible housemates, with the following objectives:
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Our project had a focus on the relationship between cohabitants, creating an efficient way to find compatible housemates, with the following objectives:
   
 * Create a single page web app for students, aiding in their search for housemates, using mechanics similar to those seen in dating apps such as Tinder.
   
