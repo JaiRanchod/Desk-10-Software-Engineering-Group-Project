@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://i.ibb.co/Tr0C935/househomies.png" alt="househomies" border="0">
+  <img src="https://i.ibb.co/Tr0C935/househomies.png" alt="househomies" border="0" height="300">
 </p>
 
 <p align="center"> Welcome to Desk 10's GitHub repo we hope you enjoy going through our project as much as we did making it! </p>
@@ -26,17 +26,16 @@
   <img src="https://i.ibb.co/4jXdXvm/Screenshot-2021-05-05-at-12-02-28.png" width="150" height="150"/>
 </p>
 
-<h2 align="center"> <b> Introduction </b> </h2>
+<h2 align="center"> <b> Introduction </b> </h3>
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Abstract here </p>
 
+<h3 align="center">Introduction Video</h2>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
 
 
-
-<h3 align="left"><b> Project Objectives: </b> </h3>
-
+<h3 align="center"><b> Project Objectives: </b> </h3>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Our project had a focus on the relationship between cohabitants, creating an efficient way to find compatible housemates, with the following objectives:
   
