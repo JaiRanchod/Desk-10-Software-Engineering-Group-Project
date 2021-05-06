@@ -35,7 +35,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;In terms of downsides, there isn't anything we can say that impacted the quality or output of our work. The only point we could mention is that using partially Integromat to handle API's and manually doing it through the web app for the rest of its functionality may have cause some confusion in certain circumstances. However, looking at the bigger picture, Integromat allowed us to quickly and effectively meet our needs whilst also providing us with that learning curve that set the foundations for future API work.</p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Deployment%20details.md">
