@@ -10,6 +10,16 @@ user so it doesn't allow a user to be explicitly rejected.</p>
 
 <p align="center"><img src="https://i.ibb.co/bsG9PP5/Screenshot-2021-05-05-at-11-41-20.png" alt="Screenshot-2021-05-05-at-11-41-20" border="0"></p>
 
+<h2 align="center"> <b> Bristol Uni Housemate Finder </b> </h2>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;
+
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Alongside Clifton Stoke Bishop Tickets, there is a large amount of activity on University of Bristol Housemate Finder. This is a closed Facebook group that targets Bristol University students. Currently there seem to be two options for displaying interest in forming groups, these are the discussion section where Facebook users can make posts, however these are all moderated by an admin which from personal experience don't seem to be particularly active. The second method is to enter your details into a form that is submitted to a dashboard for others to browse.
+</p>
+
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Bristol Uni Housemate Finder provides the most specialised service, targeted for University of Bristol students. It also contains features we found to be very desirable such as filters and options to display if you are a group or individual. However, many people still resort to the discussion where information is often limited and profiles can easily be missed. We hope the playful swiping element will help to solve these issues and create a singular more engaging option for our users.
+</p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/78802714/117314451-b0304d80-ae7e-11eb-8ffd-7b0ea12f4b0a.png" width="65%" height="65%" alt="Screenshot-2021-05-05-at-11-41-20" border="0"></p>
 
 <h2 align="center"> <b> Spareroom </b> </h2>
 
