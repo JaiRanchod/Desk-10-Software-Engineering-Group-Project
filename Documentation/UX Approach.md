@@ -40,7 +40,7 @@ One of the key reasons why we decided to pursue HouseHomies was to overcome the 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;When designing the user experience, we mutually agreed that it should be as simple as possible. By habing a straightforward navigation bar at the top of the page showing the listings, the matches and options to edit your profile, we ensured that every user would be able to use the web app without any difficulty. A common theme among competitors was the high level of complexity and features offered to the user. We have found that this complexity is one of the aspects that contributes to a web app feeling dull and unengaging. By keeping it simple, we were able to directly solve the problem we have defined and delievered a web app that does a simple function, but does it well!</p>
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Understanding%20of%20user%20group.md">
