@@ -2,14 +2,14 @@
 
 <h2 align="center">Express</h2>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Express JS is a framework used to develop web application in Node. Express has allowed us to make requests to our Mongo database and return the appropriate response. 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Express JS is a framework used to develop web applications in Node. Express has allowed us to make requests to our Mongo database and return the appropriate response. 
 In the server.js file we see that we are initialising the Express app object meaning we can handle various requests from different clients successfully. The APP also uses ‘Bodyparser’ which means that whenever a POST request is made, it will automatically convert this into a JSON format and lead to less future errors occurring.</p>
 
 For some more examples of how we have made best use of this – see the RESTful API section below. 
 
 <h2 align="center">Node</h2>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Node.js is a server-side JavaScript execution environment. This means it handles the client and server requests. Once we ran Node this allowed our RESTful API (discussed below) to be connected to Mongo. The Node server listens for HTTP requests and responses and is built on top of the Express framework previously discussed. 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Node.js is a server-side JavaScript execution environment. This means it handles the client and server requests. Once we ran Node this allowed our RESTful API (discussed below) to be connected to Mongo. The Node server listens for HTTP requests and responses and is built on top of the Express framework previously discussed.</p>
 
 <h2 align="center">Restful API</h2>
 
