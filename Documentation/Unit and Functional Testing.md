@@ -26,7 +26,7 @@
 -	The page should contain the central HouseHomies logo.
 -	This logo should be router linked back to the Welcome page.
 -	The page should also contain two router linked text fields, “Forgot password?” and “Create new account” below the logo and form boxes.
--	The “Forgot password?” link is tbc.
+-	The “Forgot password?” link is discussed in the Future Work section of documentation.
 -	The “Create new account” link should router link the user to the Register page containing the type form embed.
 
 <h3 align="center"><b>Register Page</b></h3>
