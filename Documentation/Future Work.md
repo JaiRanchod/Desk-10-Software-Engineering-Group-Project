@@ -1,6 +1,6 @@
 <h1 align="center">Future Work</h1>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;They are many features that we wanted to add to the project, but a lot of the features were too difficult to implement given our limited technical ability and the limited time in creating the project.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;They are many features that we wanted to add to the project, but a lot of them were too difficult to implement given our limited technical ability and time availability.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;If we had more time, we would have liked to implement more features such as:
   
