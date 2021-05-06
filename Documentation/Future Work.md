@@ -14,7 +14,7 @@
 
 * Forgot password - we have left the forgotten password button on the log in page but it currently does not work. So if we had more time we would implement this so that a user would be able to reset their password. We couldn't implement this function at the moment as we would have to send a reset password email and we don't have a server to send out these emails.
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;We are looking forward to where this could go and we have discussed as a team its potential to be put to market. So we are going to keep working on the project either over the summer or after we have finished our dissertations. Now that we will have more time we can spend more time learning to implement features to improve the functionality of the application to make it more 'market ready'.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;We are looking forward to where this could go and we have discussed the possibility of potentially deploying the app to market. Our plan is to work on the project either over the summer or after we have finished our dissertations. Now that we will have more time on our hands, we can learn how to implement desired features and focus on making the application commercially viable.</p>
 
 
 <br>
