@@ -33,7 +33,7 @@
 
 <h2 align="center"><b>NavBar</b></h2>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Outside of login and register, the navbar component remains at the top of the screen, we felt this was important for consistency when considering the user heuristics. This contains the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right. The settings tab creates a dropdown which provides two buttons, sign out which redirects back to login and sets current user as undefined and about us which redirects to the about us page.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Outside of login and register, the navbar component remains at the top of the screen, we felt this was important for consistency when considering the user heuristics. This contains the HouseHomies logo, and router linked headers, “Home”, “Matches”, “Profile, “Settings” and social media icon links respectively from left to right. The settings tab creates a dropdown which provides two buttons, sign out which redirects back to login and sets current user as undefined. The second button is about us which simply redirects to the about us page.</p>
 
 <h2 align="center"><b>Matches Page</b></h2>
 
