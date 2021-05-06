@@ -84,6 +84,18 @@ retrieveData() {
         }
         
 ```
+From the last class diagram you can see our profile component and this meant we could create more efficient and clean code. The way this changed the code above can be shown below. In the picure you can see the ease of implementing the interface meant we were able to gather various users and a single user easily. 
+
+```javascript
+profiles: Profile[];
+user_profile: Profile;
+
+this.user_profile = this.user.get_profile();
+this.profiles = this.user.get_all_profiles();
+
+```
+From this, you can see the assignment of properties for any given profile is a lot easier and saved a lot of time.  
+
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
 <b>Homepage</b></a>
