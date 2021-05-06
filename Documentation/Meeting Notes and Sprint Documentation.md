@@ -130,7 +130,7 @@ This meeting invloved Marceli where we discussed adding an authentication featur
 We also asked Marceli about solving our issue with having dynamic data within our matching and matches page, as we currently have hard-coded cards and profile information, which is no use to us as we want a fully working web app that can get profiles from our database and display their information correctly. So Marceli suggested a few ideas on how to get around this, so we are looking into those now.
 
 <br>
-<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project">
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/develop/Documentation%20Notes/Team%20Use%20of%20GitHub.md">
