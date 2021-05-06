@@ -4,7 +4,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;As a team, our project management initially focused on splitting the responsibilities of the team in two, with Jai and Josh focusing on the backend and the others on the frontend, specifically on getting the front end layout, a backend schema and API sorted. Once both teams had finished, we were then able to link the two sides by making the original hard coded data live. This led to a combination of efforts on both teams. Nearer the end of the project, specific roles organically dissolved into a joint team effort for the final touches.</p>
 
-add image for gant chart
+![Software Development](https://user-images.githubusercontent.com/73884031/117304644-def5f600-ae75-11eb-84f5-9e43ef8f7f21.png)
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;While initially using a gant chat to plan our progress as seen below, we found that the time schedule didn't go acording to plan and the constant changes to the timeline led us to developing a more dynamic approach using the agile scrum format. Instead of a strict timeline/specification we held regular meetings both in the morning and evening. Morning meetings consisted of allocating roles and discussing what each member was aiming to accomplish for the day. In the evening, we would then discuss progress, allowing us to be dynamic with role allocations for the next morning and handle any merge conflicts. The combination of both of these helped in identifying problems as they came up and addressed any issues individuals had as a group, whether personal or academic.</p>
 
