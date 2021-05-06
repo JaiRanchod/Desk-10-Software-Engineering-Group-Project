@@ -52,3 +52,10 @@
 - Macaskill, A., 2013. The mental health of university students in the United Kingdom. *British Journal of Guidance & Counselling*, *41*(4), pp.426-441.
 - Savage, M.J., James, R., Magistro, D., Donaldson, J., Healy, L.C., Nevill, M. and Hennis, P.J., 2020. Mental health and movement behaviour during the COVID-19 pandemic in UK university students: Prospective cohort study. *Mental Health and Physical Activity*, *19*, p.100357.
 - Arslan, G., Yıldırım, M., Karataş, Z., Kabasakal, Z. and Kılınç, M., 2020. Meaningful living to promote complete mental health among university students in the context of the COVID-19 pandemic. *International Journal of Mental Health and Addiction*, pp.1-13.
+
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
+<b>Homepage</b></a>
+<br>
+<a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/blob/main/Documentation%20Notes/Background%20Literature.md">
+<b>Next Section</b></a>
