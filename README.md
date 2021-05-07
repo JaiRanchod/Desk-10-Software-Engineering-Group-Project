@@ -32,6 +32,7 @@
 
 <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Many alternatives such as Facebook pages or apps lack the emphasis on creating a happy and healthy household, with more focus on the room itself, being riddled with adds. Our app provides its users with key information that they would want when looking for housemates as well as providing it in a fun and engaging way. Using mechanisms from dating apps such as Tinder who have shown great success with swiping profile cards, we implement this in our students search for housemates. </p>
 
+<h2 align="center"> <b> Trailer and Walkthrough: </b> </h2>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
 
 
