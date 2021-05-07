@@ -12,7 +12,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Storing the likes and dislikes of users separately again has meant we can just do a check to see if they have previously matched with this user. Additionally, storing the userIDs of disliked users means we can attempt to prevent showing them again to users as we feel this would lower the user satisfaction derived from the app.</p> 
 
-**Revised Data Model** 
+<h1 align="center"> <b>Data Model</b> </h1>
 
 ![image](https://user-images.githubusercontent.com/73884031/117432495-597c4f80-af22-11eb-99e0-fb16853c486a.png)
 
