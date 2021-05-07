@@ -8,7 +8,7 @@
 
   ![image](https://user-images.githubusercontent.com/74371711/117008417-9bb74e00-ace2-11eb-91e3-0fdea60f757d.png)
 
-The original wireframe prototype has significant differences in design from the final product. This is mainly due to our decision to base the final design on an Angular template. Other factors include the front end team exploring and discovering which elements of the design process was feasible in terms of resources available.We also took into account user feedback from our wireframe testing. Despite these design changes, the functionality of the application has, for the most part, remained consistent since the start of the project. To accommodate for changes on the way, an updated wireframe was later created as a reference for front end code development and as a means to accumulate user feedback information.
+The original wireframe prototype has significant differences in design from the final product. This is mainly due to our decision to base the final design on an Angular template. Other factors include the front end team exploring and discovering which elements of the design process was feasible in terms of resources available. We also took into account user feedback from our wireframe testing. Despite these design changes, the functionality of the application has, for the most part, remained consistent since the start of the project. To accommodate for changes on the way, an updated wireframe was later created as a reference for front end code development and as a means to accumulate user feedback information.
 
 <h2 align="center">Updated Wireframe Sketch</h2>
 
