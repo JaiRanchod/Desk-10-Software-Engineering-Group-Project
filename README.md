@@ -34,12 +34,7 @@
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gLWIeU0EZ6A/0.jpg)](https://www.youtube.com/watch?v=gLWIeU0EZ6A)
 
-https://user-images.githubusercontent.com/73884031/116811748-d2566280-ab42-11eb-8fb7-35dbf0301b24.mp4
-
-
-https://user-images.githubusercontent.com/73884031/117438449-78321480-af29-11eb-8a7e-38258d2255cb.mp4
 
 <h3 align="left"><b> Project Objectives: </b> </h3>
 
