@@ -11,6 +11,8 @@
 
 <h2 align="center">Functional Testing</h2>
 
+<p>The following tests were designed to be used manually on a local version of the app, allowing for dynamic changes and detecting any visual bugs towards the end of the project.</p>
+
 <h3 align="center"><b>Welcome Page</b></h3>
 
 - Initial router link page should load the welcome page upon calling localhost3000 link.
