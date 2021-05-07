@@ -28,7 +28,9 @@
 
 <h2 align="center"> <b> Introduction </b> </h2>
 
-<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Abstract here </p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;HouseHomies is a single page web app designed to support University of Bristol students in finding suitable housemates. As a group of individuals with the majority being in their fourth year at Bristol, we understand how flatmates can make or break your experience. Having a difficult home environment adds to students already mounting stress problems, reflected in the student mental health crisis.</p>
+
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;Many alternatives such as Facebook pages or apps lack the emphasis on creating a happy and healthy household, with more focus on the room itself, being riddled with adds. Our app provides its users with key information that they would want when looking for housemates as well as providing it in a fun and engaging way. Using mechanisms from dating apps such as Tinder who have shown great success with swiping profile cards, we implement this in our students search for housemates. </p>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
 
