@@ -22,7 +22,8 @@
 
 <h4 align="left">Bring more engagement and efficiency in the arduous task of finding flatmates through the use of gamification:</h4>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;This objective is very similar to the first mentioned using mechanics similar to those seen in dating apps. We know that these apps are engaging due to their great success in the market. From our user feedback it also appears that we have met this as many users said our app was easy to use and commented on the visuals that go along with the mechanics, a good sign for engagement. We believe we have also improved on efficiency over previous ways to find housemates as users cannot be skipped and all relevant information is presented. When reflecting on this objective we therefore believe that we have met our goal.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This objective is very similar to the first mentioned using mechanics similar to those seen in dating apps. We know that these apps are engaging due to their great success in the market. From our user feedback it also appears that we have met this as many users said our app was easy to use and commented on the visuals that go along with the mechanics, a good sign for engagement. We believe we have also improved on efficiency over previous ways to find housemates as users cannot be skipped and all relevant information is presented. When reflecting on this objective we therefore believe that we have met our goal.<p>
+
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
