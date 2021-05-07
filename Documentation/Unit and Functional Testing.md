@@ -95,6 +95,12 @@
 -	In the centre of the page should be an HTML section containing the about us paragraphs of text. 
 -	No buttons should be present in this section.
 
+<h3 align="center"><b>Sign Out Button</b></h3>
+
+-	The sign out button should appear as part of the dropdown for settings in the navbar component alongside the about us page.
+-	Current user profile should reset to undefined on click.
+-	Redirects to login page.
+-	Home, Profile and Matches should all be empty fields if they are navigated to through the website address.
 
 <h2 align="center">Coded Automated Testing</h2>
 
