@@ -7,6 +7,7 @@
 - Testing allows developers to remove unintended scenarios and consequences from their work.
 - Must orient tests around the behaviour of our app.
 - There are two types of testing - Documented Functional testing and Coded Automated Testing.
+- Error prevention - A key component of usability heuristics 
 
 <h2 align="center">Functional Testing</h2>
 
