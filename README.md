@@ -34,8 +34,6 @@
 
 <h2 align="center"> <b> Trailer and Walkthrough: </b> </h2>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7W7AVbA9sw/0.jpg)](https://www.youtube.com/watch?v=J7W7AVbA9sw)
-
 https://user-images.githubusercontent.com/73884031/117440682-47071380-af2c-11eb-8817-1c37198878b4.mp4
 
 https://user-images.githubusercontent.com/73884031/117440199-a4e72b80-af2b-11eb-9ec2-99a334a4da1b.mp4
