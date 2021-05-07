@@ -143,6 +143,91 @@ In this meeting all mambers of the team met and any bugs such as a bug linking w
 
 As Merchant Ventures building was now fully re-open, from May onwards, members of the team began to meet in person and complete sprints together, this resulted in a reduction in Microsoft Teams video calls, but generally an increase in productivity as there were less barriers to communication and idea sharing.
 
+<h2 align="center">Sprint Documentation</h2>
+
+<h4>Sprint 1:</h4>
+
+<h5>Sprint Goals</h5>
+
+- We wanted everyone to get up to worksheet 7
+- Needed documentation to be up to date
+- Evaluate all user feedback we have recieved so far and build on it 
+
+<h5>Sprint Review</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;In this sprint, we achieved all our goals in a comfortable amount of time. We were all able to help each other if there were any problems and could build up suggestions for future sprints.</p>
+
+<h4>Sprint 2:</h4>
+
+<h5>Sprint Goals</h5>
+
+- We needed to ensure the template we had found would work for everyone
+- We aimed to start building some components - mainly login and register
+- Andreas had created a typeform to embed within the register
+- In terms of backend, it was mainly just going through the worksheets, creating the RESTful API and ensuring that Docker works for everyone
+
+<h5>Sprint Review</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;In this sprint, we found our methods of working quite successful and created the components successfully. The typeform made life quite easy and meant we had made quite a good start. The backend was more tricky in terms of Docker, since many people were still having issues, however these were resolved eventually.</p>
+
+<h4>Sprint 3:</h4>
+
+<h5>Sprint Goals</h5>
+
+- Create components for all the separate pages and hardcode the HTML 
+- Change the Mongo database from local to cloud based
+- Start inputting data using the typeform into the database 
+
+<h5>Sprint Review</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;In this sprint, we questioned the ability to convert our local Mongo database into the cloud, however we saw some questions regarding this on the SEGP Teams chat, so we thought we would try to do this, and after some research we completed this. The front-end team were successful in creating the components and hardcoding some data on the pages to present a more complete website. Also, using Integromat we were easily able to fill our database using the Typeform.</p>
+
+<h4>Sprint 4:</h4>
+
+<h5>Sprint Goals</h5>
+
+- Start making GET requests from the database into the API 
+- Start calling the API to convert hardcoded data into variable data 
+- Create a card component that can be called on other pages
+
+<h5>Sprint Review</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;In this sprint, we had decided to make some changes to the front-end to try and ease future use. It was a good idea to create a card component since then we could display all matches for a user when they click on the matches page. We had spoken to Marceli and he said that we could use a for loop with components meaning we could achieve this in a future sprint. We were able to issue GET requests to pull the specific users data which meant the profile and edit profile pages were now being loaded dynamically. At this point, we also thought it would be a good idea to show some users some dynamic pages to see what they thought about what we were doing.</p>
+
+<h4>Sprint 4:</h4>
+
+<h5>Sprint Goals</h5>
+
+- Finalise the homepage and matches page 
+- Backend - Mainly just test the program to see any bugs and do research on the login process
+
+<h5>Sprint Review</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This sprint was mainly just a break for everyone and finalise some details that we had discussed previously. In terms of research that was completed the backend team had spoken to Marceli regarding the login process and were now comfortable in trying to implement this.</p>
+
+<h4>Sprint 5:</h4>
+
+<h5>Sprint Goals</h5>
+
+- Implement the login service and logout functionality 
+- We then had to ensure all the other components worked with this 
+
+<h5>Sprint Review</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This sprint was successful and we were able to add login and logout functionality and the other components were still working successully. However, we saw that there were some security concerns which we would have liked to resolve with more time.</p>
+
+<h4>Sprint 6:</h4>
+
+<h5>Sprint Goals</h5>
+
+- General debugging 
+- Coded tests
+- Complete Documentation
+
+<h5>Sprint Review</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This was the final sprint in approach to the submission date. We were happy to achieve our MVP (Minimum Viable Product), however we know there is room for improvement. Also, we were happy to get some coded tests done and be able to complete our documentation within the given time.</p>
+
 <br>
 <a href="https://github.com/JaiRanchod/Desk-10-Software-Engineering-Group-Project/tree/release">
 <b>Homepage</b></a>
